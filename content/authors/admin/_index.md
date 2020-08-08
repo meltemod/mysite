@@ -22,9 +22,11 @@ bio: My research interests include health behaviors, social interaction in onlin
 
 interests:
 - Social Networks
-- Public Health
-- Communication and Behavior
+- Health Behavior
 - Cultural Sociology
+- Online Platforms
+- Social Media
+
 
 education:
   courses:
