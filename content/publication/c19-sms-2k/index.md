@@ -1,8 +1,8 @@
 ---
 abstract: 
 authors:
-- Didem Turkoglu
-- '**Meltem Odabas**'
+- Didem Türkoğlu
+- **admin**
 date: "2020-06-01T00:00:00Z"
 doi: ""
 featured: false
