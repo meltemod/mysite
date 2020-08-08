@@ -26,12 +26,24 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Co-prescription Networks"
-    tag = "Co-prescription Networks"
+    name = "Opioid Misuse"
+    tag = "Opioid Misuse"
   
   [[content.filter_button]]
     name = "Online Platforms"
     tag = "Online Platforms"
+    
+  [[content.filter_button]]
+    name = "Public opinion"
+    tag = "Public opinion"
+    
+  [[content.filter_button]]
+    name = "Social Media"
+    tag = "Social Media"
+    
+  [[content.filter_button]]
+    name = "CoViD-19"
+    tag = "CoViD-19"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

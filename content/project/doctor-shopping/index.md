@@ -12,7 +12,7 @@ links:
 slides: 
 summary: This research aims to improve the methods to identify early and intermittent signs of opioid-misuse behavior though utilizing co-prescription networks to generate network-based prescription-drug seeking metrics.
 tags:
-- Co-prescription Networks
+- Opioid Misuse
 title: Co-prescription Networks of the Opioid Epidemic
 url_code: ""
 url_pdf: ""

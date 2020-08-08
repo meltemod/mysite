@@ -8,7 +8,7 @@ links:
 slides: 
 summary: This project looks at the mediating role of social media as a mode of recruitment in explaining the relation between repression and mobilization backfire/deterrence.
 tags:
-- Online Platforms
+- Social Media
 title: Social Media Effects on Offline Street Mobilization
 url_code: ""
 url_pdf: ""

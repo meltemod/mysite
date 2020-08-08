@@ -9,6 +9,8 @@ slides:
 summary: This project uses mixed computational, quantitative and qualitative methods to analyze the development of discussions about the two-fold 2019 Turkish local elections through tracking public tweets.
 tags:
 - Online Platforms
+- Social Media
+- Public Opinion
 title: Tracking Public Opinion on Turkish Political Landscape
 url_code: ""
 url_pdf: ""
