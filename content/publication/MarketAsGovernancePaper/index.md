@@ -1,7 +1,7 @@
 ---
 abstract: 'In the past two decades, researchers have examined the practices of online forums operating markets for the sale of stolen credit card data. Participants cannot rely on traditional legal system regulations in the event of disputes between buyers and sellers. Thus, this analysis focuses on two forms of monitoring within these forums: one based on an emergent social network of transactions among community members (second-party monitoring) and the other consisting of regulatory (third-party) monitoring by forum administrators. Using social network analyses of a series of posts from a data market forum, the findings demonstrate that governance of these forums is enabled by their functioning as a particular kind of market that economists characterize as a platform, or two-sided market. Specifically, second- and third-party trust-creating mechanisms are vital in establishing sustainability in illicit markets by increasing perceived market trustworthiness, which in turn leads to increased market demand.'
 authors:
-- '**Meltem Odabas**'
+- admin
 - Thomas J. Holt
 - Ronald L. Breiger
 date: "2017-09-01T00:00:00Z"

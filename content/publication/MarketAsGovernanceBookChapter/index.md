@@ -1,7 +1,7 @@
 ---
 abstract: 'We analyze the governance structure of online stolen data markets. As cybercriminal underground economies, stolen data markets are beyond the reach of state intervention, and yet they need form and regulation in order to function. While the illicit nature of the business brings risks to its participants, the online characteristics of these markets enable the participants to communicate easily, which is a crucial means of generating trust. We first identify stolen data markets in terms of their economic organization as two-sided markets, economic platforms with two distinct user groups that provide each other with network synergies. This characterization enables us to understand the role of the forum administrator as that of an intermediary, market creator, and market regulator. Then we clarify the role of communication networks and social structure in creating trust among buyers and sellers.'
 authors:
-- '**Meltem Odabas**'
+- admin
 - Thomas J. Holt
 - Ronald L. Breiger
 date: "2017-09-01T00:00:00Z"
