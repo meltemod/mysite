@@ -18,13 +18,13 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include health behaviors, social interaction in online platforms and public opinion formation.
 
 interests:
 - Social Networks
 - Public Health
 - Communication and Behavior
-- Culture
+- Cultural Sociology
 
 education:
   courses:
