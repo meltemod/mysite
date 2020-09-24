@@ -3,19 +3,19 @@ abstract:
 authors:
 - Didem Türkoğlu
 - admin
-date: "2020-06-01T00:00:00Z"
-doi: ""
+date: "2020-07-01T00:00:00Z"
+doi: "https://doi.org/10.1177/2056305120949268"
 featured: false
 image:
   caption: 
   focal_point: ""
   preview_only: false
 projects: [C19-twitter, tr-politics-twitter]
-publication: '*Social Media + Society, In Print.*'
+publication: '*Social Media + Society*'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2019-10-01T00:00:00Z"
+publishDate: "2020-07-01T00:00:00Z"
 slides: 
 summary: During the initial phases of the pandemic a curfew was implemented for people at the age of 65+ years old in Turkey. This seemingly neutral policy measures that aimed to protect high-risk groups led to a shift in the public discourse that deprives citizens of their agency based not only on their age but also their class.  
 tags:
