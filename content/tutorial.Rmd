@@ -1,8 +1,0 @@
----
-title: "Tutorials"
-output: html_document
----
-
-## 2020
-
-[Making a calendar using R](https://www.meltemodabas.net/tutorial/make_a_calendar). Published on September 24, 2020
