@@ -19,10 +19,7 @@
   url = "project_webpage/"
   weight = 30
 
-[[main]]
-  name = "Tutorials"
-  url = "tutorial/"
-  weight = 40
+
 
 [[main]]
   name = "Teaching"
