@@ -388,14 +388,14 @@ year &lt;- 2020</code></pre>
                 as.Date(paste0(year+1,&quot;/&quot;,1,&quot;/&quot;,1)), #creates a string as in 2021-01-01
                 &quot;days&quot;) #creates a vector with the selected days and all the days in between
   }
+  date &lt;- date[-length(date)] #delete the last date from the string, which is in October and not in September
   date</code></pre>
 <pre><code>##  [1] &quot;2020-09-01&quot; &quot;2020-09-02&quot; &quot;2020-09-03&quot; &quot;2020-09-04&quot; &quot;2020-09-05&quot;
 ##  [6] &quot;2020-09-06&quot; &quot;2020-09-07&quot; &quot;2020-09-08&quot; &quot;2020-09-09&quot; &quot;2020-09-10&quot;
 ## [11] &quot;2020-09-11&quot; &quot;2020-09-12&quot; &quot;2020-09-13&quot; &quot;2020-09-14&quot; &quot;2020-09-15&quot;
 ## [16] &quot;2020-09-16&quot; &quot;2020-09-17&quot; &quot;2020-09-18&quot; &quot;2020-09-19&quot; &quot;2020-09-20&quot;
 ## [21] &quot;2020-09-21&quot; &quot;2020-09-22&quot; &quot;2020-09-23&quot; &quot;2020-09-24&quot; &quot;2020-09-25&quot;
-## [26] &quot;2020-09-26&quot; &quot;2020-09-27&quot; &quot;2020-09-28&quot; &quot;2020-09-29&quot; &quot;2020-09-30&quot;
-## [31] &quot;2020-10-01&quot;</code></pre>
+## [26] &quot;2020-09-26&quot; &quot;2020-09-27&quot; &quot;2020-09-28&quot; &quot;2020-09-29&quot; &quot;2020-09-30&quot;</code></pre>
 <p>Once I have this layout, then I go ahead and create the variables I need to create a ggplot. My goals is to put the days of the week (Mon, Tue, etc.) on the x axis, and the week number on the y axis. For getting these date variables, I am using the lubridate package. For table data manipulation, I use tidyverse.</p>
 <pre class="r"><code>library(lubridate)</code></pre>
 <pre><code>## 
@@ -417,7 +417,7 @@ year &lt;- 2020</code></pre>
 ## x dplyr::lag()             masks stats::lag()
 ## x lubridate::setdiff()     masks base::setdiff()
 ## x lubridate::union()       masks base::union()</code></pre>
-<pre class="r"><code>df &lt;- tibble(date= date[-length(date)])
+<pre class="r"><code>df &lt;- tibble(date= date) ## create a tibble with column date
 df &lt;- df %&gt;%
   mutate(wkdy = fct_inorder(weekdays(date, abbreviate=T)), ##day of the week
          wkn = lubridate::isoweek(date), ## Week Number. Starts on Monday.
