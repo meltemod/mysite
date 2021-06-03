@@ -9,6 +9,8 @@ title: Tutorials
 
 June 2. [Collecting from American Community Survey using tidycensus package.](https://www.meltemodabas.net/tutorial/ACS_data_collection)
 
+June 2. [Organizing large number of tweets collected using rtweets package.](https://www.meltemodabas.net/tutorial/tweet_collection_18Kplus)
+
 
 ## 2020
 
