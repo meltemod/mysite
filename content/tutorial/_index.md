@@ -5,6 +5,10 @@ header:
 layout: docs
 title: Tutorials
 ---
+## 2021
+
+June 2. [Collecting from American Community Survey using tidycensus package.](https://www.meltemodabas.net/tutorial/ACS_data_collection)
+
 
 ## 2020
 
