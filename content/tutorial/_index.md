@@ -6,7 +6,7 @@ layout: docs
 title: Tutorials
 ---
 
-You can access the codes for the tutorials at https://github.com/meltemod/tutorials.
+You can access the tutorial codes at https://github.com/meltemod/tutorials.
 
 ## 2021
 
