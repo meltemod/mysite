@@ -5,6 +5,9 @@ header:
 layout: docs
 title: Tutorials
 ---
+
+You can access the codes for the tutorials at https://github.com/meltemod/tutorials.
+
 ## 2021
 
 June 2. [Collecting from American Community Survey using tidycensus package.](https://www.meltemodabas.net/tutorial/ACS_data_collection)
