@@ -78,7 +78,7 @@ user_groups:
 - Visitors
 ---
 
-I am a computational social scientist at [Pew Research Center](https://www.pewresearch.org/)'s [Data Labs](https://www.pewresearch.org/methods/about-data-labs/) Team. I previously worked as a postdoctoral researcher of Sociology and Computational Social Science at [Indiana University Bloomington, the Department of Sociology](https://sociology.indiana.edu/index.html). 
+I am a computational social scientist at [Pew Research Center](https://www.pewresearch.org/)'s [Data Labs](https://www.pewresearch.org/methods/about-data-labs/) Team. I previously worked as a postdoctoral researcher of Sociology and Computational Social Science at [Indiana University Bloomington, Department of Sociology](https://sociology.indiana.edu/index.html). 
 
 My research focuses on studying behavior from a social network perspective, with particular areas of interest in social interaction in online platforms and health behaviors. My academic publications appeared in *Addiction*, *American Behavioral Scientist*, *PLoS ONE*, and *Social Media + Society*, among other outlets.
 
