@@ -19,28 +19,28 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include health behaviors, social interaction in online platforms and public opinion formation.
 
-interests:
-- Social Networks
-- Health Behavior
-- Cultural Sociology
-- Online Platforms
-- Social Media
-
-
-education:
-  courses:
-  - course: Ph.D. in Sociology
-    institution: University of Arizona
-    year: 2019
-  - course: M.A. in Sociology
-    institution: University of Arizona
-    year: 2014
-  - course: M.A. in Economics
-    institution: Bogazici University
-    year: 2012
-  - course: B.A. in Economics
-    institution: Bogazici University
-    year: 2010
+# interests:
+# - Social Networks
+# - Health Behavior
+# - Cultural Sociology
+# - Online Platforms
+# - Social Media
+# 
+# 
+# education:
+#   courses:
+#   - course: Ph.D. in Sociology
+#     institution: University of Arizona
+#     year: 2019
+#   - course: M.A. in Sociology
+#     institution: University of Arizona
+#     year: 2014
+#   - course: M.A. in Economics
+#     institution: Bogazici University
+#     year: 2012
+#   - course: B.A. in Economics
+#     institution: Bogazici University
+#     year: 2010
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
