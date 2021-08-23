@@ -21,7 +21,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: [doctor-shopping]
-publication: '*Addiction'
+publication: '*Addiction*'
 publication_short: ""
 publication_types:
 - "2"
