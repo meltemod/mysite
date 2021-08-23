@@ -10,11 +10,10 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Research Fellow in the Department of Sociology
-
+role: 
 # Organizations/Affiliations
 organizations:
-- name: Indiana University - Bloomington
+- name: 
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -53,13 +52,13 @@ social:
   link: files/cv.pdf
 - icon: envelope
   icon_pack: fas
-  link: '#contact'
+  link: /contact
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/meltemodabas
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=NxQQgrwAAAAJ&hl=en&oi=ao
+  link: https://scholar.google.com/citations?user=zuKPbIQAAAAJ&hl=en&oi=ao
 - icon: github
   icon_pack: fab
   link: https://github.com/meltemod
@@ -79,5 +78,9 @@ user_groups:
 - Visitors
 ---
 
-My research focuses on studying behavior from a social network perspective, with particular areas of interest in health behaviors and social interaction in online platforms. 
+I am a computational social scientist at [Pew Research Center](https://www.pewresearch.org/)'s [Data Labs](https://www.pewresearch.org/methods/about-data-labs/) Team. I previously worked as a postdoctoral researcher of Sociology and Computational Social Science at [Indiana University Bloomington, the Department of Sociology](https://sociology.indiana.edu/index.html). 
+
+My research focuses on studying behavior from a social network perspective, with particular areas of interest in social interaction in online platforms and health behaviors. 
+
+I received my MA and PhD in Sociology from the [University of Arizona](https://sociology.arizona.edu/), and by BA and MA in Economics from [Boğaziçi University](https://econ.boun.edu.tr/).
 
