@@ -11,6 +11,7 @@ authors:
 - Carrie B Oser
 - Patricia R Freeman
 - Jeffery Talbert
+
 date: "2019-10-01T00:00:00Z"
 doi: "https://doi.org/10.1371/journal.pone.0223849"
 featured: false
@@ -19,7 +20,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: [doctor-shopping]
-publication: '*PLOS ONE'
+publication: '*Addiction*'
 publication_short: ""
 publication_types:
 - "2"
