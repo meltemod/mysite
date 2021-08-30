@@ -13,7 +13,7 @@ superuser: true
 role: 
 # Organizations/Affiliations
 organizations:
-- name: How to pronounce my name
+- name: How to pronounce my name >>
   url: /prononciation
 
 # Short bio (displayed in user profile at end of posts)
@@ -77,8 +77,6 @@ user_groups:
 - Researchers
 - Visitors
 ---
-
-([*How to pronounce my name?*](/prononciation) )
 
 I am a computational social scientist at [Pew Research Center](https://www.pewresearch.org/)'s [Data Labs](https://www.pewresearch.org/methods/about-data-labs/) Team. I previously worked as a postdoctoral researcher of Sociology and Computational Social Science at [Indiana University Bloomington, Department of Sociology](https://sociology.indiana.edu/index.html). 
 
