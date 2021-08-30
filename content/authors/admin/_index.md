@@ -13,8 +13,8 @@ superuser: true
 role: 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: How to pronounce my name
+  url: /prononciation
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include health behaviors, social interaction in online platforms and public opinion formation.
