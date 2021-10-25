@@ -10,7 +10,7 @@ You can access the tutorial codes at https://github.com/meltemod/tutorials.
 
 ## 2021
 
-Oct 26. [Introduction to Social Network Analysis: Data Structures for igraph package.](https://www.meltemodabas.net/tutorial/01-data-structures-slides)
+Oct 26. [Introduction to Social Network Analysis: Data Structures for igraph package.](https://www.meltemodabas.net/tutorial/SNA-01-data-structures/01-data-structures-slides)
 
 June 2. [Collecting from American Community Survey using tidycensus package.](https://www.meltemodabas.net/tutorial/ACS_data_collection)
 
