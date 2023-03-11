@@ -17,7 +17,7 @@ organizations:
   url: /prononciation
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include health behaviors, social interaction in online platforms and public opinion formation.
+bio: Computational Social Scientist. My research interests include digital technology, social media use, and the relationship between social interaction and cultural formation.
 
 # interests:
 # - Social Networks
@@ -78,9 +78,15 @@ user_groups:
 - Visitors
 ---
 
-I am a computational social scientist at [Pew Research Center](https://www.pewresearch.org/)'s [Data Labs](https://www.pewresearch.org/methods/about-data-labs/) Team. I previously worked as a postdoctoral researcher of Sociology and Computational Social Science at [Indiana University Bloomington, Department of Sociology](https://sociology.indiana.edu/index.html). 
+I am a computational social scientist at [Pew Research Center](https://www.pewresearch.org/)'s [Data Labs](https://www.pewresearch.org/methods/about-data-labs/) Team. With a PhD in Sociology and MAs in Economics and Sociology, I have over 10 years of experience in conducting social science research, data analysis, and visualization.
 
-My research focuses on studying behavior from a social network perspective, with particular areas of interest in social interaction in online platforms and health behaviors. My academic publications appeared in *Addiction*, *American Behavioral Scientist*, *PLoS ONE*, and *Social Media + Society*, among other outlets.
+My research interests include digital technology, social media use, and the relationship between social interaction and cultural formation.
+
+My research publications at Pew are [available online](https://www.pewresearch.org/staff/meltem-odabas/).
+ 
+My academic publications appeared in *Addiction*, *American Behavioral Scientist*, *PLoS ONE*, and *Social Media + Society*, among other outlets.
+
+I previously worked as a postdoctoral researcher of Sociology and Computational Social Science at [Indiana University Bloomington, Department of Sociology](https://sociology.indiana.edu/index.html). 
 
 I received my MA and PhD in Sociology from the [University of Arizona](https://sociology.arizona.edu/), and by BA and MA in Economics from [Boğaziçi University](https://econ.boun.edu.tr/).
 
