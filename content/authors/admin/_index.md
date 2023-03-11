@@ -82,11 +82,5 @@ I am a computational social scientist at [Pew Research Center](https://www.pewre
 
 My research interests include digital technology, social media use, and the relationship between social interaction and cultural formation.
 
-My research publications at Pew are [available online](https://www.pewresearch.org/staff/meltem-odabas/).
- 
-My academic publications appeared in *Addiction*, *American Behavioral Scientist*, *PLoS ONE*, and *Social Media + Society*, among other outlets.
-
-I previously worked as a postdoctoral researcher of Sociology and Computational Social Science at [Indiana University Bloomington, Department of Sociology](https://sociology.indiana.edu/index.html). 
-
-I received my MA and PhD in Sociology from the [University of Arizona](https://sociology.arizona.edu/), and by BA and MA in Economics from [Boğaziçi University](https://econ.boun.edu.tr/).
+My research publications at Pew are [available online](https://www.pewresearch.org/staff/meltem-odabas/), and my full list of publications are available [here](https://www.meltemodabas.net/publication_webpage/)
 
