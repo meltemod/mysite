@@ -14,5 +14,5 @@ How to pronounce my name:
 
 [Meltem Odabaş (full name, slow)](sound/Meltem-Odabaş-slow.m4a)
 
-[Meltem Odabaş (full name, normal pace)](sound/Meltem-Odabaş-normal-pace.m4a)
+[Meltem Odabaş (full name, regular pace)](sound/Meltem-Odabaş-normal-pace.m4a)
 
