@@ -84,3 +84,9 @@ My research interests include digital technology, social media use, and the rela
 
 My research publications at Pew are [available online](https://www.pewresearch.org/staff/meltem-odabas/), and my full list of publications are available [here](https://www.meltemodabas.net/publication_webpage/)
 
+**Latest News**
+[2022-05-05] My short read on drug addiction concern in the U.S. is published [online](https://www.pewresearch.org/fact-tank/2022/05/31/concern-about-drug-addiction-has-declined-in-u-s-even-in-areas-where-fatal-overdoses-have-risen-the-most/)
+[2022-05-31] 
+
+[2022-05-05] My short read on "10 Facts about Twitter" is published [online](https://www.pewresearch.org/fact-tank/2022/05/05/10-facts-about-americans-and-twitter/)
+
