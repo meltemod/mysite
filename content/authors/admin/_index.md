@@ -86,6 +86,8 @@ My research publications at Pew are [available online](https://www.pewresearch.o
 
 **Latest News**
 
+- **2023-04-02** Our data essay with Dr. Carolina Aragão on K-12 public schools and how they envision their role in educating students is published [online](https://www.pewresearch.org/social-trends/2023/04/04/school-district-mission-statements-highlight-a-partisan-divide-over-diversity-equity-and-inclusion-in-k-12-education/), and covered by [USA Today](https://www.usatoday.com/story/news/education/2023/04/04/public-schools-mission-statements-partisan-divide-dei/11593250002/), [The Hill](https://thehill.com/blogs/blog-briefing-room/3933631-blue-school-districts-far-more-likely-to-include-diversity-in-mission-statements-analysis/), [Education Week](https://www.edweek.org/leadership/what-an-analysis-of-school-district-mission-statements-revealed/2023/04), and [K-12 Dive](https://www.k12dive.com/news/DEI-partisan-school-mission-statements/647003/).  
+
 - **2022-05-31** My short read on drug addiction concern in the U.S. is published [online](https://www.pewresearch.org/fact-tank/2022/05/31/concern-about-drug-addiction-has-declined-in-u-s-even-in-areas-where-fatal-overdoses-have-risen-the-most/)
 
 - **2022-05-05** My short read on "10 Facts about Twitter" is published [online](https://www.pewresearch.org/fact-tank/2022/05/05/10-facts-about-americans-and-twitter/)
