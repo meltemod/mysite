@@ -88,7 +88,7 @@ I hold a PhD and an MA in Sociology from the University of Arizona, and an MA an
 
 **Latest News**
 
-- **2023-02-06** Research report ["Most Top-Ranked Podcasts Bring On Guests"](https://www.pewresearch.org/journalism/2024/02/06/most-top-ranked-podcasts-bring-on-guests/) is online.
+- **2024-02-06** Research report ["Most Top-Ranked Podcasts Bring On Guests"](https://www.pewresearch.org/journalism/2024/02/06/most-top-ranked-podcasts-bring-on-guests/) is online.
 
 - **2024-01-12** Blog post ["Redacting identifying information with computational methods in large text data"](https://www.pewresearch.org/decoded/2024/01/12/redacting-identifying-information-with-computational-methods-in-large-text-data/) is online.
 
