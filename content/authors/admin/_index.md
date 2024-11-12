@@ -78,11 +78,13 @@ user_groups:
 - Visitors
 ---
 
-I am a quantitative researcher with more than ten years of experience in conducting complex social science research projects and delivering data-driven insights for the public good. 
+I am a quantitative researcher with more than ten years of experience in conducting complex social science research projects and delivering data-driven insights for the public good.
+
+In my current role at the [Guttmacher Institute](https://www.guttmacher.org/), I am responsible for improving research processes and tools within the [*Adding It Up*](https://www.guttmacher.org/adding-it-up) program, which estimates the need for, impact of, and costs associated with essential sexual and reproductive health services. In addition to enhancing the program’s research system, I also conduct research and analyze data in collaboration with the team to support the program’s findings, helping to inform policy decisions and advance the Institute's mission to improve sexual and reproductive health worldwide.
 
 During my role at [Pew Research Center](https://www.pewresearch.org/)'s [Data Labs](https://www.pewresearch.org/methods/about-data-labs/), I led and contributed to complex research projects simultaneously on diverse topics such as education, health, social media use and news and information. To uncover public opinion and behavior trends, I utilized surveys and large-scale secondary datasets, advanced statistical methods, and data visualization tools. As a result of these research efforts, I published online reports tailored for the broader public and explained in a clear and engaging way using data storytelling techniques. [Reports>>](https://www.pewresearch.org/staff/meltem-odabas/)
 
-As a postdoctoral researcher at Indiana University Bloomington, I studied health behavior and outcome trends related to the U.S. opioid epidemic. I played a key role in analyzing a large-scale private health claims dataset with ~400 million observations to examine health behavior and outcome trends related to the U.S. opioid epidemic. Our collaborative research with a team of health economists, public health scholars, health sociologists, and computer scientists resulted in multiple academic publications. [All academic publications>>](https://scholar.google.com/citations?user=zuKPbIQAAAAJ&hl=en)
+As a postdoctoral researcher at Indiana University Bloomington, I played a key role in analyzing a large-scale private health claims dataset with ~300 million observations to examine health behavior and outcome trends related to the U.S. opioid epidemic. Our collaborative research with a team of health economists, public health scholars, health sociologists, and computer scientists resulted in multiple academic publications. [All academic publications>>](https://scholar.google.com/citations?user=zuKPbIQAAAAJ&hl=en)
 
 I hold a PhD and an MA in Sociology from the University of Arizona, and an MA and a BA in Economics from Boğaziçi University (İstanbul, Türkiye).
 
