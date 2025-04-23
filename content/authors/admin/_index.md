@@ -78,15 +78,15 @@ user_groups:
 - Visitors
 ---
 
-I am a quantitative research scientist and  leader with over ten years of experience 
-designing and delivering complex social science research projects that drive data-informed 
-decisions for the public good.
+I am a quantitative researcher and data scientist with over ten years 
+of experience designing and delivering complex social science
+ research projects that help drive data-informed decisions for the public good.
 
-My leadership is grounded in meaningful and authentic relationships, a continuous curiosity for learning, 
-and a commitment to strategic, forward-thinking solutions. I believe leadership is not defined 
-by a title but by how one shows up to everyday situations—with curiosity, care, and focus on positive change. 
-I strive to lead in a way that builds trust, inspires action, and creates space for others to grow, 
-while charting clear, purposeful paths toward shared goals.
+My approach to research and collaboration is grounded in curiosity, clarity,
+ and a deep commitment to impact. I focus on building trust, bringing people 
+ together around shared goals, and turning complex questions into insights 
+ that move work forward. I create spaces where teams can think boldly, 
+ act with purpose, and deliver results that matter.
 
 In my current role at the [Guttmacher Institute](https://www.guttmacher.org/), 
 I lead improvements to research processes 
