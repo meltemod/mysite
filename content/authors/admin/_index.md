@@ -78,6 +78,35 @@ user_groups:
 - Visitors
 ---
 
+I am a quantitative researcher and research leader with over ten years of experience 
+designing and delivering complex social science research projects that drive data-informed 
+decisions for the public good.
+
+My leadership is grounded in deep, authentic relationships, a continuous pursuit of knowledge, 
+and a commitment to strategic, forward-thinking solutions. I believe leadership is not defined 
+by a title but by how one shows up to their work—with curiosity, care, and a vision for impact. 
+I strive to lead in a way that builds trust, inspires action, and creates space for others to grow, 
+while charting clear, purposeful paths toward shared goals.
+
+In my current role at the Guttmacher Institute, I lead improvements to research processes 
+and tools within the Adding It Up program, which estimates the need for, impact of, 
+and costs associated with essential sexual and reproductive health services. 
+I work closely with cross-functional teams to enhance the program’s research infrastructure 
+and produce data that informs global health policy.
+
+Previously, at Pew Research Center’s Data Labs, I led and contributed to research projects on 
+topics ranging from education and health to social media and news consumption.
+ I employed large-scale datasets, advanced statistical techniques, and data storytelling 
+ to uncover public opinion trends and communicate findings to broad audiences through engaging, 
+ accessible reports.
+
+Earlier in my career, I served as a postdoctoral researcher at Indiana University Bloomington, 
+where I collaborated with an interdisciplinary team to analyze a large-scale private health claims dataset, 
+revealing insights into health behaviors and outcomes related to the U.S. opioid epidemic.
+
+I hold a PhD and an MA in Sociology from the University of Arizona, 
+and an MA and a BA in Economics from Boğaziçi University (İstanbul, Türkiye).
+
 I am a quantitative researcher with more than ten years of experience in conducting complex social science research projects and delivering data-driven insights for the public good. 
 
 During my role at [Pew Research Center](https://www.pewresearch.org/)'s [Data Labs](https://www.pewresearch.org/methods/about-data-labs/), I led and contributed to complex research projects simultaneously on diverse topics such as education, health, social media use and news and information. To uncover public opinion and behavior trends, I utilized surveys and large-scale secondary datasets, advanced statistical methods, and data visualization tools. As a result of these research efforts, I published online reports tailored for the broader public and explained in a clear and engaging way using data storytelling techniques. [Reports>>](https://www.pewresearch.org/staff/meltem-odabas/)
