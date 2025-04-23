@@ -84,7 +84,7 @@ decisions for the public good.
 
 My leadership is grounded in meaningful and authentic relationships, a continuous curiosity for learning, 
 and a commitment to strategic, forward-thinking solutions. I believe leadership is not defined 
-by a title but by how one shows up to their situations—with curiosity, care, and a vision for impact. 
+by a title but by how one shows up to everyday situations—with curiosity, care, and a vision for impact. 
 I strive to lead in a way that builds trust, inspires action, and creates space for others to grow, 
 while charting clear, purposeful paths toward shared goals.
 
