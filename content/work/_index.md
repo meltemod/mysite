@@ -10,20 +10,20 @@ My work translates rigorous research into accessible, policy-relevant, and publi
 
 Below is a curated selection of research outputs and strategic initiatives.
 
-# Global Health Research & Data Products
+## Global Health Research & Data Products
 
 I contribute to global sexual and reproductive health research that informs funding, policy, and advocacy worldwide at the [Guttmacher Institute](https://www.guttmacher.org/report/adding-it-up-2024-investing-sexual-and-reproductive-health-low-and-middle-income-countries). My work includes strengthening analytical systems, improving research processes, and translating complex estimation models into accessible outputs.
 
-## Selected Reports and Outputs
+### Selected Reports and Outputs
 
 - [Adding It Up – Country Profile Dashboard](https://www.guttmacher.org/regions/global): Led research translation and data preparation for the dashboard, supporting the design team in transforming large-scale sexual and reproductive health estimates into accessible, policy-relevant outputs.  
 - [Adding It Up – 2024: Investing in Sexual and Reproductive Health in Latin America and the Caribbean](https://www.guttmacher.org/fact-sheet/adding-it-up-2024-investing-sexual-and-reproductive-health-latin-america-and-caribbean): Contributed to the data delivery and production of a data essay on sexual and reproductive health in Latin America and the Caribbean, including data analysis, visualization, and narrative development.  
 
-# Public Opinion Research & Applied Research
+## Public Opinion Research & Applied Research
 
 At Pew Research Center, I led and contributed to research projects examining digital media, education, public opinion, and social inequality. These reports were widely cited and covered in national media.
 
-## Selected Reports and Outputs
+### Selected Reports and Outputs
 
 - [Computational methods for redacting identifying information in large text data (2024)](https://www.pewresearch.org/decoded/2024/01/12/redacting-identifying-information-with-computational-methods-in-large-text-data/)
 
@@ -37,7 +37,7 @@ At Pew Research Center, I led and contributed to research projects examining dig
 
 [View all Pew research reports →](https://www.pewresearch.org/staff/meltem-odabas/)
 
-# Peer-Reviewed Scholarship
+## Peer-Reviewed Scholarship
 
 My academic scholarship examines inequality, digital discourse, the U.S. opioid epidemic, and the social consequences of policy through quantitative and computational approaches. 
 

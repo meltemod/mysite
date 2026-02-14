@@ -12,8 +12,8 @@ I work at the intersection of technical depth and institutional strategy — ens
 
 At its core, my work asks: How can research better support decision-making? How can analytical systems become more transparent, reproducible, and impactful? And how can complex data be communicated clearly without losing nuance?
 
-# Research Strategy & Infrastructure
-    
+## Research Strategy & Infrastructure
+
 I lead and contribute to the design of large-scale research initiatives that require coordinated analytical workflows, clear documentation practices, and cross-functional collaboration.
 
 My work includes:
@@ -26,13 +26,13 @@ My work includes:
 
 This systems-oriented approach ensures that research remains durable, adaptable, and aligned with institutional goals.
 
-# Methodological Rigor & Reproducibility
+## Methodological Rigor & Reproducibility
 
 I prioritize clarity in research design, documentation, and implementation. This includes building structured workflows, validating assumptions, and ensuring that analytical decisions are transparent and reviewable.
 
 By combining advanced quantitative methods with disciplined research architecture, I help teams produce work that is both technically sound and strategically relevant.
 
-# Research Translation & Cross-Functional Leadership
+## Research Translation & Cross-Functional Leadership
 
 Strong research does not end at analysis. I work closely with collaborators across design, communications, and policy teams to ensure that findings are accurately interpreted and effectively conveyed.
 
