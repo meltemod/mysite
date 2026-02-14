@@ -4,30 +4,26 @@
 #   The weight parameter defines the order that the links will appear in.
 
 
-[[main]]
-  name = "Home"
-  url = "authors/admin/"
-  weight = 20
 
 [[main]]
   name = "Research"
   url = "research/"
   weight = 20
 
-#[[main]]
-#  name = "Work"
-#  url = "work/"
-#  weight = 30
+[[main]]
+  name = "Work"
+  url = "work/_index.md"
+  weight = 30
 
 [[main]]
   name = "Coaching"
   url = "coaching/"
   weight = 40
 
-#[[main]]
-#  name = "Contact"
-#  url = "contact/"
-#  weight = 50
+[[main]]
+  name = "Contact"
+  url = "contact/"
+  weight = 50
 
 
 #[[main]]

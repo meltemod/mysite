@@ -25,15 +25,11 @@ At Pew Research Center, I led and contributed to research projects examining dig
 
 ### Selected Reports and Outputs
 
-- [Computational methods for redacting identifying information in large text data (2024)](https://www.pewresearch.org/decoded/2024/01/12/redacting-identifying-information-with-computational-methods-in-large-text-data/)
-
-- [Most Top-Ranked Podcasts Bring On Guests (2024)](https://www.pewresearch.org/journalism/2024/02/06/most-top-ranked-podcasts-bring-on-guests/)
-
-- [#BlackLivesMatter Turns 10 (2023)](https://www.pewresearch.org/internet/2023/06/29/blacklivesmatter-turns-10/)
-
-- [K–12 school district mission statement analysis (2023)](https://www.pewresearch.org/social-trends/2023/04/04/school-district-mission-statements-highlight-a-partisan-divide-over-diversity-equity-and-inclusion-in-k-12-education/)
-
-- [Public data release: U.S. public school district mission statements (2023)](https://www.pewresearch.org/social-trends/dataset/school-district-mission-statements/)
+- [Computational methods for redacting identifying information in large text data (2024)](https://www.pewresearch.org/decoded/2024/01/12/redacting-identifying-information-with-computational-methods-in-large-text-data/): Developed and evaluated scalable NLP approaches for detecting and removing personally identifiable information from large text corpora.
+- [Most Top-Ranked Podcasts Bring On Guests (2024)](https://www.pewresearch.org/journalism/2024/02/06/most-top-ranked-podcasts-bring-on-guests/): Analyzed top podcast rankings to examine format patterns, showing how guest appearances shape leading shows. 
+- [#BlackLivesMatter Turns 10 (2023)](https://www.pewresearch.org/internet/2023/06/29/blacklivesmatter-turns-10/): Used longitudinal social media data to analyze the evolution, reach, and engagement patterns of the #BlackLivesMatter movement over a decade. 
+- [K–12 school district mission statement analysis (2023)](https://www.pewresearch.org/social-trends/2023/04/04/school-district-mission-statements-highlight-a-partisan-divide-over-diversity-equity-and-inclusion-in-k-12-education/): Collected mission statement data from a representative sample of U.S. school districts and conducted large-scale text analysis to identify thematic differences and partisan patterns in education priorities.
+- [Public data release: U.S. public school district mission statements (2023)](https://www.pewresearch.org/social-trends/dataset/school-district-mission-statements/): Compiled, redacted, and documented a structured dataset of district mission statements for public use in research and policy analysis.
 
 [View all Pew research reports →](https://www.pewresearch.org/staff/meltem-odabas/)
 
