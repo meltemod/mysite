@@ -8,13 +8,8 @@ title: Coaching for Early Research Professionals
 Building a career in research can feel intellectually exciting — and professionally uncertain. Many early-career researchers are highly skilled technically but lack structured support in navigating direction, positioning, and professional growth.
 
 <div style="margin: 28px 0; text-align:center;">
-  <button
-    onclick="window.location.href='/discovery';"
-    style="padding:14px 22px;
-           border-radius:14px;
-           border:none;
-           cursor:pointer;
-           font-weight:600;">
+  <button class="button-coach"
+    onclick="window.location.href='/discovery';">
     Book a free exploratory conversation
   </button>
 </div>

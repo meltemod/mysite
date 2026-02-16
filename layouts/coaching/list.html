@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <section class="tone-coach">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  </section>
+{{ end }}
