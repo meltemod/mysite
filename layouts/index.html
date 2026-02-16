@@ -6,14 +6,14 @@
       <div class="hero-grid">
         <div>
           <h1>{{ $admin.Title }}</h1>
-          {{ with $admin.Params.role }}<p class="muted">{{ . }}</p>{{ end }}
-          <div class="prose">{{ $admin.Content }}</div>
 
-          <p class="hero-links">
-            <a href="{{ "/research/" | relURL }}">Research</a>
-            <a href="{{ "/works/" | relURL }}">Works</a>
-            <a href="{{ "/coaching/" | relURL }}">Coaching</a>
-          </p>
+          {{ with $admin.Params.role }}
+            <p class="muted">{{ . }}</p>
+          {{ end }}
+
+          <div class="prose">
+            {{ $admin.Content }}
+          </div>
         </div>
 
         <div>
@@ -23,4 +23,10 @@
         </div>
       </div>
     </section>
+  {{ else }}
+    <section>
+      <h1>{{ site.Title }}</h1>
+      <p>(Could not find authors/admin. Check content/authors/admin/_index.md)</p>
+    </section>
+  {{ end }}
 {{ end }}
