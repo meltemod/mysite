@@ -1,0 +1,11 @@
+{{ $src := .Params.banner_image | default "" }}
+{{ if $src }}
+  {{ with .Resources.GetMatch $src }}
+    <section class="page-hero">
+      <img class="page-hero__img" src="{{ .RelPermalink }}" alt="">
+      <div class="page-hero__content">
+        <h1 class="page-hero__title">{{ $.Title }}</h1>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

@@ -3,8 +3,7 @@
     {{ partial "banner_image.html" . }}
     {{ with .Content }}<div class="page-body">{{ . }}</div>{{ end }}
 
-  <div class="page-body">
-      <div class="grid">
+    <div class="grid">
       {{ range .Pages }}
         <a class="card" href="{{ .RelPermalink }}">
           {{ with .Resources.GetMatch (default "" .Params.featured_image) }}
@@ -13,7 +12,7 @@
           <h2>{{ .Title }}</h2>
           {{ with .Params.summary }}<p class="muted">{{ . }}</p>{{ end }}
         </a>
-      {{ end }}
+        {{ end }}
     </div>
-  </div>
+  </section>
 {{ end }}

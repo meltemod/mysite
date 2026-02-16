@@ -2,7 +2,7 @@
 header:
   caption: ""
   image: ""
-title: Work
+title: Research Outputs
 ---
 
 My work translates rigorous research into accessible, policy-relevant, and publicly engaged outputs. Across institutions, I have contributed to large-scale estimation initiatives, public opinion research, and peer-reviewed scholarship.
