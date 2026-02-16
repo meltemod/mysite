@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>{{ site.Title }}</h1>
+  {{ with site.GetPage "section" "works" }}
+    <h2>Works</h2>
+    <ul>
+      {{ range first 6 .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,10 @@
+baseURL = "https://www.meltemodabas.net/"
+languageCode = "en-us"
+title = "Meltem Odabas"
+
+[permalinks]
+  works = "/works/:slug/"
+  research = "/research/:slug/"
+
+[pagination]
+  pagerSize = 10
