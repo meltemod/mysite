@@ -8,3 +8,9 @@ title = "Meltem Odabas"
 
 [pagination]
   pagerSize = 10
+
+# allow raw HTML in markdown files
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
