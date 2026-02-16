@@ -2,19 +2,25 @@
   {{ $admin := site.GetPage "authors/admin" }}
 
   {{ if $admin }}
-    <section>
-      <h1>{{ $admin.Title }}</h1>
-      {{ with $admin.Content }}{{ . }}{{ end }}
+    <section class="home-hero">
+      <div class="hero-grid">
+        <div>
+          <h1>{{ $admin.Title }}</h1>
+          {{ with $admin.Params.role }}<p class="muted">{{ . }}</p>{{ end }}
+          <div class="prose">{{ $admin.Content }}</div>
 
-      {{ with $admin.Resources.GetMatch "avatar*" }}
-        <p><img src="{{ .RelPermalink }}" alt="{{ $admin.Title }}" style="max-width:220px;border-radius:999px;"></p>
-      {{ end }}
+          <p class="hero-links">
+            <a href="{{ "/research/" | relURL }}">Research</a>
+            <a href="{{ "/works/" | relURL }}">Works</a>
+            <a href="{{ "/coaching/" | relURL }}">Coaching</a>
+          </p>
+        </div>
+
+        <div>
+          {{ with $admin.Resources.GetMatch "avatar*" }}
+            <img class="avatar" src="{{ .RelPermalink }}" alt="{{ $admin.Title }}">
+          {{ end }}
+        </div>
+      </div>
     </section>
-  {{ else }}
-    <section>
-      <h1>{{ site.Title }}</h1>
-      <p>Add your homepage content.</p>
-    </section>
-  {{ end }}
 {{ end }}
-
