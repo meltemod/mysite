@@ -10,6 +10,8 @@ tools: ["Python", "R", "text analysis", "content coding", "computational linguis
 
 external_link: "https://www.pewresearch.org/social-trends/2023/04/04/school-district-mission-statements-highlight-a-partisan-divide-over-diversity-equity-and-inclusion-in-k-12-education/"
 link_text: "View report →"
+
+work_group: "public-opinion"
 ---
 This report analyzes how public school districts across the United States describe their educational priorities and values in official mission statements, and what those statements reveal about broader political and social dynamics shaping education. Drawing on a nationally representative collection of 1,314 district mission statements, the study examines which themes districts emphasize—such as student preparation, safety, community involvement, and academic development—and how frequently they reference diversity, equity, and inclusion.
 

@@ -10,6 +10,8 @@ tools: ["R", "Stata"]
 
 external_link: "https://www.guttmacher.org/fact-sheet/adding-it-up-2024-investing-sexual-and-reproductive-health-latin-america-and-caribbean"
 link_text: "View Fact Sheet →"
+
+work_group: "global-health"
 ---
 The Adding It Up 2024 analysis estimates the need, impact, and cost of fully meeting sexual and reproductive health (SRH) needs in low- and middle-income countries (LMICs). This fact sheet focuses on the estimates of the Latin America and the Caribbean and its subregions. It evaluates services including contraception, maternal and newborn care, abortion services, and treatment of major curable STIs
 

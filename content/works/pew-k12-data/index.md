@@ -10,6 +10,8 @@ tools: ["Python", "data documentation", "data privacy", "text processing", "data
 
 external_link: "https://www.pewresearch.org/social-trends/dataset/school-district-mission-statements/"
 link_text: "Access dataset →"
+
+work_group: "public-opinion"
 ---
 This dataset release provides the underlying text corpus used in Pew Research Center’s analysis of U.S. school district mission statements, enabling researchers to examine how districts articulate goals, values, and priorities in official language. The dataset includes 1,314 mission statements collected from public school district websites across the United States, along with metadata such as district location, political context, and demographic characteristics.
 

@@ -10,6 +10,8 @@ tools: ["R", "Stata"]
 
 external_link: "https://www.guttmacher.org/regions/global"
 link_text: "View Dashboard →"
+
+work_group: "global-health"
 ---
 A dashboard presenting sexual and reproductive health estimates for 128 low- and middle-income countries, including indicators on contraceptive use, unintended pregnancy, abortion, and maternal health. The dashboard is designed to make complex research outputs accessible and actionable for policymakers, advocates, and the public.
 

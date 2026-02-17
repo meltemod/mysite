@@ -10,6 +10,8 @@ tools: ["R", "Python", "NLP libraries", "Hugging Face", "transformers"]
 
 external_link: "https://www.pewresearch.org/decoded/2024/01/12/redacting-identifying-information-with-computational-methods-in-large-text-data/"
 link_text: "View Blog Post →"
+
+work_group: "public-opinion"
 ---
 This blog post explains how researchers used computational methods to redact identifying information from unstructured text data, a set of 1,314 mission statements from U.S. K-12 school districts, before releasing it publicly. Removing identifiers like district names is straightforward in structured datasets, but much harder with free-form text because there are no fixed labels for names or addresses. To tackle this, the researcher combined three different techniques:
 
