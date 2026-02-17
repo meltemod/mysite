@@ -244,6 +244,14 @@ footer {
   background: var(--data-soft);
 }
 
+.page-hero--compact{
+  height: auto;
+  padding: 2rem 0 0.75rem 0;
+  background: transparent;
+  border: none;
+}
+
+
 /* align hero and the page body text to the same centered width as main */
 .page-hero,
 .page-body {
@@ -297,8 +305,14 @@ footer {
   left: 1.5rem;
   bottom: 1.25rem;
   z-index: 2;
-  max-width: 85%;
 }
+
+.page-hero--compact .page-hero__content{
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
 
 .page-hero__title{
   margin: 0;
