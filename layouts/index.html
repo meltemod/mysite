@@ -1,0 +1,32 @@
+{{ define "main" }}
+  {{ $admin := site.GetPage "authors/admin" }}
+
+  {{ if $admin }}
+    <section class="home-hero">
+      <div class="hero-grid">
+        <div>
+          <h1>{{ $admin.Title }}</h1>
+
+          {{ with $admin.Params.role }}
+            <p class="muted">{{ . }}</p>
+          {{ end }}
+
+          <div class="prose">
+            {{ $admin.Content }}
+          </div>
+        </div>
+
+        <div>
+          {{ with $admin.Resources.GetMatch "avatar*" }}
+            <img class="avatar" src="{{ .RelPermalink }}" alt="{{ $admin.Title }}">
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ else }}
+    <section>
+      <h1>{{ site.Title }}</h1>
+      <p>(Could not find authors/admin. Check content/authors/admin/_index.md)</p>
+    </section>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,18 @@
+{{ define "main" }}  
+  <section class="tone-data">
+    {{ partial "banner_image.html" . }}
+    {{ with .Content }}<div class="page-body">{{ . }}</div>{{ end }}
+
+    <div class="grid">
+      {{ range .Pages }}
+        <a class="card" href="{{ .RelPermalink }}">
+          {{ with .Resources.GetMatch (default "" .Params.featured_image) }}
+            <img class="card-img" src="{{ .RelPermalink }}" alt="">
+          {{ end }}
+          <h2>{{ .Title }}</h2>
+          {{ with .Params.summary }}<p class="muted">{{ . }}</p>{{ end }}
+        </a>
+        {{ end }}
+    </div>
+  </section>
+{{ end }}

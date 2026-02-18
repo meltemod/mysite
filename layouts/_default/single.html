@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <article class="prose">
+    <h1>{{ .Title }}</h1>
+
+    {{ with .Params.links }}
+      <p class="hero-links">
+        {{ range . }}
+          <a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
+        {{ end }}
+      </p>
+    {{ end }}
+
+    {{ .Content }}
+  </article>
+{{ end }}
+

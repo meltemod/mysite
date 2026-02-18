@@ -1,0 +1,72 @@
+{{ define "main" }}
+  <section class="tone-data">
+    {{ partial "banner_image.html" . }}
+    
+  <div class="page-body">
+
+    <hr class="project-divider">
+
+    {{/* metadata */}}
+    <div class="project-meta">
+      {{ with .Params.organization }}
+        <div><strong>Organization:</strong> {{ . }}</div>
+      {{ end }}
+
+      {{ with .Params.tools }}
+         <div><strong>Tools:</strong> {{ delimit . ", " }}</div>
+      {{ end }}
+
+      {{ with .Params.tags }}
+        <div><strong>Tags:</strong> {{ delimit . ", " }}</div>
+      {{ end }}
+    </div>
+
+    <hr class="project-divider">
+
+    <div class="project-layout">
+
+
+
+
+
+      {{/* LEFT COLUMN (75%): title, summary, button, content */}}
+      <div class="project-left">
+
+        {{ with .Content }}
+          <div class="project-content">{{ . }}</div>
+        {{ end }}
+
+      </div>
+    
+
+    {{/* RIGHT COLUMN (25%): image */}}
+      <aside class="project-right">
+
+        {{ with .Resources.GetMatch (default "" .Params.featured_image) }}
+          <div class="project-image">
+            <img src="{{ .RelPermalink }}" alt="">
+          </div>
+        {{ end }}
+
+        <br>
+
+        {{ with .Params.external_link }}
+          <a class="project-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+            {{ default "View project →" $.Params.link_text }}
+          </a>
+        {{ end }}
+
+      </aside>
+
+    </div>
+  </div>
+</section>
+{{ end }}
+
+
+
+
+
+
+
+

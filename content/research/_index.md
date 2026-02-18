@@ -2,8 +2,8 @@
 header:
   caption: ""
   image: ""
-layout: docs
 title: Research
+banner_image: "featured.png"
 ---
 
 My research leadership centers on building rigorous, transparent, and strategically aligned analytical systems. Across institutions and domains, I design research processes that strengthen methodological clarity, reproducibility, and impact.
