@@ -6,6 +6,6 @@ title: Çalışmalar
 banner_image: "featured.png"
 ---
 
-Titiz araştırmayı erişilebilir, politikaya yönelik ve kamuoyuyla ilgili çıktılara dönüştürüyorum. Farklı kurumlar bünyesinde büyük ölçekli tahmin girişimlerine, kamuoyu araştırmalarına ve hakemli akademik çalışmalara katkı sağladım.
+Çalışmalarım, titizlikle yönetilen araştırmalardan erişilebilir, uygulanabilir ve kamuya açık bulgu ve raporlar üretmektedir. Farklı kurumların bünyesinde, büyük ölçekli veri analizi, kamuoyu araştırmaları ve hakemli akademik yayınlara katkıda bulundum.
 
-Aşağıda seçilmiş araştırma çıktıları ve stratejik girişimler yer almaktadır.
+Aşağıda, araştırma çıktılarım ve stratejik çalışmalarım arasından seçilmiş örnekleri bulabilirsiniz.
