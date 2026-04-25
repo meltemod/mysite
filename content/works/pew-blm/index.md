@@ -1,5 +1,6 @@
 ---
 title: "#BlackLivesMatter Turns 10: Social Media and Online Activism"
+slug: "blacklivesmatter-turns-10-social-media-and-online-activism"
 date: 2026-02-15
 summary: "A mixed-methods analysis examining a decade of #BlackLivesMatter discourse on Twitter and Americans’ experiences with social media activism."
 tags: ["computational social science", "social media", "public opinion", "text analysis", "network analysis", "surveys"]
