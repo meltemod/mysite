@@ -5,18 +5,18 @@ date: "2019-01-01T00:00:00Z"
 type: "widget_page"
 ---
 
-Mentorluk, iş birliği veya konuşma talepleri için en iyi başlangıç noktası, mevcut odak noktanız ve görüşmek istediğiniz konu hakkında kısa bir mesajdır. Genellikle 2–3 iş günü içinde yanıt veririm.
+Mentörlük, iş birliği veya görüşme talepleriniz için, görüşmek istediğiniz konu hakkında kısa bir mesaj gönderin. Genellikle 1-2 iş günü içinde mesajlara yanıt veriyorum.
 
 <form action="https://formspree.io/f/mgorqozl" method="POST" class="contact-form">
   <input type="hidden" name="_next" value="/tr/contact/thank-you/">
 
   <label>
-    Adınız
+    Adınız-Soyadınız
     <input type="text" name="name" required>
   </label>
 
   <label>
-    E-posta
+    E-posta adresiniz
     <input type="email" name="email" required>
   </label>
 

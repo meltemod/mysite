@@ -6,33 +6,32 @@ title: Sosyal Bilimler MA/Doktora Geçişleri için Stratejik Mentorluk
 banner_image: "featured.png"
 ---
 
-Ben [Meltem Odabaş](/tr/), akademik araştırma, uygulamalı politika çalışması ve veri odaklı girişimler alanında on yılı aşkın deneyime sahip bir sosyologum. Geçmişim; üniversite ortamlarını, kâr amacı gütmeyen kuruluşları ve araştırma kurumlarını kapsamaktadır. Bu farklı deneyimler — titiz akademik eğitim ile gerçek dünya uygulamasını bir araya getiren çift perspektifim — akademiden uygulamalı kariyerlere geçiş yapan araştırmacılara destek olmamı sağlamaktadır.
+Ben [Meltem Odabaş](/tr/), akademik araştırma, uygulamalı veri bilimi ve veri odaklı girişimler alanında on yılı aşkın deneyime sahip bir sosyal bilimciyim. Kariyerim boyunca üniversiteler, kâr amacı gütmeyen kuruluşlar ve araştırma kurumlarında çalıştım. Akademik eğitimle gerçek dünya uygulamalarını birleştiren bu ikili perspektif, akademiden uygulamalı kariyerlere geçiş yapan araştırmacılara deneyim odaklı bir destek sunmamı sağlıyor.
 
-## Bu Mentorluk Hakkında
+## Nasıl bir mentörlük?
 
-Sosyal bilimler MA/doktora programlarından veya erken kariyer akademik rollerden uygulamalı araştırma pozisyonlarına geçiş yapmak zorlu olabilir. Pek çok araştırmacı teorik ve metodolojik çalışmalarda başarılı olsa da politika analizi, kâr amacı gütmeyen kuruluşlarda liderlik ya da araştırma organizasyonlarındaki veri bilimi rolleri gibi akademi dışı (alt-ac) yollar için pratik rehberlik konusunda eksiklikler yaşayabilmektedir. Bu mentorluk; stratejik netlik kazanmak, profesyonel ağlar kurmak ve başarılı geçişler için gerekli becerileri geliştirmek amacıyla yapılandırılmış bir destek sunmaktadır.
+Sosyal bilimler yüksek lisans/doktora programlarından veya erken akademik rollerden uygulamalı araştırma pozisyonlarına geçiş yapmak zorlu olabilir. Pek çok araştırmacı, teorik ve metodolojik çalışmalarda çok başarılı ve donanımlı olmasına rağmen akademik kariyerden uygulamalı ve topluma yönelik araştırma kariyerlerine geçiş için gerekli pratik bilgiye sahip olmayabilir. Sunduğum mentorluk; stratejik netlik kazanmak, profesyonel bağlentılar kurmak ve başarılı bir kariyer yolunda gerekli becerileri geliştirmek amacıyla yapılandırılmış bir destek sunmaktadır.
 
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
     onclick="window.location.href='/discovery';">
-    Ücretsiz keşif görüşmesi ayırın
+    Ücretsiz keşif görüşmesi talep edin
   </button>
 </div>
 
-## Bu Mentorluk Kimler İçin
+## Bu mentörlük kimler için?
 
-Bu mentorluk şu kişiler için tasarlanmıştır:
+Bu mentörlük şu kişiler için tasarlanmıştır:
 
-- Sosyal bilimlerde MA/doktora öğrencileri
-- Doktora sonrası araştırmacılar ve erken kariyer akademisyenler
-- Akademi dışı (alt-ac) kariyer yollarını araştıran veya bu yolları takip eden bireyler
+- Sosyal bilimlerde yüksek lisans/doktora öğrencileri
+- Doktora sonrası araştırmacılar (postdoc) ve erken kariyer akademisyenler
+- Akademi dışı (alt-ac veya alternatif-akademik) kariyer yollarını araştıran veya bu yolları takip eden bireyler
 
 Kendinize şu soruları soruyor olabilirsiniz:
 
 - Araştırma becerilerimi uygulamalı rollere nasıl aktarabilirim?
-- Akademi dışında benim için bir kariyer nasıl görünür?
-- Politika veya kâr amacı gütmeyen sektörde profesyonel bir ağ nasıl kurarım?
-- Uygulamalı ortamlarda liderlik için hangi becerileri geliştirmem gerekiyor?
+- Akademi dışında bir kariyer benim için uygun mu?
+- Uygulamalı araştırma sektöründe liderlik için hangi becerileri geliştirmem gerekiyor?
 - İş tekliflerini ve uzun vadeli büyümeyi bu alanlarda nasıl müzakere edebilirim?
 
 ## Üzerinde Çalıştığımız Konular
@@ -44,19 +43,21 @@ Oturumlarımız, kariyer geçişleri için pratik stratejilere odaklanmaktadır:
 - Sosyal bilim becerilerini politika, kâr amacı gütmeyen sektör veya veri rollerine konumlandırma
 - Araştırma yürütmenin ötesinde stratejik düşünce geliştirme
 - İş arama stratejileri ve müzakere becerilerinin geliştirilmesi
-- Akademi dışı yollarda uzun vadeli profesyonel yörüngelerin planlanması
+- Akademi dışı yollarda uzun vadeli profesyonel hedeflerin planlanması
 
 ## Yaklaşımım
 
-Bu stratejik bir mentorluktur; terapi veya genel tavsiye değildir. Sistem düşüncesinden ve akademi ile uygulamalı araştırmadaki gerçek dünya deneyimimden yararlanarak oturumlar yapılandırılmış, yansıtıcı ve eyleme yönelik biçimde yürütülmektedir. Geçişleri netlik ve özgüvenle yönetmenize yardımcı olmak amacıyla ileriye dönük tartışmalara odaklanıyorum.
+Bu stratejik bir mentörlüktür; terapi veya genel tavsiye değildir. Akademi ve uygulamalı araştırma alanlarındaki deneyimime dayanarak, oturumlar düşünmeye alan açmak ve karar alma odaklı olmak üzere tasarlanmıştır.
 
-## Keşif Görüşmesi Ayırın
+İlk olarak hedeflerinizi, fırsatlarınızı ve karşılaştığınız engelleri birlikte netleştiririz; ardından netlik kazanmanıza, yön belirlemenize ve bilinçli adımlar atmanıza yardımcı olacak, ileriye dönük konuşmalara odaklanırız. Böylece kariyer geçişinizi daha fazla netlik ve özgüvenle yönetebilirsiniz.
 
-Uygulamalı sosyal bilim rollerine geçiş yapmayı düşünüyorsanız, 30 dakikalık ücretsiz bir keşif görüşmesi planlamanızı öneririm. Bu; hedeflerinizi ve sorularınızı tartışmak için baskısız bir fırsattır.
+## Keşif görüşmesi talep edin
+
+Uygulamalı sosyal bilim rollerine geçiş yapmayı düşünüyorsanız, 30 dakikalık ücretsiz bir keşif görüşmesi planlamanızı öneririm. Bu seans süresince hedeflerinizi rahatça tartışabilir ve mentörlük hakkında sorularınızı yöneltebilirsiniz.
 
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
     onclick="window.location.href='/discovery';">
-    Ücretsiz keşif görüşmesi ayırın
+    Ücretsiz keşif görüşmesi talep edin
   </button>
 </div>

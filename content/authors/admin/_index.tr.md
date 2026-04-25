@@ -3,7 +3,7 @@ title: Meltem Odabaş
 authors:
 - admin
 superuser: true
-role: Karmaşık verileri karar vermeye hazır içgörüye dönüştüren analitik sistemler tasarlıyor ve yönetiyorum.
+role: Karmaşık veriyi karara hazır bulgulara dönüştüren analitik sistemler tasarlıyor ve yönetiyorum.
 organizations:
 - name: Adımın telaffuzu >>
   url: /prononciation
@@ -24,11 +24,11 @@ user_groups:
 - Visitors
 ---
 
-On yılı aşkın deneyimle karmaşık, yüksek etkili araştırma girişimlerine liderlik eden bir araştırma stratejisti ve nicel sosyal bilim insanıyım. Çalışmalarım; ölçeklenebilir araştırma ve değerlendirme sistemleri kurmak, kanıt iş akışlarına yapay zeka destekli yöntemler entegre etmek ve karmaşık verileri stratejik kararlar için kullanılabilir hale getirmek üzerine yoğunlaşmaktadır.
+On yılı aşkın deneyimimle karmaşık, etkisi yüksek araştırma projelerine liderlik eden bir araştırma stratejisti ve nicel sosyal bilimciyim. Çalışmalarım; ölçeklenebilir araştırma ve değerlendirme sistemleri kurmak, bu sistemlere yapay zeka destekli yöntemler entegre etmek ve karmaşık verileri stratejik kararlar için kullanılabilir hale getirmek üzerine yoğunlaşıyor.
 
-Şu anda [Guttmacher Enstitüsü](https://www.guttmacher.org/)'nde yapay zeka destekli kanıt sentezi sistemlerinin geliştirilmesine liderlik ediyorum. Daha önce [Pew Research Center'ın Data Labs](https://www.pewresearch.org/data-labs/) biriminde çalıştım.
+Şu anda [Guttmacher Enstitüsü](https://www.guttmacher.org/)'nde küresel sağlık alanında politika ve finansman kararlarını şekillendiren geniş ölçekli analitik çalışmalara liderlik ediyor ve katkıda bulunuyorum. Daha öncesinde de [Pew Research Center'ın Data Labs](https://www.pewresearch.org/data-labs/) birimşnde hesaplamalı sosyal bilimler alaınında araştırmalar yaptım.
 
-## Benimle Çalışın
+## Birlikte çalışalım
 
 <div class="work-cards">
   <div class="work-card">
@@ -38,18 +38,18 @@ On yılı aşkın deneyimle karmaşık, yüksek etkili araştırma girişimlerin
   </div>
   <div class="work-card">
     <h3>Araştırma Liderliği</h3>
-    <p>Metodolojik titizlik, ekip sahipliği ve kurumsal etki odağıyla karmaşık, politikaya yönelik araştırma programlarına liderlik etme konusunda 10+ yıllık deneyim.</p>
-    <a href="/tr/works">Kamuya açık çalışmalarım →</a>
+    <p>Metodolojik titizlik, ekip çalışması ve kurumsal etkiye önem veren, karmaşık veri sentezi ve sosyal politika odaklı araştırma programlarına liderlik etme konusunda 10+ yıllık deneyim.</p>
+    <a href="/tr/works">Kamuya yönelik çalışmalarım →</a>
   </div>
   <div class="work-card">
-    <h3>Mentorluk</h3>
-    <p>Uygulamalı araştırmanın sizin için nasıl göründüğünü keşfetmeye çalışan bir MA veya doktora sosyal bilimciyseniz, bu geçiş için yapılandırılmış, stratejik bir mentorluk sunuyorum.</p>
-    <a href="/tr/mentorship/">Ücretsiz görüşme ayırın →</a>
+    <h3>Mentörlük</h3>
+    <p>Yüksek lisans veya doktora eğitimi almış, kuruluşlarda uygulamalı araştırma yapmak isteyen bir sosyal bilimciyseniz, akademiden sektöre geçiş üzerine stratejik mentörlük sunuyorum.</p>
+    <a href="/tr/mentorship/">Ücretsiz görüşme talep edin →</a>
   </div>
 </div>
 
-## Geçmiş
+## Eğitim ve Deneyim
 
-Sosyoloji alanında Doktora ve Yüksek Lisans, Arizona Üniversitesi · İktisat alanında Yüksek Lisans ve Lisans, Boğaziçi Üniversitesi.
+Sosyoloji alanında Doktora ve Yüksek Lisans, Arizona Üniversitesi (Tucson, Arizona, Amerika Birleşik Devletleri) · İktisat alanında Yüksek Lisans ve Lisans, Boğaziçi Üniversitesi (İstanbul, Türkiye).
 
-Akademik, sivil toplum ve politika araştırma ortamlarında deneyim.
+Akademi, sivil toplum, kamuoyu ve sosyal politika odaklı araştırma kuruluşlarında deneyim.
