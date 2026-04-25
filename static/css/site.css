@@ -68,6 +68,35 @@ a:hover {
   opacity: 0.85;
 }
 
+.contact-form {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-form label {
+  display: grid;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.contact-form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
 /* Nav */
 nav {
   display: flex;
