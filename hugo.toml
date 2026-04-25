@@ -1,6 +1,6 @@
 baseURL = "https://www.meltemodabas.net/"
 languageCode = "en-us"
-title = "Meltem Odabas"
+title = "Meltem Odabaş"
 
 [permalinks]
   works = "/works/:slug/"
