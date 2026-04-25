@@ -8,11 +8,11 @@ title: ""
 
 How to pronounce my name: 
 
-[Meltem (first name)](sound/Meltem-first-name-prononciation.m4a)
+<a href="sound/Meltem-first-name-prononciation.m4a" target="_blank">Meltem (first name)</a>
 
-[Odabaş (last name)](sound/Odabaş-last-name-prononciation.m4a)
+<a href="sound/Odabaş-last-name-prononciation.m4a" target="_blank">Odabaş (last name)</a>
 
-[Meltem Odabaş (full name, slow)](sound/Meltem-Odabaş-slow.m4a)
+<a href="sound/Meltem-Odabaş-slow.m4a" target="_blank">Meltem Odabaş (full name, slow)</a>
 
-[Meltem Odabaş (full name, regular pace)](sound/Meltem-Odabaş-normal-pace.m4a)
+<a href="sound/Meltem-Odabaş-normal-pace.m4a" target="_blank">Meltem Odabaş (full name, regular pace)</a>
 

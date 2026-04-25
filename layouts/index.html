@@ -11,6 +11,7 @@
           {{ with $admin.Resources.GetMatch "avatar*" }}
             <img class="avatar" src="{{ .RelPermalink }}" alt="{{ $admin.Title }}">
           {{ end }}
+          <a href="/prononciation/" class="pronounce-button">How to pronounce my name</a>
         </div>
         <div class="hero-content">
           {{ with $admin.Params.role }}
