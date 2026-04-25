@@ -8,6 +8,8 @@ type: "widget_page"
 For mentoring, collaboration, or speaking inquiries, the best starting point is a brief message about your current focus and what you want to discuss. I usually reply within 2–3 business days.
 
 <form action="https://formspree.io/f/mgorqozl" method="POST" class="contact-form">
+  <input type="hidden" name="_next" value="/contact/thank-you/">
+
   <label>
     Your name
     <input type="text" name="name" required>
@@ -15,7 +17,7 @@ For mentoring, collaboration, or speaking inquiries, the best starting point is 
 
   <label>
     Email
-    <input type="email" name="_replyto" required>
+    <input type="email" name="email" required>
   </label>
 
   <label>
