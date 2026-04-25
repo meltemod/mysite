@@ -143,13 +143,33 @@ footer {
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 0.7fr;
-  grid-template-areas: "title title" "content avatar";
+  grid-template-areas: "title avatar" "content content";
   gap: 1rem;
   align-items: start;
 }
 
 .hero-title {
   grid-area: title;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+.hero-title h1 {
+  margin: 0;
+}
+
+.hero-title .muted {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: italic;
+  color: #8a96ab;
+}
+
+.hero-title p {
+  margin: 0;
 }
 
 .hero-avatar {
@@ -158,8 +178,61 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 0.75rem;
+  align-self: end;
+}
+.hero-content {
+  grid-area: content;
 }
 
+.hero-content h2 {
+  margin-top: 2rem;
+}
+
+.work-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.work-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.work-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.work-card p {
+  margin: 0;
+  flex: 1;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.work-card a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 650px) {
+  .work-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero-content .prose {
+  max-width: none;
+}
 .pronounce-button {
   padding: 0.35rem 0.6rem;
   border: 1px solid var(--border);
@@ -292,7 +365,7 @@ footer {
 @media (max-width: 820px) {
   .hero-grid {
     grid-template-columns: 1fr;
-    grid-template-areas: "title" "avatar" "content";
+    grid-template-areas: "avatar" "title" "content";
     gap: 1.5rem;
   }
   nav {
