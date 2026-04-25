@@ -1,0 +1,35 @@
+[nav_research]
+other = "Araştırma"
+
+[nav_works]
+other = "Çalışmalar"
+
+[nav_mentorship]
+other = "Mentorluk"
+
+[nav_contact]
+other = "İletişim"
+
+[pronounce_button]
+other = "Adımın telaffuzu"
+
+[works_group_gh]
+other = "Küresel Sağlık Araştırması ve Veri Ürünleri"
+
+[works_group_gh_desc]
+other = "Guttmacher Enstitüsü'nde küresel cinsel ve üreme sağlığı araştırmalarına katkı sağlıyorum; bu araştırmalar dünya genelinde finansman, politika ve savunuculuk çalışmalarını yönlendirmektedir. Çalışmalarım; analitik sistemlerin güçlendirilmesini, araştırma süreçlerinin iyileştirilmesini ve karmaşık tahmin modellerinin erişilebilir çıktılara dönüştürülmesini kapsamaktadır."
+
+[works_group_po]
+other = "Kamuoyu Araştırması ve Uygulamalı Araştırma"
+
+[works_group_po_desc]
+other = "Pew Research Center'da dijital medya, eğitim, kamuoyu ve sosyal eşitsizliği inceleyen araştırma projelerine liderlik ettim ve katkı sağladım. Bu raporlar ulusal medyada geniş yer buldu ve sıklıkla atıfta bulunuldu."
+
+[works_group_ac]
+other = "Akademik Araştırma"
+
+[works_group_ac_desc1]
+other = "Akademik çalışmalarım; eşitsizlik, dijital söylem, ABD opioid salgını ve politikanın sosyal sonuçlarını nicel ve hesaplamalı yaklaşımlarla incelemektedir."
+
+[works_group_ac_desc2]
+other = "Bu çalışmalar hakemli dergilerde ve derleme kitaplarda yayımlanmıştır;"

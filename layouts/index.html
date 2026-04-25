@@ -2,23 +2,34 @@
   {{ $admin := site.GetPage "authors/admin" }}
 
   {{ if $admin }}
+    {{ $paras := $admin.Content | findRE "(?s)<p>.*?</p>" }}
+    {{ $p1 := index $paras 0 | default "" }}
+    {{ $p2 := index $paras 1 | default "" }}
+    {{ $rest := $admin.Content }}
+    {{ if $p1 }}{{ $rest = replace $rest $p1 "" }}{{ end }}
+    {{ if $p2 }}{{ $rest = replace $rest $p2 "" }}{{ end }}
+
     <section class="home-hero">
       <div class="hero-grid">
         <div class="hero-title">
           <h1>{{ $admin.Title }}</h1>
+          {{ with $admin.Params.role }}
+            <p class="muted">{{ . }}</p>
+          {{ end }}
+          {{ $p1 | safeHTML }}
+          {{ $p2 | safeHTML }}
         </div>
         <div class="hero-avatar">
           {{ with $admin.Resources.GetMatch "avatar*" }}
             <img class="avatar" src="{{ .RelPermalink }}" alt="{{ $admin.Title }}">
           {{ end }}
-          <a href="/prononciation/" class="pronounce-button">How to pronounce my name</a>
+          {{ if eq site.Language.Lang "en" }}
+            <a href="/prononciation/" class="pronounce-button">{{ i18n "pronounce_button" }}</a>
+          {{ end }}
         </div>
         <div class="hero-content">
-          {{ with $admin.Params.role }}
-            <p class="muted">{{ . }}</p>
-          {{ end }}
           <div class="prose">
-            {{ $admin.Content }}
+            {{ $rest | safeHTML }}
           </div>
         </div>
       </div>

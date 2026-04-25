@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 
+role: I design and lead analytical systems that turn complex data into decision-ready insight.
 # Organizations/Affiliations
 organizations:
 - name: How to pronounce my name >>
@@ -72,16 +72,32 @@ user_groups:
 - Visitors
 ---
 
-I am a research strategist and quantitative social scientist with over a decade of experience leading complex, impact-driven research initiatives.
+I am a research strategist and quantitative social scientist with 10+ years of experience designing and leading policy-relevant research across global health and social policy. My work focuses on building scalable research and evaluation systems, integrating AI-assisted methods into evidence workflows, and translating complex data into strategic decisions.
 
-My work centers on building strong research systems, translating evidence into strategy, and helping early-career researchers design intentional, sustainable careers.
+Currently at the [Guttmacher Institute](https://www.guttmacher.org/), I lead the development of AI-assisted evidence synthesis systems. Previously, I worked at [Pew Research Center's Data Labs](https://www.pewresearch.org/data-labs/).
 
-Across roles, I combine analytical rigor with strategic thinking to strengthen research infrastructure and inform public policy. I currently contribute to global health research at the  [Guttmacher Institute](https://www.guttmacher.org/), where I lead improvements to research processes 
-and tools within the [*Adding It Up*](https://www.guttmacher.org/adding-it-up) program. Previously, I worked at [Pew Research Center](https://www.pewresearch.org/)'s 
-[Data Labs](https://www.pewresearch.org/methods/about-data-labs/).  
+## Work With Me
 
-Alongside my research leadership, I coach graduate students and early research professionals navigating career direction,
-transitions, and professional growth.
+<div class="work-cards">
+  <div class="work-card">
+    <h3>Organizations</h3>
+    <p>I design and improve research and evaluation systems, from evidence synthesis workflows to decision-support tools.</p>
+    <a href="/research">How I approach research →</a>
+  </div>
+  <div class="work-card">
+    <h3>Research Leadership</h3>
+    <p>I bring 10+ years leading complex, policy-relevant research programs with a focus on methodological rigor, team ownership, and institutional impact.</p>
+    <a href="/works">See my public-facing work →</a>
+  </div>
+  <div class="work-card">
+    <h3>Mentorship</h3>
+    <p>If you're an MA or PhD social scientist figuring out what applied research looks like for you, I offer structured, strategic mentorship for that transition.</p>
+    <a href="/mentorship/">Book a free conversation →</a>
+  </div>
+</div>
 
-I hold a PhD and an MA in Sociology from the University of Arizona, 
-and an MA and a BA in Economics from Boğaziçi University (İstanbul, Türkiye).
+## Background
+
+PhD & MA in Sociology, University of Arizona · MA & BA in Economics, Boğaziçi University.
+
+Experience across academic, nonprofit, and policy research environments.
