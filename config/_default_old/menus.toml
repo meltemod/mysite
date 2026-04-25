@@ -16,8 +16,8 @@
   weight = 30
 
 [[main]]
-  name = "Coaching"
-  url = "coaching/"
+  name = "Mentorship"
+  url = "mentorship/"
   weight = 40
 
 [[main]]
