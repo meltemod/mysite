@@ -4,22 +4,21 @@
   {{ if $admin }}
     <section class="home-hero">
       <div class="hero-grid">
-        <div>
+        <div class="hero-title">
           <h1>{{ $admin.Title }}</h1>
-
-          {{ with $admin.Params.role }}
-            <p class="muted">{{ . }}</p>
-          {{ end }}
-
-          <div class="prose">
-            {{ $admin.Content }}
-          </div>
         </div>
-
-        <div>
+        <div class="hero-avatar">
           {{ with $admin.Resources.GetMatch "avatar*" }}
             <img class="avatar" src="{{ .RelPermalink }}" alt="{{ $admin.Title }}">
           {{ end }}
+        </div>
+        <div class="hero-content">
+          {{ with $admin.Params.role }}
+            <p class="muted">{{ . }}</p>
+          {{ end }}
+          <div class="prose">
+            {{ $admin.Content }}
+          </div>
         </div>
       </div>
     </section>

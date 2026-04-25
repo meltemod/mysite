@@ -113,9 +113,24 @@ footer {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.3fr 0.7fr;
-  gap: 2rem;
-  align-items: center;
+  grid-template-columns: 1fr 0.7fr;
+  grid-template-areas: "title title" "content avatar";
+  gap: 1rem;
+  align-items: start;
+}
+
+.hero-title {
+  grid-area: title;
+}
+
+.hero-avatar {
+  grid-area: avatar;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-content {
+  grid-area: content;
 }
 
 .avatar {
@@ -233,6 +248,8 @@ footer {
 @media (max-width: 820px) {
   .hero-grid {
     grid-template-columns: 1fr;
+    grid-template-areas: "title" "avatar" "content";
+    gap: 1.5rem;
   }
   nav {
     flex-wrap: wrap;
@@ -250,7 +267,7 @@ footer {
     padding: 1rem;
   }
   .hero-grid {
-    gap: 1.5rem;
+    gap: 1rem;
   }
   .avatar {
     max-width: 200px;
