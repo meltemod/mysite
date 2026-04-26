@@ -70,9 +70,9 @@ Currently at the [Guttmacher Institute](https://www.guttmacher.org/), I lead and
     <a href="works">Public-facing work →</a>
   </div>
   <div class="work-card">
-    <h3>Mentorship</h3>
-    <p>If you are a social scientist with a master’s or PhD and are interested in applied research roles, I offer strategic mentorship on transitioning beyond academia.</p>
-    <a href="mentorship/">Request a free consultation →</a>
+    <h3>Mentorship for Social Scientists (MA/PhD → Alt-Ac Careers)</h3>
+    <p>Transitioning beyond academia requires more than technical skill. I work with social scientists to reposition their experience, build a clear direction, and move into research roles at NGOs and industry.</p>
+    <a href="mentorship/">Get a free 30-minute consultation →</a>
   </div>
 </div>
 

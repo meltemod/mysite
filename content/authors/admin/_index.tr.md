@@ -42,9 +42,9 @@ On yılı aşkın deneyimimle, küresel sağlık, sosyal politika ve kamuoyu ara
     <a href="/tr/works">Kamuya yönelik çalışmalarım →</a>
   </div>
   <div class="work-card">
-    <h3>Mentörlük</h3>
-    <p>Yüksek lisans veya doktora eğitimi almış, kuruluşlarda uygulamalı araştırma yapmak isteyen bir sosyal bilimciyseniz, akademiden sektöre geçiş üzerine stratejik mentörlük sunuyorum.</p>
-    <a href="/tr/mentorship/">Ücretsiz görüşme talep edin →</a>
+    <h3>Sosyal Bilimciler için Mentörlük (Akademiden sektöre geçiş)</h3>
+    <p>Akademiden sektöre geçiş teknik becerilerden fazlasını gerektirir. Sosyal bilimcilerle, deneyimlerini yeniden konumlayarak net bir yön belirlemeleri ve araştırma rollerine geçiş yapmaları için çalışıyorum.</p>
+    <a href="/tr/mentorship/">Ücretsiz 30 dk görüşme talep edin →</a>
   </div>
 </div>
 
