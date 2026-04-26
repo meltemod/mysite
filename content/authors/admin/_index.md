@@ -52,12 +52,6 @@ social:
   link: /contact
 ---
 
-I am a research strategist and quantitative social scientist with 10+ years of experience designing and leading policy-relevant research across global health and social policy. My work focuses on building scalable research and evaluation systems, integrating AI-assisted methods into evidence workflows, and translating complex data into strategic decisions.
-
-Currently at the [Guttmacher Institute](https://www.guttmacher.org/), I lead the development of AI-assisted evidence synthesis systems. Previously, I worked at [Pew Research Center's Data Labs](https://www.pewresearch.org/data-labs/).
-
-## Work With Me
-
 I am a research strategist and quantitative social scientist with 10+ years of experience designing and leading research and evaluation that inform strategy and decision-making in global health, social policy, and public opinion research. My work focuses on building scalable research and evaluation systems, integrating AI-assisted methods into evidence workflows, and translating complex data into strategic decisions.
 
 Currently at the [Guttmacher Institute](https://www.guttmacher.org/), I lead and contribute to large-scale analytical initiatives that inform policy and funding decisions in global health. Previously, I worked at [Pew Research Center's Data Labs](https://www.pewresearch.org/data-labs/) as a computational social scientist.
