@@ -6,11 +6,14 @@ title: Araştırma
 banner_image: "featured.png"
 ---
 
-Araştırma liderliğimin merkezine titiz, şeffaf ve strateji odaklı analitik sistemler kurmayı koymaktayım. Farklı kurumlar ve araştırma alanlarına yönelik, metodolojik netliği, yeniden üretilebilirliği ve etkiyi güçlendiren araştırma süreçleri tasarlamaktayım.
+Araştırma liderliğimin merkezine titiz, şeffaf ve strateji odaklı analitik sistemler kurmayı koymaktayım. Farklı kurumlar ve araştırma alanlarına yönelik, metodolojik netliği, yeniden üretilebilirliği ve etkiyi güçlendiren araştırma süreçleri tasarlıyorum.
 
-Teknik derinlik ile kurumsal stratejiyi bir araya getiren araştırma süreçleri tasarlamaktayım: yüksek bilimsel standartlardan ödün vermeden karmaşık analitik verileri sentezleyen ve kamuoyu, sosyal politika ve kurumsal kararlara anlamlı biçimde yön verecek bulguları sunan araştırma planları oluşturmaya özen gösteriyorum.
+Teknik derinlik ile kurumsal stratejiyi bir araya getiren araştırma süreçleri tasarlamaktayım: Bilimsel standartlardan ödün vermeden karmaşık analitik verileri sentezleyen, kurumsal kararlara anlamlı biçimde yön veren ve kamuoyu, sosyal politika konularında bulgular sunan araştırma planları oluşturmaya özen gösteriyorum.
 
-Çalışmalarımı özünde şu soruları baz alarak tasarlamaktayım: Araştırma, karar almayı nasıl daha iyi destekleyebilir? Analitik sistemler nasıl daha şeffaf, yeniden üretilebilir ve etki*odaklı hale getirilebilir? Karmaşık veriler, nüansı yitirmeden nasıl açık ve sade biçimde aktarılabilir?
+Çalışmalarımı özünde şu soruları baz alarak tasarlamaktayım: 
+- Araştırma, karar almayı nasıl daha iyi destekleyebilir? 
+- Analitik sistemler nasıl daha şeffaf, yeniden üretilebilir ve etki odaklı hale getirilebilir? 
+- Karmaşık veriler, nüansı yitirmeden nasıl açık ve sade biçimde aktarılabilir?
 
 ## Araştırma Stratejisi ve Altyapısı
 
