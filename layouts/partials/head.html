@@ -1,5 +1,13 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
-<link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/site.css" | relURL }}?v={{ now.Unix }}">
+<script>
+  (function() {
+    var stored = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var dark = stored === 'dark' || (!stored && prefersDark);
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  })();
+</script>
 
