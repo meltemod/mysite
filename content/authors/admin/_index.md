@@ -58,27 +58,34 @@ Currently at the [Guttmacher Institute](https://www.guttmacher.org/), I lead the
 
 ## Work With Me
 
+I am a research strategist and quantitative social scientist with 10+ years of experience designing and leading research and evaluation that inform strategy and decision-making in global health, social policy, and public opinion research. My work focuses on building scalable research and evaluation systems, integrating AI-assisted methods into evidence workflows, and translating complex data into strategic decisions.
+
+Currently at the [Guttmacher Institute](https://www.guttmacher.org/), I lead and contribute to large-scale analytical initiatives that inform policy and funding decisions in global health. Previously, I worked at [Pew Research Center's Data Labs](https://www.pewresearch.org/data-labs/) as a computational social scientist.
+
+## Work With Me
+
 <div class="work-cards">
   <div class="work-card">
-    <h3>Organizations</h3>
-    <p>I design and improve research and evaluation systems, from evidence synthesis workflows to decision-support tools.</p>
-    <a href="/research">How I approach research →</a>
+    <h3>Research Leadership</h3>
+    <p>10+ years of experience leading complex data analysis and research programs that bring together technical depth and organizational strategy.</p>
+    <a href="research">My approach to research →</a>
   </div>
   <div class="work-card">
-    <h3>Research Leadership</h3>
-    <p>I bring 10+ years leading complex, policy-relevant research programs with a focus on methodological rigor, team ownership, and institutional impact.</p>
-    <a href="/works">See my public-facing work →</a>
+    <h3>Reporting and Data Communication</h3>
+    <p>I translate methodologically rigorous research into clear, accessible outputs, with a focus on collaboration and organizational impact.</p>
+    <a href="works">Public-facing work →</a>
   </div>
   <div class="work-card">
     <h3>Mentorship</h3>
-    <p>If you're an MA or PhD social scientist figuring out what applied research looks like for you, I offer structured, strategic mentorship for that transition.</p>
-    <a href="/mentorship/">Book a free conversation →</a>
+    <p>If you are a social scientist with a master’s or PhD and are interested in applied research roles, I offer strategic mentorship on transitioning beyond academia.</p>
+    <a href="mentorship/">Request a free consultation →</a>
   </div>
 </div>
 
 ## Background
 
-PhD & MA in Sociology, University of Arizona · MA & BA in Economics, Boğaziçi University.
+PhD & MA in Sociology, University of Arizona (Tucson, AZ)  
+MA & BA in Economics, Boğaziçi University (Boğaziçi Üniversitesi, İstanbul, Türkiye).
 
-Experience across academic, nonprofit, and policy research environments.
+Experience across academic, nonprofit, public opinion and policy-oriented research organizations.
 

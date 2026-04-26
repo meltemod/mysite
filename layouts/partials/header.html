@@ -1,7 +1,11 @@
 <nav>
-  <a href="{{ "/" | relURL }}">Meltem Odabaş</a>
-  <a href="{{ "/research/" | relURL }}">Research</a>
-  <a href="{{ "/works/" | relURL }}">Works</a>
-  <a href="{{ "/mentorship/" | relURL }}">Mentorship</a>
-  <a href="{{ "/contact/" | relURL }}">Contact</a>
+  <a href="{{ "/" | relLangURL }}">Meltem Odabaş</a>
+  <a href="{{ "/research/" | relLangURL }}">{{ i18n "nav_research" }}</a>
+  <a href="{{ "/works/" | relLangURL }}">{{ i18n "nav_works" }}</a>
+  <a href="{{ "/mentorship/" | relLangURL }}">{{ i18n "nav_mentorship" }}</a>
+  <a href="{{ "/contact/" | relLangURL }}">{{ i18n "nav_contact" }}</a>
+  <span class="nav-spacer"></span>
+  {{ range .Translations }}
+    <a href="{{ .Permalink }}" class="lang-switch">{{ .Language.LanguageName }}</a>
+  {{ end }}
 </nav>

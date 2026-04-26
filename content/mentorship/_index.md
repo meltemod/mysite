@@ -6,7 +6,7 @@ title: Strategic Mentorship for Social Science MA/PhD Transitions
 banner_image: "featured.png"
 ---
 
-I am [Meltem Odabaş](/), a sociologist with over a decade of experience in academic research, applied policy work, and data-driven initiatives. My background spans university settings, nonprofit organizations, and research institutions, where I've led projects on social inequality, migration, and public policy. This dual perspective—combining rigorous academic training with real-world application—positions me to support researchers navigating the transition from academia to applied careers.
+I am [Meltem Odabaş](/), a social scientist with over a decade of experience in academic research, applied data science, and data-driven initiatives. My background spans university settings, nonprofit organizations, and research institutions, where I have led projects on public opinion, evaluation, global health and social policy. This dual perspective, combining rigorous academic training with real-world application, positions me to support researchers navigating the transition from academia to applied careers.
 
 ## About This Mentorship
 
@@ -30,8 +30,7 @@ This mentorship is designed for:
 You may be asking yourself:
 
 - How do I translate my research skills to applied roles?
-- What does a career outside academia look like for me?
-- How can I build a professional network in policy or nonprofits?
+- What does a career outside academia look like for me?  
 - What skills do I need to develop for leadership in applied settings?
 - How do I negotiate job offers and long-term growth in these fields?
 
@@ -48,7 +47,9 @@ Our sessions focus on practical strategies for career transitions:
 
 ## My Approach
 
-This is strategic mentorship, not therapy or generic advice. Drawing from systems thinking and real-world experience across academia and applied research, sessions are structured, reflective, and action-oriented. We focus on forward-moving discussions to help you navigate transitions with clarity and confidence.
+This is strategic mentorship, not therapy or generic advice. Drawing on my experience across academia and applied research, sessions are structured, reflective, and focused on action.
+
+We begin by clarifying your goals, opportunities, and the challenges you are facing; from there, we focus on forward-moving conversations that help you gain clarity, define direction, and take intentional steps. This allows you to navigate your career transition with greater clarity and confidence.
 
 ## Book an Exploratory Conversation
 

@@ -6,7 +6,7 @@ title: Research
 banner_image: "featured.png"
 ---
 
-My research leadership centers on building rigorous, transparent, and strategically aligned analytical systems. Across institutions and domains, I design research processes that strengthen methodological clarity, reproducibility, and impact.
+My research leadership centers on building rigorous, transparent, and strategically aligned analytical systems. Across institutions and research domains, I design research processes that strengthen methodological clarity, reproducibility, and impact.
 
 I work at the intersection of technical depth and institutional strategy — ensuring that complex analytical work not only meets high scientific standards, but also meaningfully informs policy, public discourse, and organizational decision-making.
 
@@ -18,6 +18,7 @@ I lead and contribute to the design of large-scale research initiatives that req
 
 My work includes:
 
+* Defining and communicating research project scope clearly with stakeholders
 - Structuring complex estimation and modeling systems  
 - Strengthening reproducibility and quality control processes  
 - Improving documentation and workflow transparency  
@@ -34,6 +35,6 @@ By combining advanced quantitative methods with disciplined research architectur
 
 ## Research Translation & Cross-Functional Leadership
 
-Strong research does not end at analysis. I work closely with collaborators across design, communications, and policy teams to ensure that findings are accurately interpreted and effectively conveyed.
+Strong research does not end at analysis. I work closely with collaborators across design, communications, and organizational strategy teams to ensure that findings are accurately interpreted and effectively conveyed.
 
 This includes contributing to public-facing research products, supporting interactive tools and dashboards, and aligning analytical outputs with broader institutional priorities.

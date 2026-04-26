@@ -6,7 +6,7 @@ title: Strategic Mentorship for Social Science MA/PhD Transitions
 banner_image: "featured.png"
 ---
 
-I am [Meltem Odabaş](/), a sociologist with over a decade of experience in academic research, applied policy work, and data-driven initiatives. My background spans university settings, nonprofit organizations, and research institutions, where I've led projects on social inequality, migration, and public policy. This dual perspective—combining rigorous academic training with real-world application—positions me to support researchers navigating the transition from academia to applied careers.
+I am [Meltem Odabaş](/), a social scientist with over a decade of experience in academic research, applied policy work, and data-driven initiatives. My background spans university settings, nonprofit organizations, and research institutions, where I have led projects on public opinion, evaluation, global health and social policy. This dual perspective, combining rigorous academic training with real-world application, positions me to support researchers navigating the transition from academia to applied careers.
 
 ## About This Mentorship
 
@@ -48,7 +48,9 @@ Our sessions focus on practical strategies for career transitions:
 
 ## My Approach
 
-This is strategic mentorship, not therapy or generic advice. Drawing from systems thinking and real-world experience across academia and applied research, sessions are structured, reflective, and action-oriented. We focus on forward-moving discussions to help you navigate transitions with clarity and confidence.
+This is strategic mentorship, not therapy or generic advice. Drawing from systems thinking and real-world experience across academia and applied research, sessions are structured, reflective, and action-oriented.
+
+My approach is grounded in understanding your goals, constraints, and decision context, while maintaining a focus on forward-moving discussions that support clarity, direction, and intentional next steps.
 
 ## Book an Exploratory Conversation
 

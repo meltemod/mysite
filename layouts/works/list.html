@@ -14,29 +14,24 @@
     <div class="page-body">
       <details class="works-toggle">
         <summary class="works-toggle__title">
-          Global Health Research & Data Products
+          {{ i18n "works_group_gh" }}
         </summary>
-      
-      <div class="works-toggle__content">
-        <p>
-          I contribute to global sexual and reproductive health research that informs funding,
-          policy, and advocacy worldwide at the Guttmacher Institute. My work includes strengthening
-          analytical systems, improving research processes, and translating complex estimation
-          models into accessible outputs.
-        </p>
-        <div class="grid">
-          {{ range $gh }}
-            <a class="card" href="{{ .RelPermalink }}">
-              {{ with .Resources.GetMatch (default "" .Params.featured_image) }}
-                <img class="card-img" src="{{ .RelPermalink }}" alt="">
-              {{ end }}
-              <h2>{{ .Title }}</h2>
-              {{ with .Params.summary }}<p class="muted">{{ . }}</p>{{ end }}
-            </a>
-          {{ end }}
-         </div>
+        <div class="works-toggle__content">
+          <p>{{ i18n "works_group_gh_desc" }}</p>
+          <div class="grid">
+            {{ range $gh }}
+              <a class="card" href="{{ .RelPermalink }}">
+                {{ with .Resources.GetMatch (default "" .Params.featured_image) }}
+                  <img class="card-img" src="{{ .RelPermalink }}" alt="">
+                {{ end }}
+                <h2>{{ .Title }}</h2>
+                {{ with .Params.summary }}<p class="muted">{{ . }}</p>{{ end }}
+              </a>
+            {{ end }}
+          </div>
         </div>
-      </div>
+      </details>
+    </div>
   {{ end }}
 
   <hr class="project-divider">
@@ -45,47 +40,39 @@
     <div class="page-body">
       <details class="works-toggle">
         <summary class="works-toggle__title">
-          Public Opinion Research & Applied Research
+          {{ i18n "works_group_po" }}
         </summary>
-      
-      <div class="works-toggle__content">
-        <p>
-          At Pew Research Center, I led and contributed to research projects examining
-          digital media, education, public opinion, and social inequality.
-          These reports were widely cited and covered in national media.
-        </p>
-        <div class="grid">
-          {{ range $po }}
-            <a class="card" href="{{ .RelPermalink }}">
-              {{ with .Resources.GetMatch (default "" .Params.featured_image) }}
-                <img class="card-img" src="{{ .RelPermalink }}" alt="">
-              {{ end }}
-               <h2>{{ .Title }}</h2>
-              {{ with .Params.summary }}<p class="muted">{{ . }}</p>{{ end }}
-            </a>
-          {{ end }}
+        <div class="works-toggle__content">
+          <p>{{ i18n "works_group_po_desc" }}</p>
+          <div class="grid">
+            {{ range $po }}
+              <a class="card" href="{{ .RelPermalink }}">
+                {{ with .Resources.GetMatch (default "" .Params.featured_image) }}
+                  <img class="card-img" src="{{ .RelPermalink }}" alt="">
+                {{ end }}
+                <h2>{{ .Title }}</h2>
+                {{ with .Params.summary }}<p class="muted">{{ . }}</p>{{ end }}
+              </a>
+            {{ end }}
+          </div>
         </div>
-      </div>
+      </details>
     </div>
   {{ end }}
 
   <hr class="project-divider">
 
-    <div class="page-body">
-      <details class="works-toggle">
-        <summary class="works-toggle__title">
-          Academic Research
-        </summary>
-      <p>
-        My academic scholarship examines inequality, digital discourse, 
-        the U.S. opioid epidemic, and the social consequences of 
-        policy through quantitative and computational approaches. 
-      </p>
-      <p>
-        This work has been published in peer-reviewed journals and edited volumes,
-        and is available on <a href="https://scholar.google.com/citations?user=zuKPbIQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">
-        Google Scholar → </a>
-    </div>
+  <div class="page-body">
+    <details class="works-toggle">
+      <summary class="works-toggle__title">
+        {{ i18n "works_group_ac" }}
+      </summary>
+      <div class="works-toggle__content">
+        <p>{{ i18n "works_group_ac_desc1" }}</p>
+        <p>{{ i18n "works_group_ac_desc2" }} <a href="https://scholar.google.com/citations?user=zuKPbIQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar →</a></p>
+      </div>
+    </details>
+  </div>
 
 </section>
 {{ end }}

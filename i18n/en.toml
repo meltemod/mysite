@@ -1,0 +1,47 @@
+[nav_research]
+other = "Research"
+
+[nav_works]
+other = "Works"
+
+[nav_mentorship]
+other = "Mentorship"
+
+[nav_contact]
+other = "Contact"
+
+[pronounce_button]
+other = "How to pronounce my name"
+
+[works_group_gh]
+other = "Global Health Research & Data Products"
+
+[works_group_gh_desc]
+other = "I contribute to global sexual and reproductive health research that informs funding, policy, and advocacy worldwide at the Guttmacher Institute. My work includes strengthening analytical systems, improving research processes, and translating complex estimation models into accessible outputs."
+
+[works_group_po]
+other = "Public Opinion Research & Applied Research"
+
+[works_group_po_desc]
+other = "At Pew Research Center, I led and contributed to research projects examining digital media, education, public opinion, and social inequality. These reports were widely cited and covered in national media."
+
+[works_group_ac]
+other = "Academic Research"
+
+[works_group_ac_desc1]
+other = "My academic scholarship examines inequality, digital discourse, the U.S. opioid epidemic, and the social consequences of policy through quantitative and computational approaches."
+
+[works_group_ac_desc2]
+other = "This work has been published in peer-reviewed journals and edited volumes, and is available on"
+
+[works_meta_organization]
+other = "Organization"
+
+[works_meta_tools]
+other = "Tools"
+
+[works_meta_tags]
+other = "Tags"
+
+[works_what_i_did]
+other = "What I did"

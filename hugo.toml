@@ -1,6 +1,18 @@
 baseURL = "https://www.meltemodabas.net/"
-languageCode = "en-us"
 title = "Meltem Odabaş"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    weight = 1
+  [languages.tr]
+    languageCode = "tr"
+    languageName = "Türkçe"
+    title = "Meltem Odabaş"
+    weight = 2
 
 [permalinks]
   works = "/works/:slug/"
