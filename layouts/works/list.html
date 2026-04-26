@@ -4,9 +4,7 @@
   {{ with .Content }}<div class="page-body">{{ . }}</div>{{ end }}
   <hr class="project-divider">
 
-  {{ $enSite := index (where site.Sites "Language.Lang" "en") 0 }}
-  {{ $enWorks := cond (ne $enSite nil) ($enSite.GetPage "works") . }}
-  {{ $all := $enWorks.RegularPages.ByDate.Reverse }}
+  {{ $all := .RegularPages.ByDate.Reverse }}
 
   {{ $gh := where $all "Params.work_group" "eq" "global-health" }}
   {{ $po := where $all "Params.work_group" "eq" "public-opinion" }}

@@ -9,15 +9,15 @@
     {{/* metadata */}}
     <div class="project-meta">
       {{ with .Params.organization }}
-        <div><strong>Organization:</strong> {{ . }}</div>
+        <div><strong>{{ i18n "works_meta_organization" }}:</strong> {{ . }}</div>
       {{ end }}
 
       {{ with .Params.tools }}
-         <div><strong>Tools:</strong> {{ delimit . ", " }}</div>
+         <div><strong>{{ i18n "works_meta_tools" }}:</strong> {{ delimit . ", " }}</div>
       {{ end }}
 
       {{ with .Params.tags }}
-        <div><strong>Tags:</strong> {{ delimit . ", " }}</div>
+        <div><strong>{{ i18n "works_meta_tags" }}:</strong> {{ delimit . ", " }}</div>
       {{ end }}
     </div>
 

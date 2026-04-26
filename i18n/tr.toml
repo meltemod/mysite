@@ -33,3 +33,15 @@ other = "Akademik çalışmalarım; eşitsizlik, dijital söylem, ABD opioid sal
 
 [works_group_ac_desc2]
 other = "Bu çalışmalar hakemli dergilerde ve derleme kitaplarda yayımlanmıştır;"
+
+[works_meta_organization]
+other = "Kuruluş"
+
+[works_meta_tools]
+other = "Araçlar"
+
+[works_meta_tags]
+other = "Etiketler"
+
+[works_what_i_did]
+other = "Katkım"

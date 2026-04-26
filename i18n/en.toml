@@ -33,3 +33,15 @@ other = "My academic scholarship examines inequality, digital discourse, the U.S
 
 [works_group_ac_desc2]
 other = "This work has been published in peer-reviewed journals and edited volumes, and is available on"
+
+[works_meta_organization]
+other = "Organization"
+
+[works_meta_tools]
+other = "Tools"
+
+[works_meta_tags]
+other = "Tags"
+
+[works_what_i_did]
+other = "What I did"
