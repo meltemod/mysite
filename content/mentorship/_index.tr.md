@@ -2,7 +2,7 @@
 header:
   caption: ""
   image: ""
-title: Sosyal Bilimler MA/Doktora Geçişleri için Stratejik Mentorluk
+title: Sosyal Bilimler MA/Doktora Geçişleri için Stratejik Mentörluk
 banner_image: "featured.png"
 ---
 
