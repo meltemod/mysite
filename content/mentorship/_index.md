@@ -5,13 +5,6 @@ header:
 title: Strategic Mentorship for Social Science MA/PhD Transitions
 banner_image: "featured.png"
 ---
-
-I am [Meltem Odabaş](/), a quantitative social scientist and research strategist with over a decade of experience across academia, public-interest research, and applied data science. I have worked at organizations such as the Guttmacher Institute and Pew Research Center, leading research that informs policy and funding decisions.
-
-I mentor social scientists navigating the transition from academia to applied research careers.
-
-## About This Mentorship
-
 Transitioning beyond academia is not just a job search problem. It is a positioning problem.
 
 Many social scientists have strong analytical and methodological skills but lack clarity on how to translate them into applied roles. This mentorship focuses on building that clarity, repositioning your experience, and helping you move into research roles across policy, nonprofit, and data-driven organizations.
@@ -22,6 +15,10 @@ Many social scientists have strong analytical and methodological skills but lack
     Book a free exploratory conversation
   </button>
 </div>
+
+I am [Meltem Odabaş](/), a quantitative social scientist and research strategist with over a decade of experience across academia, public-interest research, and applied data science. I have worked at organizations such as the Guttmacher Institute and Pew Research Center, leading research that informs policy and funding decisions.
+
+I mentor social scientists navigating the transition from academia to applied research careers.
 
 ## Who This Is For
 

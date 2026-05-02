@@ -5,13 +5,6 @@ header:
 title: Sosyal Bilimler MA/Doktora Geçişleri için Stratejik Mentörlük
 banner_image: "featured.png"
 ---
-
-Ben [Meltem Odabaş](/tr/), akademi, kamu yararı araştırmaları ve uygulamalı veri bilimi alanlarında 10 yılı aşkın deneyime sahip bir nicel sosyal bilimci ve araştırma stratejistiyim. Guttmacher Institute ve Pew Research Center gibi kurumlarda, kamuoyu, sosyal politika ve kurum stratejik kararlarına yön veren araştırmalar yürüttüm.
-
-Akademiden uygulamalı araştırma kariyerlerine geçiş sürecinde olan sosyal bilimcilere mentorluk veriyorum.
-
-## Nasıl bir mentörlük?
-
 Akademiden sektöre geçiş yalnızca bir iş arama süreci değildir. Aynı zamanda bir konumlanma problemidir.
 
 Birçok sosyal bilimci güçlü analitik ve metodolojik becerilere sahip olsa da, bu becerileri uygulamalı rollere nasıl taşıyacağını netleştirmekte zorlanır. Bu mentörlük, bu netliği kurmaya, deneyiminizi yeniden konumlamaya ve özel sektör, sivil toplum ve veri odaklı araştırma rollerine geçişte desteklemeye odaklanır.
@@ -22,6 +15,10 @@ Birçok sosyal bilimci güçlü analitik ve metodolojik becerilere sahip olsa da
     Ücretsiz keşif görüşmesi talep edin
   </button>
 </div>
+
+Ben [Meltem Odabaş](/tr/), akademi, kamu yararı araştırmaları ve uygulamalı veri bilimi alanlarında 10 yılı aşkın deneyime sahip bir nicel sosyal bilimci ve araştırma stratejistiyim. Guttmacher Institute ve Pew Research Center gibi kurumlarda, kamuoyu, sosyal politika ve kurum stratejik kararlarına yön veren araştırmalar yürüttüm.
+
+Akademiden uygulamalı araştırma kariyerlerine geçiş sürecinde olan sosyal bilimcilere mentörlük veriyorum.
 
 ## Bu mentörlük kimler için?
 
