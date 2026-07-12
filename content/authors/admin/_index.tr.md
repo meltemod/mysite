@@ -26,7 +26,7 @@ user_groups:
 
 On yılı aşkın deneyimimle, küresel sağlık, sosyal politika ve kamuoyu araştırmaları alanlarında çalışan bir araştırma stratejisti ve nicel sosyal bilimciyim. Çalışmalarım; araştırma ve değerlendirme sistemleri kurmaya, bu sistemlere yapay zeka destekli yöntemler entegre etmeye ve karmaşık verileri kararlar için daha kullanılır hale getirmeye odaklanmaktadır.
 
-Şu anda [Guttmacher Enstitüsü'nde (Guttmacher Institute)](https://www.guttmacher.org/) küresel sağlık alanında politika ve finansman kararlarını şekillendiren geniş ölçekli analitik çalışmalarda bulunuyorum. Daha öncesinde de [Pew Araştırma Merkezi'nin (Pew Research Center) Data Labs](https://www.pewresearch.org/data-labs/) biriminde hesaplamalı sosyal bilimler alaınında araştırmalar yaptım.
+Yakın zamanda [Guttmacher Enstitüsü'nde (Guttmacher Institute)](https://www.guttmacher.org/) küresel sağlık alanında politika ve finansman kararlarını şekillendiren geniş ölçekli analitik çalışmalarda bulundum. Daha öncesinde de [Pew Araştırma Merkezi'nin (Pew Research Center) Data Labs](https://www.pewresearch.org/data-labs/) biriminde hesaplamalı sosyal bilimler alaınında araştırmalar yaptım.
 
 ## Birlikte çalışalım
 
