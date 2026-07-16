@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <section class="tone-data">
+    {{ partial "banner_image.html" . }}
+    {{ with .Content }}<div class="page-body">{{ . }}</div>{{ end }}
+  </section>
+{{ end }}

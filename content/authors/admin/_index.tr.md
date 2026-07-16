@@ -3,7 +3,8 @@ title: Meltem Odabaş
 authors:
 - admin
 superuser: true
-role: Karmaşık veriyi karara hazır bulgulara dönüştüren analitik sistemler tasarlıyor ve yönetiyorum.
+headline: Karmaşık veriyi harekete geçirilebilir kararlara dönüştürüyorum.
+tagline: Nicel Sosyal Bilim · İzleme ve Değerlendirme · Veri Bilimi · Misyon Odaklı Kuruluşlar için Yapay Zeka Stratejisi
 organizations:
 - name: Adımın telaffuzu >>
   url: /prononciation
@@ -24,33 +25,28 @@ user_groups:
 - Visitors
 ---
 
-On yılı aşkın deneyimimle, küresel sağlık, sosyal politika ve kamuoyu araştırmaları alanlarında çalışan bir araştırma stratejisti ve nicel sosyal bilimciyim. Çalışmalarım; araştırma ve değerlendirme sistemleri kurmaya, bu sistemlere yapay zeka destekli yöntemler entegre etmeye ve karmaşık verileri kararlar için daha kullanılır hale getirmeye odaklanmaktadır.
+Misyon odaklı kuruluşlar için akademik düzeyde titizlikte araştırma, değerlendirme ve veri bilimi alanlarında çalışıyor; sosyal bilimcilere de akademi dışında kariyer inşa etmelerinde mentörlük yapıyorum.
 
-Yakın zamanda [Guttmacher Enstitüsü'nde (Guttmacher Institute)](https://www.guttmacher.org/) küresel sağlık alanında politika ve finansman kararlarını şekillendiren geniş ölçekli analitik çalışmalarda bulundum. Daha öncesinde de [Pew Araştırma Merkezi'nin (Pew Research Center) Data Labs](https://www.pewresearch.org/data-labs/) biriminde hesaplamalı sosyal bilimler alaınında araştırmalar yaptım.
+Küresel sağlık, kamuoyu ve politika araştırmalarında on yılı aşkın deneyimimle karmaşık analizleri stratejik, finansal ve kamusal yarar odaklı karar almayı destekleyici bilgiye dönüştürüyorum.
 
-## Birlikte çalışalım
+## Birlikte çalışalım {#work-with-me}
+
+<p class="home-available">Şu anda tam zamanlı araştırma liderliği rollerine açığım; bunun yanında seçili danışmanlık ve mentörlük çalışmaları yürütüyorum.</p>
 
 <div class="work-cards">
   <div class="work-card">
-    <h3>Araştırma Liderliği</h3>
-    <p>Teknik derinlik ile kurumsal stratejiyi bir araya getiren karmaşık veri analizi ve araştırma programlarına liderlik etme konusunda 10+ yıllık deneyim.</p>
-    <a href="/tr/research">Araştırmaya yaklaşımım →</a>
+    <h3>Portföy</h3>
+    <p>Küresel sağlık, kamuoyu ve akademik araştırma alanlarında uygulamalı ve hakemli çalışmalardan seçilmiş bir derleme.</p>
+    <a href="/tr/works/">Seçilmiş çalışmaları görün →</a>
   </div>
   <div class="work-card">
-    <h3>Raporlama ve Veri Sunumu</h3>
-    <p>Metodolojik titizlik, ekip çalışması ve kurumsal etkiye önem veren araştırmaları raporluyor ve verileri anlamlı, açık ve anlaşılır hale getirerek sunuyorum.</p>
-    <a href="/tr/works">Kamuya yönelik çalışmalarım →</a>
+    <h3>Araştırma Danışmanlığı</h3>
+    <p>STK'lar, vakıflar ve araştırma kuruluşları için: izleme ve değerlendirme, nicel analiz, anket tasarımı ve yapay zeka stratejisi — uygulamalı zaman çizelgelerinde akademik düzeyde titizlik.</p>
+    <a href="/tr/consulting/">Danışmanlığı keşfedin →</a>
   </div>
   <div class="work-card">
-    <h3>Sosyal Bilimciler için Mentörlük (Akademiden sektöre geçiş)</h3>
-    <p>Akademiden sektöre geçiş teknik becerilerden fazlasını gerektirir. Sosyal bilimcilerle, deneyimlerini yeniden konumlayarak net bir yön belirlemeleri ve araştırma rollerine geçiş yapmaları için çalışıyorum.</p>
-    <a href="/tr/mentorship/">Ücretsiz 30 dk görüşme talep edin →</a>
+    <h3>Mentörlük</h3>
+    <p>Akademiden sektöre geçmek isteyen sosyal bilimcilerle, deneyimlerini yeniden konumlayarak net bir yön belirlemeleri ve araştırma rollerine geçiş yapmaları için çalışıyorum.</p>
+    <a href="/tr/mentorship/">Ücretsiz 30 dk ön görüşme→</a>
   </div>
 </div>
-
-## Eğitim ve Deneyim
-
-Sosyoloji alanında Doktora ve Yüksek Lisans, Arizona Üniversitesi (Tucson, Arizona, ABD)  
-İktisat/Ekonomi alanında Yüksek Lisans ve Lisans, Boğaziçi Üniversitesi (İstanbul, Türkiye).
-
-Akademi, sivil toplum, kamuoyu ve sosyal politika odaklı araştırma kuruluşlarında deneyim.

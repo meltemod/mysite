@@ -3,7 +3,6 @@ header:
   caption: ""
   image: ""
 title: Sosyal Bilimler MA/Doktora Geçişleri için Stratejik Mentörlük
-banner_image: "featured.png"
 ---
 Akademiden sektöre geçiş yalnızca bir iş arama süreci değildir. Aynı zamanda bir konumlanma problemidir.
 
@@ -11,7 +10,7 @@ Birçok sosyal bilimci güçlü analitik ve metodolojik becerilere sahip olsa da
 
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
-    onclick="window.location.href='/discovery';">
+    onclick="window.location.href='/tr/contact/';">
     Ücretsiz keşif görüşmesi talep edin
   </button>
 </div>
@@ -68,7 +67,7 @@ Bu görüşme, mevcut durumunuzu konuşmak ve bu mentörlük sürecinin sizin i�
 
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
-    onclick="window.location.href='/discovery';">
+    onclick="window.location.href='/tr/contact/';">
     Ücretsiz keşif görüşmesi talep edin
   </button>
 </div>

@@ -12,7 +12,6 @@ external_link: "https://www.pewresearch.org/journalism/2024/02/06/most-top-ranke
 link_text: "View report →"
 
 work_group: "public-opinion"
-banner_image: "featured.png"
 ---
 This report explores how guest appearances function within top-ranked podcasts and how their use varies across genres. It shows that while inviting guests is a common feature of popular shows, the practice is unevenly distributed: some podcasts rely heavily on guests while others rarely include them, and a relatively small group of recurring guests appears across many programs. The analysis highlights how guest participation reflects genre norms, production styles, and network dynamics within the podcast ecosystem.
 

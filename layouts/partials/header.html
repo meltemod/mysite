@@ -1,9 +1,9 @@
 <nav>
   <a href="{{ "/" | relLangURL }}">Meltem Odabaş</a>
-  <a href="{{ "/research/" | relLangURL }}">{{ i18n "nav_research" }}</a>
-  <a href="{{ "/works/" | relLangURL }}">{{ i18n "nav_works" }}</a>
+  <a href="{{ "/consulting/" | relLangURL }}">{{ i18n "nav_consulting" }}</a>
   <a href="{{ "/mentorship/" | relLangURL }}">{{ i18n "nav_mentorship" }}</a>
-  <a href="{{ "/contact/" | relLangURL }}">{{ i18n "nav_contact" }}</a>
+  <a href="{{ "/works/" | relLangURL }}">{{ i18n "nav_portfolio" }}</a>
+  <a href="{{ "/about/" | relLangURL }}">{{ i18n "nav_about" }}</a>
   <span class="nav-spacer"></span>
   {{ range .Translations }}
     <a href="{{ .Permalink }}" class="lang-switch">{{ .Language.LanguageName }}</a>
@@ -20,6 +20,42 @@
       root.setAttribute('data-theme', isDark ? 'light' : 'dark');
       localStorage.setItem('theme', isDark ? 'light' : 'dark');
       btn.textContent = isDark ? '☀︎' : '☽';
+    });
+  })();
+</script>
+<script>
+  (function() {
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var DURATION = 1400; // ms — slow, deliberate glide
+    function easeInOutCubic(t) { return t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t + 2, 3) / 2; }
+
+    // Delegate on document so it works regardless of when the link/target render.
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest ? e.target.closest('a[href^="#"]') : null;
+      if (!link) return;
+      var id = link.getAttribute('href').slice(1);
+      if (!id) return;
+      var target = document.getElementById(id);
+      if (!target) return;
+      e.preventDefault();
+
+      var nav = document.querySelector('nav');
+      var offset = (nav ? nav.offsetHeight : 0) + 12; // clear the sticky nav
+      var startY = window.pageYOffset;
+      var maxY = document.documentElement.scrollHeight - window.innerHeight;
+      var endY = Math.max(0, Math.min(target.getBoundingClientRect().top + startY - offset, maxY));
+
+      if (reduce) { window.scrollTo(0, endY); history.replaceState(null, '', '#' + id); return; }
+
+      var dist = endY - startY, start = null;
+      function step(ts) {
+        if (start === null) start = ts;
+        var p = Math.min((ts - start) / DURATION, 1);
+        window.scrollTo(0, startY + dist * easeInOutCubic(p));
+        if (p < 1) requestAnimationFrame(step);
+        else history.replaceState(null, '', '#' + id);
+      }
+      requestAnimationFrame(step);
     });
   })();
 </script>

@@ -5,9 +5,11 @@ date: "2019-01-01T00:00:00Z"
 type: "widget_page"
 ---
 
-Mentörlük, iş birliği veya görüşme talepleriniz için, görüşmek istediğiniz konu hakkında kısa bir mesaj gönderin. Genellikle 1-2 iş günü içinde mesajlara yanıt veriyorum.
+Mentörlük, danışmanlık, iş birliği veya görüşme talepleriniz için, görüşmek istediğiniz konu hakkında kısa bir mesaj iletin. Genellikle 1-2 iş günü içinde mesajlara yanıt vermekteyim.
 
-<form action="https://formspree.io/f/mgorqozl" method="POST" class="contact-form">
+E-postayı göndermeyi mi tercih edersiniz? Bana doğrudan [me@meltemodabas.net](mailto:me@meltemodabas.net) adresinden ulaşabilirsiniz.
+
+<form action="https://formspree.io/f/xykrkraz" method="POST" class="contact-form">
   <input type="hidden" name="_next" value="/tr/contact/thank-you/">
 
   <label>

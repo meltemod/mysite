@@ -12,7 +12,6 @@ external_link: "https://www.pewresearch.org/journalism/2024/02/06/most-top-ranke
 link_text: "Raporu gör →"
 
 work_group: "public-opinion"
-banner_image: "featured.png"
 ---
 Bu rapor, üst sıralardaki podcast'lerde konuk görünümlerinin nasıl işlev gördüğünü ve bu kullanımın türler arasında nasıl farklılaştığını incelemektedir. Konuk davet etmenin popüler programların yaygın bir özelliği olduğunu; ancak bu uygulamanın eşit dağılmadığını ortaya koymaktadır: Bazı podcast'ler konuklara yoğun biçimde başvururken diğerleri nadiren konuk ağırlamakta, görece küçük bir tekrarlayan konuk grubu ise pek çok programda yer almaktadır. Analiz, konuk katılımının podcast ekosistemindeki tür normlarını, prodüksiyon tarzlarını ve ağ dinamiklerini nasıl yansıttığını gözler önüne sermektedir.
 
