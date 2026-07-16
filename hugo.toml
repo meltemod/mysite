@@ -16,7 +16,6 @@ defaultContentLanguageInSubdir = false
 
 [permalinks]
   works = "/works/:slug/"
-  research = "/research/:slug/"
 
 [pagination]
   pagerSize = 10

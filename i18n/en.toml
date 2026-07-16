@@ -1,14 +1,23 @@
-[nav_research]
-other = "Research"
-
-[nav_works]
-other = "Works"
+[nav_consulting]
+other = "Consulting"
 
 [nav_mentorship]
 other = "Mentorship"
 
+[nav_portfolio]
+other = "Portfolio"
+
+[nav_about]
+other = "About"
+
 [nav_contact]
 other = "Contact"
+
+[cta_work_with_me]
+other = "Work with me"
+
+[cta_view_cv]
+other = "View CV"
 
 [pronounce_button]
 other = "How to pronounce my name"

@@ -1,2 +1,7 @@
-<footer><small>© {{ now.Year }} {{ site.Title }}</small></footer>
+<footer>
+  <p class="footer-links">
+    <a href="{{ "/contact/" | relLangURL }}">{{ i18n "nav_contact" }}</a>
+  </p>
+  <small>© {{ now.Year }} {{ site.Title }}</small>
+</footer>
 

@@ -1,14 +1,23 @@
-[nav_research]
-other = "Araştırma"
-
-[nav_works]
-other = "Çalışmalar"
+[nav_consulting]
+other = "Danışmanlık"
 
 [nav_mentorship]
 other = "Mentörlük"
 
+[nav_portfolio]
+other = "Portföy"
+
+[nav_about]
+other = "Hakkımda"
+
 [nav_contact]
 other = "İletişim"
+
+[cta_work_with_me]
+other = "Benimle çalışın"
+
+[cta_view_cv]
+other = "Özgeçmişi görüntüle"
 
 [pronounce_button]
 other = "Adımın telaffuzu"

@@ -11,6 +11,8 @@ superuser: true
 
 # Role/position
 role: I design and lead analytical systems that turn complex data into decision-ready insight.
+# Tagline (capabilities summary)
+tagline: Quantitative Social Science · M&E · Data Science · AI Strategy for Mission-Driven Organizations
 # Organizations/Affiliations
 organizations:
 - name: How to pronounce my name >>
@@ -52,34 +54,29 @@ social:
   link: /contact
 ---
 
-I am a research strategist and quantitative social scientist with 10+ years of experience designing and leading research and evaluation that inform strategy and decision-making in global health, social policy, and public opinion research. My work focuses on building scalable research and evaluation systems, integrating AI-assisted methods into evidence workflows, and translating complex data into strategic decisions.
+I help mission-driven organizations turn complex data into decisions they can act on — and I help social scientists build careers beyond academia.
 
-Most recently at the [Guttmacher Institute](https://www.guttmacher.org/), I led and contributed to large-scale analytical initiatives that inform policy and funding decisions in global health. Previously, I worked at [Pew Research Center's Data Labs](https://www.pewresearch.org/data-labs/) as a computational social scientist.
+Across a decade in global health, public opinion, and policy research, I design research and evaluation that informs strategy, funding, and public understanding.
 
 ## Work With Me
 
+<p class="home-available">Currently open to full-time research-leadership roles, alongside selected consulting and mentorship work.</p>
+
 <div class="work-cards">
   <div class="work-card">
-    <h3>Research Leadership</h3>
-    <p>10+ years of experience leading complex data analysis and research programs that bring together technical depth and organizational strategy.</p>
-    <a href="research">My approach to research →</a>
+    <h3>Portfolio</h3>
+    <p>A curated selection of applied and peer-reviewed work across global health, public opinion, and academic research.</p>
+    <a href="/works/">View selected work →</a>
   </div>
   <div class="work-card">
-    <h3>Reporting and Data Communication</h3>
-    <p>I translate methodologically rigorous research into clear, accessible outputs, with a focus on collaboration and organizational impact.</p>
-    <a href="works">Public-facing work →</a>
+    <h3>Research Consulting</h3>
+    <p>For NGOs, foundations, and research organizations: monitoring &amp; evaluation, quantitative analysis, survey design, and AI strategy — academic-grade rigor on applied timelines.</p>
+    <a href="/consulting/">Explore consulting →</a>
   </div>
   <div class="work-card">
     <h3>Mentorship for Social Scientists (MA/PhD → Alt-Ac Careers)</h3>
     <p>Transitioning beyond academia requires more than technical skill. I work with social scientists to reposition their experience, build a clear direction, and move into research roles at NGOs and industry.</p>
-    <a href="mentorship/">Get a free 30-minute consultation →</a>
+    <a href="/mentorship/">Get a free 30-minute consultation →</a>
   </div>
 </div>
-
-## Background
-
-PhD & MA in Sociology, University of Arizona (Tucson, AZ)  
-MA & BA in Economics, Boğaziçi University (Boğaziçi Üniversitesi, İstanbul, Türkiye).
-
-Experience across academic, nonprofit, public opinion and policy-oriented research organizations.
 

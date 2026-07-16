@@ -16,8 +16,15 @@
           {{ with $admin.Params.role }}
             <p class="muted">{{ . }}</p>
           {{ end }}
+          {{ with $admin.Params.tagline }}
+            <p class="hero-tagline">{{ . }}</p>
+          {{ end }}
           {{ $p1 | safeHTML }}
           {{ $p2 | safeHTML }}
+          <p class="hero-links">
+            <a href="{{ "/contact/" | relLangURL }}">{{ i18n "cta_work_with_me" }}</a>
+            <a href="{{ "/files/cv.pdf" | relURL }}" target="_blank" rel="noopener">{{ i18n "cta_view_cv" }}</a>
+          </p>
         </div>
         <div class="hero-avatar">
           {{ with $admin.Resources.GetMatch "avatar*" }}
