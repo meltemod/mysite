@@ -3,7 +3,7 @@ title: Meltem Odabaş
 authors:
 - admin
 superuser: true
-role: Karmaşık veriyi karara hazır bulgulara dönüştüren analitik sistemler tasarlıyor ve yönetiyorum.
+headline: Karmaşık veriyi harekete geçirilebilir kararlara dönüştürüyorum.
 tagline: Nicel Sosyal Bilim · İzleme ve Değerlendirme · Veri Bilimi · Misyon Odaklı Kuruluşlar için Yapay Zeka Stratejisi
 organizations:
 - name: Adımın telaffuzu >>
@@ -25,11 +25,11 @@ user_groups:
 - Visitors
 ---
 
-Misyon odaklı kuruluşların karmaşık veriyi harekete geçirilebilir kararlara dönüştürmesine yardımcı oluyorum — ve sosyal bilimcilerin akademi dışında kariyer inşa etmesine destek oluyorum.
+Misyon odaklı kuruluşlar için akademik düzeyde titizlikte araştırma, değerlendirme ve veri bilimi alanlarında çalışıyor; sosyal bilimcilere de akademi dışında kariyer inşa etmelerinde mentörlük yapıyorum.
 
-Küresel sağlık, kamuoyu ve politika araştırmalarında on yılı aşkın deneyimimle; stratejiyi, finansmanı ve kamusal anlayışı besleyen araştırma ve değerlendirme süreçleri tasarlıyorum.
+Küresel sağlık, kamuoyu ve politika araştırmalarında on yılı aşkın deneyimimle karmaşık analizleri stratejik, finansal ve kamusal yarar odaklı karar almayı destekleyici bilgiye dönüştürüyorum.
 
-## Birlikte çalışalım
+## Birlikte çalışalım {#work-with-me}
 
 <p class="home-available">Şu anda tam zamanlı araştırma liderliği rollerine açığım; bunun yanında seçili danışmanlık ve mentörlük çalışmaları yürütüyorum.</p>
 
@@ -45,8 +45,8 @@ Küresel sağlık, kamuoyu ve politika araştırmalarında on yılı aşkın den
     <a href="/tr/consulting/">Danışmanlığı keşfedin →</a>
   </div>
   <div class="work-card">
-    <h3>Sosyal Bilimciler için Mentörlük (Akademiden sektöre geçiş)</h3>
-    <p>Akademiden sektöre geçiş teknik becerilerden fazlasını gerektirir. Sosyal bilimcilerle, deneyimlerini yeniden konumlayarak net bir yön belirlemeleri ve araştırma rollerine geçiş yapmaları için çalışıyorum.</p>
-    <a href="/tr/mentorship/">Ücretsiz 30 dk görüşme talep edin →</a>
+    <h3>Mentörlük</h3>
+    <p>Akademiden sektöre geçmek isteyen sosyal bilimcilerle, deneyimlerini yeniden konumlayarak net bir yön belirlemeleri ve araştırma rollerine geçiş yapmaları için çalışıyorum.</p>
+    <a href="/tr/mentorship/">Ücretsiz 30 dk ön görüşme→</a>
   </div>
 </div>

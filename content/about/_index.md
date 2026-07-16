@@ -10,7 +10,7 @@ I am a research strategist and quantitative social scientist with 10+ years of e
 Most recently at the [Guttmacher Institute](https://www.guttmacher.org/), I led and contributed to large-scale analytical initiatives that inform policy and funding decisions in global health. Previously, I worked at [Pew Research Center's Data Labs](https://www.pewresearch.org/data-labs/) as a computational social scientist. My academic training is in economics and computational social science, with peer-reviewed publications and applied research reports used by policymakers and advocates.
 
 <div style="margin: 28px 0;">
-  <a class="project-button" href="/files/cv.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
+  <a class="project-button" href="/files/Odabas_Meltem_MasterResume_20260716.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
 </div>
 
 ## Background

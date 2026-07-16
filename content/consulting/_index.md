@@ -3,7 +3,6 @@ header:
   caption: ""
   image: ""
 title: Research Consulting
-banner_image: "featured.png"
 ---
 
 I turn complex data into decision-ready answers. My work brings the methodological standards of academic research to the timelines and constraints of applied work for NGOs, foundations, and research organizations.

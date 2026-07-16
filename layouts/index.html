@@ -12,24 +12,22 @@
     <section class="home-hero">
       <div class="hero-grid">
         <div class="hero-title">
-          <h1>{{ $admin.Title }}</h1>
-          {{ with $admin.Params.role }}
-            <p class="muted">{{ . }}</p>
-          {{ end }}
           {{ with $admin.Params.tagline }}
             <p class="hero-tagline">{{ . }}</p>
           {{ end }}
+          <h1>{{ $admin.Params.headline | default $admin.Title }}</h1>
           {{ $p1 | safeHTML }}
           {{ $p2 | safeHTML }}
           <p class="hero-links">
-            <a href="{{ "/contact/" | relLangURL }}">{{ i18n "cta_work_with_me" }}</a>
-            <a href="{{ "/files/cv.pdf" | relURL }}" target="_blank" rel="noopener">{{ i18n "cta_view_cv" }}</a>
+            <a href="#work-with-me">{{ i18n "cta_work_with_me" }}</a>
+            <a href="{{ "/files/Odabas_Meltem_MasterResume_20260716.pdf" | relURL }}" target="_blank" rel="noopener">{{ i18n "cta_view_cv" }}</a>
           </p>
         </div>
         <div class="hero-avatar">
           {{ with $admin.Resources.GetMatch "avatar*" }}
             <img class="avatar" src="{{ .RelPermalink }}" alt="{{ $admin.Title }}">
           {{ end }}
+          <p class="avatar-name">{{ $admin.Title }}<span class="avatar-cred">, PhD</span></p>
           {{ if eq site.Language.Lang "en" }}
             <a href="/prononciation/" class="pronounce-button">{{ i18n "pronounce_button" }}</a>
           {{ end }}

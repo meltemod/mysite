@@ -3,7 +3,6 @@ header:
   caption: ""
   image: ""
 title: Portfolio
-banner_image: "featured.png"
 ---
 
 My work translates rigorous research into accessible, actionable, and publicly engaged outputs. Across institutions, I have contributed to large-scale data analysis, public opinion research, and peer-reviewed scholarship.

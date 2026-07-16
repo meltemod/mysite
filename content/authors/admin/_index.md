@@ -9,13 +9,13 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: I design and lead analytical systems that turn complex data into decision-ready insight.
-# Tagline (capabilities summary)
+# Headline (big hero statement)
+headline: I turn complex data into decisions people can act on.
+# Tagline (capabilities summary, gold uppercase eyebrow)
 tagline: Quantitative Social Science · M&E · Data Science · AI Strategy for Mission-Driven Organizations
 # Organizations/Affiliations
 organizations:
-- name: How to pronounce my name >>
+- name: How to say my name >>
   url: /prononciation
 
 # Short bio (displayed in user profile at end of posts)
@@ -54,11 +54,11 @@ social:
   link: /contact
 ---
 
-I help mission-driven organizations turn complex data into decisions they can act on — and I help social scientists build careers beyond academia.
+I bring academic-grade rigor to research, evaluation, and data science for mission-driven organizations — and I mentor social scientists building careers beyond academia.
 
-Across a decade in global health, public opinion, and policy research, I design research and evaluation that informs strategy, funding, and public understanding.
+A decade across global health, public opinion, and policy research, translating complex analysis into strategy, funding, and public understanding.
 
-## Work With Me
+## Work With Me {#work-with-me}
 
 <p class="home-available">Currently open to full-time research-leadership roles, alongside selected consulting and mentorship work.</p>
 
@@ -74,9 +74,9 @@ Across a decade in global health, public opinion, and policy research, I design 
     <a href="/consulting/">Explore consulting →</a>
   </div>
   <div class="work-card">
-    <h3>Mentorship for Social Scientists (MA/PhD → Alt-Ac Careers)</h3>
-    <p>Transitioning beyond academia requires more than technical skill. I work with social scientists to reposition their experience, build a clear direction, and move into research roles at NGOs and industry.</p>
-    <a href="/mentorship/">Get a free 30-minute consultation →</a>
+    <h3>Mentorship</h3>
+    <p>For social scientists moving beyond academia: reposition your experience, build a clear direction, and move into research roles at NGOs and industry.</p>
+    <a href="/mentorship/">Free 30-minute consultation →</a>
   </div>
 </div>
 

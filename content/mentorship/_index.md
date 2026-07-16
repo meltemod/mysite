@@ -3,7 +3,6 @@ header:
   caption: ""
   image: ""
 title: Strategic Mentorship for Social Science MA/PhD Transitions
-banner_image: "featured.png"
 ---
 Transitioning beyond academia is not just a job search problem. It is a positioning problem.
 
@@ -11,7 +10,7 @@ Many social scientists have strong analytical and methodological skills but lack
 
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
-    onclick="window.location.href='/discovery';">
+    onclick="window.location.href='/contact/';">
     Book a free exploratory conversation
   </button>
 </div>
@@ -69,7 +68,7 @@ This is a focused, low-pressure space to discuss your situation and explore whet
 
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
-    onclick="window.location.href='/discovery';">
+    onclick="window.location.href='/contact/';">
     Book a free exploratory conversation
   </button>
 </div>

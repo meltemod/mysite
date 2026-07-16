@@ -3,12 +3,11 @@ header:
   caption: ""
   image: ""
 title: Araştırma Danışmanlığı
-banner_image: "featured.png"
 ---
 
-Karmaşık veriyi karara hazır yanıtlara dönüştürüyorum. Çalışmalarım, akademik araştırmanın metodolojik standartlarını; sivil toplum kuruluşları, vakıflar ve araştırma kurumları için uygulamalı çalışmanın zaman ve kaynak kısıtlarıyla bir araya getirir.
+Karmaşık veriyi karara hazır yanıtlara dönüştürüyorum. Çalışmalarım, akademik  metodolojik standartlarda uygulamalı araştırmaları; sivil toplum kuruluşları, vakıflar ve araştırma kurumları için proje planlamaları ve uygulamarı ve sonuçlarını derlemektedir.
 
-Kalıcı kadro eklemeden metodolojik titizliğe ihtiyaç duyan misyon odaklı kuruluşlarla çalışıyor; strateji, finansman ve politikayı besleyen araştırma ve değerlendirme süreçleri tasarlıyor ve yönetiyorum.
+Kalıcı kadro eklemeksizin metodolojik titizlikle yapılan çalışmalara ihtiyaç duyan misyon odaklı kuruluşlarla çalışıyor; strateji, finansman ve politikayı besleyen araştırma ve değerlendirme süreçleri tasarlıyor ve yönetiyorum.
 
 <div style="margin: 28px 0;">
   <a class="project-button" href="/tr/contact/">Kapsam görüşmesi talep edin</a>
@@ -38,11 +37,11 @@ Araştırma ve program iş akışlarında yapay zekayı benimsemek için pratik 
 
 ## Örnek Çalışmalar
 
-Uygulamalı ve hakemli çalışmalarımdan bir seçki [Portföy](/tr/works/) sayfamda yer alıyor; küresel sağlık yatırım raporlaması, düşük ve orta gelirli ülkelerde maliyet analizleri, opioid salgını göstergeleri ve hassas metin verileri için hesaplamalı yöntemler dâhil.
+Uygulamalı ve hakemli çalışmalarımdan bir seçkiyi [Portföy](/tr/works/) sayfamda görebilirsiniz; küresel sağlık yatırım raporlaması, düşük ve orta gelirli ülkelerde maliyet analizleri, Amerika opioid salgını göstergeleri ve hassas metin verileri için hesaplamalı yöntemler dâhil.
 
 ## İletişime Geçelim
 
-Bir projeyi görüşmek veya kapsam görüşmesi talep etmek için [benimle iletişime geçin](/tr/contact/). En iyi başlangıç noktası, güncel odağınıza ve neyi başarmak istediğinize dair kısa bir not göndermektir.
+Bir projeyi görüşmek veya kapsam görüşmesi talep etmek için [benimle iletişime geçebilirsiniz](/tr/contact/). Mesajınızda çalışmak istediğiniz ve çalışma sonucunda hedeflediğiniz sonuç hakkında kısa bir bilgilendirme yapmanız ön görüşme hazırlığı için yardımcı olacaktır.
 
 <div style="margin: 28px 0;">
   <a class="project-button" href="/tr/contact/">Kapsam görüşmesi talep edin</a>
