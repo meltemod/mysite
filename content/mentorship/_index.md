@@ -2,7 +2,7 @@
 header:
   caption: ""
   image: ""
-title: Strategic Mentorship for Social Science MA/PhD Transitions
+title: Strategic Career Counseling for Social Science MA/PhD Transitions
 ---
 Transitioning beyond academia is not just a job search problem. It is a positioning problem.
 
@@ -21,7 +21,7 @@ I mentor social scientists navigating the transition from academia to applied re
 
 ## Who This Is For
 
-This mentorship is designed for:
+This program is designed for:
 
 - MA/PhD students in social sciences
 - Postdocs and early-career researchers
@@ -54,7 +54,7 @@ By the end of this process, you will have:
 
 ## My Approach
 
-This is strategic mentorship, not therapy or generic advice.
+This is strategic career advising: not therapy, or generic advice.
 
 Our work is structured, reflective, and focused on action. We begin by clarifying your goals, opportunities, and constraints, and move toward concrete decisions and steps you can take.
 
@@ -62,7 +62,7 @@ The goal is to help you navigate this transition with clarity, confidence, and d
 
 ## Book an Exploratory Conversation
 
-If you are considering a transition to applied social science roles, you can schedule a free 30-minute conversation.
+Every engagement begins with a free 30-minute exploratory conversation — a focused, low-pressure space to discuss your situation and see whether working together is a good fit. From there, coaching continues as paid sessions and packages, with a reduced student rate for current students and postdocs. We choose the focus of our work together on that first call.
 
 This is a focused, low-pressure space to discuss your situation and explore whether this mentorship is a good fit.
 

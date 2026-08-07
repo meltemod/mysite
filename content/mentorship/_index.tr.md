@@ -2,7 +2,7 @@
 header:
   caption: ""
   image: ""
-title: Sosyal Bilimler MA/Doktora Geçişleri için Stratejik Mentörlük
+title: Sosyal Bilimler MA/Doktora Geçişleri için Stratejik Kariyer Danışmanlığı
 ---
 Akademiden sektöre geçiş yalnızca bir iş arama süreci değildir. Aynı zamanda bir konumlanma problemidir.
 
@@ -21,7 +21,7 @@ Akademiden uygulamalı araştırma kariyerlerine geçiş sürecinde olan sosyal 
 
 ## Bu mentörlük kimler için?
 
-Bu mentörlük şu kişiler için tasarlanmıştır:
+Bu program şu kişiler için tasarlanmıştır:
 
 - Sosyal bilimlerde yüksek lisans/doktora öğrencileri
 - Doktora sonrası araştırmacılar (postdoc) ve erken kariyer akademisyenler
@@ -53,7 +53,7 @@ Bu sürecin sonunda:
 
 ## Yaklaşımım
 
-Bu süreç terapi ya da genel tavsiye değildir; stratejik mentörlüktür.
+Bu süreç terapi ya da genel tavsiye değildir; stratejik kariyer danışmanlığıdır.
 
 Çalışmamız yapılandırılmış, düşünmeye alan açan ve aksiyon odaklıdır. Önce hedeflerinizi, fırsatlarınızı ve kısıtlarınızı netleştirir, ardından bunları somut adımlara dönüştürürüz.
 
@@ -61,9 +61,7 @@ Amaç, bu geçiş sürecini daha net, daha bilinçli, özgüvenli ve kontrollü 
 
 ## Keşif görüşmesi talep edin
 
-Eğer uygulamalı sosyal bilim rollerine geçişi düşünüyorsanız, 30 dakikalık ücretsiz bir görüşme planlayabilirsiniz.
-
-Bu görüşme, mevcut durumunuzu konuşmak ve bu mentörlük sürecinin sizin için uygun olup olmadığını değerlendirmek için odaklı ve rahat bir alan sunar.
+Her çalışma, ücretsiz 30 dakikalık bir ön görüşmeyle başlar. Bu ön görüşme durumunuzu konuşmak ve birlikte çalışmanın sizin için uygun olup olmadığını görmek için odaklı, rahat bir alan sunar. Sonrasında danışmanlık, ücretli seanslar ve paketler hâlinde devam eder; mevcut öğrenciler ve doktora sonrası araştırmacılar için indirimli bir öğrenci ücreti sunulur. Birlikte neye odaklanacağımıza o ilk görüşmede karar veririz.
 
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
