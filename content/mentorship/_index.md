@@ -73,6 +73,5 @@ This is a focused, low-pressure space to discuss your situation and explore whet
   </button>
 </div>
 
-Session rates depend on career stage and are discussed during the exploratory call.
 
 

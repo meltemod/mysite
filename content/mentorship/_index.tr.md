@@ -72,4 +72,3 @@ Bu görüşme, mevcut durumunuzu konuşmak ve bu mentörlük sürecinin sizin i�
   </button>
 </div>
 
-Görüşme ücretleri kariyerinizde bulunduğunuz noktaya bağlı olarak belirlenmektedir ve keşif görüşmesi sırasında paylaşılacaktır.
