@@ -61,7 +61,7 @@ Amaç, bu geçiş sürecini daha net, daha bilinçli, özgüvenli ve kontrollü 
 
 ## Keşif görüşmesi talep edin
 
-Her çalışma, ücretsiz 30 dakikalık bir ön görüşmeyle başlar. Bu ön görüşme durumunuzu konuşmak ve birlikte çalışmanın sizin için uygun olup olmadığını görmek için odaklı, rahat bir alan sunar. Sonrasında danışmanlık, ücretli seanslar ve paketler hâlinde devam eder; mevcut öğrenciler ve doktora sonrası araştırmacılar için indirimli bir öğrenci ücreti sunulur. Birlikte neye odaklanacağımıza o ilk görüşmede karar veririz.
+Her çalışma, ücretsiz 30 dakikalık bir ön görüşmeyle başlar. Bu ön görüşme durumunuzu konuşmak ve birlikte çalışmanın sizin için uygun olup olmadığını görmek için odaklı, rahat bir alan sunar. Sonrasında danışmanlık, ücretli seanslar ve paketler hâlinde devam eder; mevcut öğrenciler ve post-doc araştırmacılar için indirimli bir öğrenci ücreti sunulur. Birlikte neye odaklanacağımıza o ilk görüşmede karar veririz.
 
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
