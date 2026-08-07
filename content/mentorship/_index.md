@@ -11,7 +11,7 @@ Many social scientists have strong analytical and methodological skills but lack
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
     onclick="window.location.href='/contact/';">
-    Book a free exploratory conversation
+    Book an exploratory call
   </button>
 </div>
 
@@ -69,6 +69,10 @@ This is a focused, low-pressure space to discuss your situation and explore whet
 <div style="margin: 28px 0; text-align:center;">
   <button class="button-coach"
     onclick="window.location.href='/contact/';">
-    Book a free exploratory conversation
+    Book an exploratory call
   </button>
 </div>
+
+Session rates depend on career stage and are discussed during the exploratory call.
+
+
