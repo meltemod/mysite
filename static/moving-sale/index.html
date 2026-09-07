@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moving Sale — Meltem Odabaş</title>
+<meta name="description" content="I'm moving in October and rehoming everything I can't take. Have a look and make an offer on whatever you'd like.">
+<meta property="og:title" content="Moving Sale — Meltem Odabaş">
+<meta property="og:description" content="Desk, kitchen gear, camping kit and houseplants, all going before I leave DC. Make an offer.">
+<meta property="og:type" content="website">
+<style>
+:root{--bg:#f6f4ee;--card:#fffdf8;--ink:#2f3b30;--muted:#6d7a68;--green:#4b7a4e;--green-d:#3a5f3c;
+ --line:#e6e2d6;--price:#b5642e;--warn:#8a6320;--warnbg:#fbeecf;--taken:#8a8a8a;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.55;
+ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header.hero{padding:48px 22px 22px;text-align:center;background:linear-gradient(180deg,#e9efe6,var(--bg));
+ border-bottom:1px solid var(--line)}
+h1{margin:.15em 0 .1em;font-size:clamp(27px,5vw,42px);color:var(--green-d);letter-spacing:-.02em}
+.sub-hero{max-width:640px;margin:12px auto 0;color:var(--muted);font-size:17px}
+.terms{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin-top:18px}
+.term{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 15px;font-size:14px;
+ color:var(--green-d);font-weight:600}
+.rules{max-width:680px;margin:22px auto 0;background:#fff;border:1px solid var(--line);border-radius:16px;
+ padding:18px 22px;text-align:left;font-size:14.5px}
+.rules h3{margin:0 0 8px;font-size:15px;color:var(--green-d);letter-spacing:.02em;text-transform:uppercase}
+.rules ol{margin:0;padding-left:20px} .rules li{margin:6px 0}
+.filters{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:26px auto 0;max-width:900px;padding:0 18px}
+.chip{background:#fff;border:1px solid var(--line);color:var(--green-d);padding:7px 15px;border-radius:999px;
+ font-size:14px;cursor:pointer;transition:.15s;font-weight:600;font-family:inherit}
+.chip:hover{border-color:var(--green)} .chip.on{background:var(--green);color:#fff;border-color:var(--green)}
+main{max-width:1120px;margin:30px auto 90px;padding:0 18px;display:grid;
+ grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;align-items:start}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;
+ display:flex;flex-direction:column;box-shadow:0 2px 10px rgba(60,70,50,.05)}
+.card[hidden]{display:none}
+.photo-wrap{position:relative;aspect-ratio:4/5;overflow:hidden;background:#eee}
+.main-photo{width:100%;height:100%;object-fit:cover;display:block;transition:.2s}
+.price{position:absolute;bottom:12px;right:12px;background:var(--price);color:#fff;font-weight:800;font-size:19px;
+ padding:7px 14px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.ribbon{position:absolute;top:12px;left:12px;background:#b23b3b;color:#fff;padding:6px 15px;border-radius:999px;
+ font-weight:800;font-size:13px;letter-spacing:.03em;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.card.gone .main-photo{filter:grayscale(.7) brightness(.92);opacity:.7}
+.card.gone .price{background:var(--taken)}
+.thumbs{display:flex;gap:7px;padding:9px 12px 0;flex-wrap:wrap}
+.thumb{width:42px;height:42px;object-fit:cover;border-radius:8px;cursor:pointer;border:2px solid transparent;
+ opacity:.7;transition:.15s}
+.thumb.sel,.thumb:hover{opacity:1;border-color:var(--green)}
+.body{padding:15px 17px 19px}
+h2{margin:.1em 0 .05em;font-size:19px;color:var(--green-d)}
+.sub{color:var(--muted);font-size:13.5px;margin-bottom:10px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:11px}
+.badge{font-size:11.5px;font-weight:600;padding:4px 9px;border-radius:999px}
+.cond-exc{background:#e3f0e1;color:#2f6b34}.cond-new{background:var(--warnbg);color:var(--warn)}
+.cond-good{background:#eef1f5;color:#4a5b70}
+.blurb{font-size:14.5px;margin:0 0 14px}
+.extra{display:block;margin-top:7px;color:var(--muted);font-size:13.5px}
+.window{margin:0 0 13px;font-size:12.5px;font-weight:600;color:var(--warn);background:var(--warnbg);
+ border-radius:10px;padding:8px 11px}
+.btn{background:var(--green);color:#fff;border:0;border-radius:11px;padding:11px 17px;font-size:15px;
+ font-weight:700;cursor:pointer;font-family:inherit;transition:.15s}
+.btn:hover{background:var(--green-d)}
+.btn:disabled{opacity:.55;cursor:not-allowed}
+.btn.ghost{background:#fff;color:var(--green-d);border:1px solid var(--line)}
+.btn.ghost:hover{background:#f0f4ee}
+.btn.open-state{background:#fff;color:var(--green-d);border:1px solid var(--line)}
+.btn.on{background:var(--price)}
+.btn-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.offer{display:none;margin-top:14px;border-top:1px solid var(--line);padding-top:14px}
+.offer.open{display:block}
+.opts{margin-bottom:13px}
+.opts-h{font-size:13px;font-weight:700;color:var(--green-d);margin-bottom:7px}
+.opt{display:flex;gap:9px;align-items:flex-start;padding:9px 11px;border:1px solid var(--line);
+ border-radius:11px;margin-bottom:7px;cursor:pointer;background:#fff}
+.opt:has(input:checked){border-color:var(--green);background:#f2f7f1}
+.opt span{font-size:14px;line-height:1.35}
+.opt em{display:block;font-style:normal;color:var(--muted);font-size:12.5px}
+.fld{display:block;margin-bottom:11px}
+.fld>span{display:block;font-size:13px;font-weight:600;margin-bottom:4px}
+.fld>span i{font-weight:400;color:var(--muted);font-style:normal}
+.fld input,.fld textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;
+ font-size:15px;font-family:inherit;background:#fff}
+.fld input:focus,.fld textarea:focus{outline:2px solid var(--green);border-color:var(--green)}
+.fld select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;
+ font:inherit;font-size:15px;background:#fff;color:inherit;-webkit-appearance:none;appearance:none;
+ background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M1 1l5 5 5-5' fill='none' stroke='%236d7a68' stroke-width='2'/></svg>");
+ background-repeat:no-repeat;background-position:right 13px center}
+.fld select:focus{outline:2px solid var(--green);border-color:var(--green)}
+.sent details{margin-top:9px}
+.sent summary{cursor:pointer;font-weight:600}
+.card.wide{grid-column:span 2}
+.card.wide .photo-wrap{aspect-ratio:3/2}
+.card.wide .thumb{width:60px;height:40px}
+@media (min-width:900px){.booklist ul{columns:2;column-gap:26px}.booklist li{break-inside:avoid}}
+@media (max-width:760px){.card.wide{grid-column:span 1}}
+.booklist{margin:0 0 13px;border:1px solid var(--line);border-radius:12px;background:#fff;padding:11px 14px}
+.booklist>summary{cursor:pointer;font-weight:700;color:var(--green-d);font-size:14px}
+.booklist[open]>summary{margin-bottom:8px}
+.booklist h4{margin:14px 0 5px;font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--warn)}
+.booklist h4:first-of-type{margin-top:6px}
+.booklist ul{margin:0;padding-left:19px}
+.booklist li{font-size:13.5px;margin:3px 0;line-height:1.45;list-style:none}
+.booklist ul{padding-left:2px}
+.booklist label.bk{display:flex;gap:8px;align-items:flex-start;cursor:pointer}
+.booklist label.bk input{margin:3px 0 0;flex:0 0 auto;accent-color:var(--green);width:15px;height:15px}
+.booklist label.bk:hover span{color:var(--green-d)}
+.bundle{max-width:680px;margin:22px auto 0;background:#fff;border:1px solid var(--line);
+ border-radius:16px;padding:0 22px;text-align:left}
+.bundle>details>summary{cursor:pointer;font-weight:700;color:var(--green-d);padding:16px 0;font-size:15.5px}
+.bundle .new{background:var(--price);color:#fff;font-size:10.5px;font-weight:800;padding:3px 8px;
+ border-radius:999px;margin-right:8px;letter-spacing:.05em;text-transform:uppercase;vertical-align:1px}
+.bundle-lead{font-size:14px;color:var(--muted);margin:0 0 15px}
+.bundle h4{margin:15px 0 6px;font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--warn)}
+.bundle-list{display:grid;grid-template-columns:1fr;gap:2px}
+@media (min-width:620px){.bundle-list{grid-template-columns:1fr 1fr;column-gap:22px}}
+.bundle label.bk{display:flex;gap:8px;align-items:flex-start;cursor:pointer;font-size:13.5px;
+ margin:3px 0;line-height:1.45}
+.bundle label.bk input{margin:3px 0 0;flex:0 0 auto;accent-color:var(--green);width:15px;height:15px}
+.bundle label.bk:hover span{color:var(--green-d)}
+.bundle .bp{color:var(--price);font-weight:700;font-style:normal;white-space:nowrap}
+.bundle-bar{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--line);margin-top:14px;
+ padding:13px 0;display:flex;gap:13px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+#bundleCount{font-size:13.5px;font-weight:700;color:var(--green-d)}
+.bundle form.offer{border-top:0;padding-bottom:18px}
+.bk-count{margin:0 0 13px;font-size:13px;font-weight:700;color:var(--green-d)}
+.booklist i{color:var(--green-d)}
+.sent pre.fallback-body{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid var(--line);
+ border-radius:9px;padding:10px 12px;font-size:12.5px;line-height:1.45;margin:8px 0 0;color:var(--ink);
+ max-height:230px;overflow:auto}
+.money{position:relative}
+.money i{position:absolute;left:12px;top:50%;transform:translateY(-50%);font-style:normal;color:var(--muted)}
+.money input{padding-left:25px}
+.frow{display:flex;gap:8px;margin-top:4px}
+.fine{font-size:12.5px;color:var(--muted);margin:11px 0 0}
+.sent{margin-top:12px;background:#e3f0e1;color:#2f6b34;border-radius:11px;padding:12px 14px;font-size:14px}
+.taken-note{font-size:13.5px;color:var(--muted);margin:0 0 9px}
+.basket{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);
+ box-shadow:0 -3px 16px rgba(60,70,50,.12);padding:13px 18px;display:none;z-index:20}
+.basket.show{display:block}
+.basket-in{max-width:1120px;margin:0 auto;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.basket-txt{flex:1;min-width:200px;font-size:14.5px} .basket-txt b{color:var(--green-d)}
+.basket-save{color:var(--price);font-weight:700}
+#plantForm{max-width:1120px;margin:12px auto 0;display:none} #plantForm.open{display:block}
+footer{text-align:center;padding:26px 20px 120px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+@media(max-width:520px){.terms{gap:6px}.term{font-size:13px;padding:6px 12px}}
+</style>
+</head>
+<body>
+<script>window.G={};</script>
+<header class="hero">
+  <h1>Moving Sale</h1>
+  <p class="sub-hero">I'm moving in October and rehoming everything I can't take with me.
+    It's all been well looked after. Have a look, and offer what it's worth to you.</p>
+  <div class="terms">
+    <span class="term">Pickup in Dupont Circle, DC (NW)</span>
+    <span class="term">Cash or Venmo</span>
+    <span class="term">Pickup Sat &amp; Sun, 3&ndash;6 pm</span>
+  </div>
+  <div class="rules">
+    <h3>How this works</h3>
+    <ol>
+      <li><strong>Tell me what you'd pay.</strong> Offers are private — nobody sees anyone else's, so offer
+        what the thing is actually worth to you.</li>
+      <li><strong>Send the email.</strong> The form opens a pre-filled message to move@meltemodabas.net.
+        Your offer counts once you hit send — nothing else to click.</li>
+      <li><strong>I'll come back to you.</strong> Usually within a day. Everything has a quiet
+        minimum — if your offer is under it I'll tell you straight away rather than leave you
+        hanging. First offer I'm happy with takes the thing, so there's nothing to be gained by
+        waiting.</li>
+      <li><strong>Plants are different:</strong> $10 each, any three for $25, first come first served.</li>
+      <li><strong>Pickup runs 3&ndash;6 pm in fixed slots.</strong> Saturday 12, 19 or 26 September,
+        Sunday 27 September, or Saturday 3 October, in Dupont Circle. Same for everything, whether
+        it's a rug or a rice cooker &mdash; tell me which one suits when you make your offer.</li>
+    </ol>
+  </div>
+<div class="bundle">
+  <details id="bundleBox">
+    <summary><span class="new">New</span> Taking more than one thing? Make a single offer for the lot</summary>
+    <p class="bundle-lead">Tick everything you&rsquo;d like and name one price for all of it. It&rsquo;s usually the
+      easiest way to do this &mdash; fewer trips for you, one less thing for me to arrange, and I&rsquo;d rather one
+      person took eight things than haggle eight times. Books and plants aren&rsquo;t in here: books have their own
+      tick-list at the bottom of the page, and plants are $10 each, three for $25.</p>
+    <h4>Furniture &amp; rugs</h4><div class="bundle-list"><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Handan “Denge” kilim, 6′7″ × 9′10″ &mdash; $550" data-price="550" onchange="updateBundle()"><span>Handan &ldquo;Denge&rdquo; kilim, 6&prime;7&Prime; &times; 9&prime;10&Prime; <i class="bp">$550</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Crate &amp; Barrel sofa, 78″ &mdash; $500" data-price="500" onchange="updateBundle()"><span>Crate &amp; Barrel sofa, 78&Prime; <i class="bp">$500</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Hidden cat litter cabinet (tiled TROTTEN) &mdash; $400" data-price="400" onchange="updateBundle()"><span>Hidden cat litter cabinet (tiled TROTTEN) <i class="bp">$400</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="IKEA STOREMOLLA 3-drawer chest &mdash; $160" data-price="160" onchange="updateBundle()"><span>IKEA STOREMOLLA 3-drawer chest <i class="bp">$160</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Pair of IKEA TONSTAD nightstands &mdash; $150" data-price="150" onchange="updateBundle()"><span>Pair of IKEA TONSTAD nightstands <i class="bp">$150</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Pair of IKEA VOXLÖV chairs &mdash; $120" data-price="120" onchange="updateBundle()"><span>Pair of IKEA VOXL&Ouml;V chairs <i class="bp">$120</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="George Oliver “Heidegard” accent chair &mdash; $75" data-price="75" onchange="updateBundle()"><span>George Oliver &ldquo;Heidegard&rdquo; accent chair <i class="bp">$75</i></span></label></div><h4>Home office &amp; kitchen</h4><div class="bundle-list"><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="UPLIFT V2 standing desk, 42×30 &mdash; $225" data-price="225" onchange="updateBundle()"><span>UPLIFT V2 standing desk, 42&times;30 <i class="bp">$225</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="KitchenAid Artisan Mini 3.5-qt stand mixer &mdash; $200" data-price="200" onchange="updateBundle()"><span>KitchenAid Artisan Mini 3.5-qt stand mixer <i class="bp">$200</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Dell U2417H monitor + arm &mdash; $150" data-price="150" onchange="updateBundle()"><span>Dell U2417H monitor + arm <i class="bp">$150</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Pair of IKEA ALEX drawer units &mdash; $110" data-price="110" onchange="updateBundle()"><span>Pair of IKEA ALEX drawer units <i class="bp">$110</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Stainless cookware set + 2 nonstick pans &mdash; $75" data-price="75" onchange="updateBundle()"><span>Stainless cookware set + 2 nonstick pans <i class="bp">$75</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="De’Longhi oil-filled radiator &mdash; $60" data-price="60" onchange="updateBundle()"><span>De&rsquo;Longhi oil-filled radiator <i class="bp">$60</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Motorola MG7700 modem + router &mdash; $50" data-price="50" onchange="updateBundle()"><span>Motorola MG7700 modem + router <i class="bp">$50</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Crate &amp; Barrel bakeware set &mdash; $45" data-price="45" onchange="updateBundle()"><span>Crate &amp; Barrel bakeware set <i class="bp">$45</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="ARRIS SB8200 cable modem &mdash; $40" data-price="40" onchange="updateBundle()"><span>ARRIS SB8200 cable modem <i class="bp">$40</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Dekala sunrise alarm clock &mdash; $35" data-price="35" onchange="updateBundle()"><span>Dekala sunrise alarm clock <i class="bp">$35</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="25 ft extension cord + power strip &mdash; $20" data-price="20" onchange="updateBundle()"><span>25 ft extension cord + power strip <i class="bp">$20</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Ceramic space heater &mdash; $15" data-price="15" onchange="updateBundle()"><span>Ceramic space heater <i class="bp">$15</i></span></label></div><h4>Camping &amp; outdoor</h4><div class="bundle-list"><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="Forclaz 50L trekking backpack &mdash; $40" data-price="40" onchange="updateBundle()"><span>Forclaz 50L trekking backpack <i class="bp">$40</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="LED camping lantern + power bank &mdash; $15" data-price="15" onchange="updateBundle()"><span>LED camping lantern + power bank <i class="bp">$15</i></span></label><label class="bk"><input type="checkbox" name="titles" form="form-bundle" value="USB car charger &mdash; $5" data-price="5" onchange="updateBundle()"><span>USB car charger <i class="bp">$5</i></span></label></div>
+    <div class="bundle-bar">
+      <div id="bundleCount">Nothing ticked yet &mdash; all 22 together come to $3,040 at asking prices</div>
+      <button class="btn" data-open="Make a bundle offer" data-close="Close" onclick="toggleForm('bundle',this)">Make a bundle offer</button>
+    </div>
+    <form class="offer" id="form-bundle" data-title="Bundle" onsubmit="return submitForm(event,'bundle')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="bundle">
+      <input type="hidden" name="list_total" id="bundleTotal" value="0">
+      <label class="fld"><span>Your offer for everything you&rsquo;ve ticked</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="0"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional, easier on pickup day)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit bundle offer</button></div>
+      <p class="fine">Everything you&rsquo;ve ticked comes through with the email, itemised, so I know exactly what you mean.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form>
+  </details>
+</div><!--/bundle-->
+  <div class="filters">
+    <button class="chip on" onclick="filterCards('all',this)">Everything</button>
+    <button class="chip" onclick="filterCards('furniture',this)">Furniture &amp; rugs</button>
+    <button class="chip" onclick="filterCards('books',this)">Books</button>
+    <button class="chip" onclick="filterCards('home-office',this)">Home office &amp; kitchen</button>
+    <button class="chip" onclick="filterCards('camping',this)">Camping &amp; outdoor</button>
+    <button class="chip" onclick="filterCards('plants',this)">Plants</button>
+  </div>
+</header>
+<main>
+    <article class="card" data-batch="furniture" data-lot="cb-couch">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-cb-couch" src="/moving-sale/img/cb-couch/01.jpg" loading="lazy" alt="Crate  Barrel Sofa in Cloud  $2,000 new">
+        <div class="price">$500</div>
+      </div>
+      <div class="body">
+        <h2>Crate &amp; Barrel Sofa in Cloud &mdash; $2,000 new</h2>
+        <div class="sub">Crate &amp; Barrel &middot; 78&Prime; long &middot; cloud-grey upholstery &middot; firm cushions</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span><span class="badge cond-new">Photos coming soon</span></div>
+        <p class="blurb">A Crate &amp; Barrel sofa in cloud grey, 78 inches long &mdash; a proper three-seater without being a room-eater. Firm cushions that have kept their shape rather than gone saggy in the middle. It was around $2,000 new. <span class="extra">Two things you should know before you come out. There are a few minor stains on the upholstery &mdash; nothing structural, but they&rsquo;re there and I&rsquo;d rather you hear it from me. And it comes from a home with a cat, so if anyone in your household is allergic, give this one a miss. Photos coming soon.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('cb-couch',this)">Make an offer</button><form class="offer" id="form-cb-couch" data-title="Crate &amp; Barrel Sofa in Cloud (78&Prime;)" onsubmit="return submitForm(event,'cb-couch')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="cb-couch">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="500"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional, easier on pickup day)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["cb-couch"] = ["/moving-sale/img/cb-couch/01.jpg"];</script>
+    </article>
+    <article class="card" data-batch="furniture" data-lot="cat-cabinet">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-cat-cabinet" src="/moving-sale/img/cat-cabinet/01.jpg" loading="lazy" alt="Hidden Cat Litter Cabinet  Tiled IKEA TROTTEN Build">
+        <div class="price">$400</div>
+      </div>
+      <div class="body">
+        <h2>Hidden Cat Litter Cabinet &mdash; Tiled IKEA TROTTEN Build</h2>
+        <div class="sub">IKEA TROTTEN cabinet with sliding doors &middot; tiled &middot; litter box and litter tower included</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span><span class="badge cond-new">Photos coming soon</span></div>
+        <p class="blurb">A discreet bathroom for your cat, built into an IKEA TROTTEN cabinet with sliding doors so the whole thing disappears into the room. Finished with real bathroom tiles rather than contact paper, so it wipes clean and doesn&rsquo;t look like a hack. The litter box and the litter tower are included &mdash; it arrives working, not as a project. <span class="extra">If you have ever tried to hide a litter tray in a small apartment, this is the thing you were trying to build. Photos coming soon.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('cat-cabinet',this)">Make an offer</button><form class="offer" id="form-cat-cabinet" data-title="Hidden Cat Litter Cabinet &mdash; Tiled IKEA TROTTEN Build" onsubmit="return submitForm(event,'cat-cabinet')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="cat-cabinet">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="400"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional, easier on pickup day)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["cat-cabinet"] = ["/moving-sale/img/cat-cabinet/01.jpg"];</script>
+    </article>
+    <article class="card" data-batch="furniture" data-lot="kilim">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-kilim" src="/moving-sale/img/kilim/01.jpg" loading="lazy" alt="Handan Loom Works Denge Handwoven Wool Kilim">
+        <div class="price">$550</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/kilim/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('kilim',0,this)"><img src="/moving-sale/img/kilim/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kilim',1,this)"><img src="/moving-sale/img/kilim/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kilim',2,this)"><img src="/moving-sale/img/kilim/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kilim',3,this)"><img src="/moving-sale/img/kilim/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kilim',4,this)"><img src="/moving-sale/img/kilim/06_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kilim',5,this)"></div>
+      <div class="body">
+        <h2>Handan Loom Works &ldquo;Denge&rdquo; Handwoven Wool Kilim</h2>
+        <div class="sub">Handan Loom Works, Inziva No.&nbsp;4 &middot; 100% root-dyed wool &middot; handwoven in the Turkish Aegean &middot; 200 &times; 300 cm (6 ft 7 in &times; 9 ft 10 in)</div>
+        <div class="badges"><span class="badge cond-exc">Excellent condition</span></div>
+        <p class="blurb">A handwoven kilim from Handan Loom Works&rsquo; Inziva series &mdash; 100% root-dyed wool, woven by women weavers in villages in the Turkish Aegean, natural dyes only, no synthetic anything. A warm cinnamon-brown field with a wide cream-and-charcoal striped band and knotted fringe at the ends. It measures 200 &times; 300 cm &mdash; 6 ft 7 in by 9 ft 10 in, so it covers a room rather than sitting under a coffee table. Handan lists this exact size at $1,260 and it is currently out of stock on their site. <span class="extra">One piece, not a rug plus a runner &mdash; the striped band is woven into the same kilim. No stains, no moth damage, no fraying at the fringe. Photographed front and back so you can see the weave and the reverse. It&rsquo;s wool, so it&rsquo;s heavy for its size: rolled, it wants a hatchback or an SUV.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('kilim',this)">Make an offer</button><form class="offer" id="form-kilim" data-title="Handan Loom Works &ldquo;Denge&rdquo; Handwoven Wool Kilim" onsubmit="return submitForm(event,'kilim')">
+      <input type="hidden" name="action" value="offer">
+      <input type="hidden" name="lot" value="kilim">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="550"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional, easier on pickup day)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["kilim"] = ["/moving-sale/img/kilim/01.jpg", "/moving-sale/img/kilim/02.jpg", "/moving-sale/img/kilim/03.jpg", "/moving-sale/img/kilim/04.jpg", "/moving-sale/img/kilim/05.jpg", "/moving-sale/img/kilim/06.jpg"];</script>
+    </article>
+    <article class="card" data-batch="furniture" data-lot="dresser-3drawer">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-dresser-3drawer" src="/moving-sale/img/dresser-3drawer/01.jpg" loading="lazy" alt="IKEA STOREMOLLA Three-Drawer Dresser">
+        <div class="price">from $160</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/dresser-3drawer/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('dresser-3drawer',0,this)"><img src="/moving-sale/img/dresser-3drawer/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dresser-3drawer',1,this)"><img src="/moving-sale/img/dresser-3drawer/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dresser-3drawer',2,this)"><img src="/moving-sale/img/dresser-3drawer/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dresser-3drawer',3,this)"><img src="/moving-sale/img/dresser-3drawer/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dresser-3drawer',4,this)"></div>
+      <div class="body">
+        <h2>IKEA STOREMOLLA Three-Drawer Dresser</h2>
+        <div class="sub">IKEA STOREMOLLA &middot; solid pine, grey-brown stain &middot; 36&frac58;&Prime; W &times; 19&frac58;&Prime; D &times; 35&frac78;&Prime; H &middot; $380 new</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">The solid-pine STOREMOLLA chest in grey-brown stain &mdash; three full-width soft-close drawers, round black knobs, adjustable feet, and the anti-tip wall anchor still with it. $379.99 new at IKEA. Sturdy: nothing wobbles, no drawer sags, no water rings on the top, and the drawers run smoothly on their wooden runners. <span class="extra">The fabric storage boxes and the striped drawer liner in the photos come with it if you want them. Honest note: real pine, so there are knots and a few light surface marks &mdash; photographed close up so there are no surprises. Heavy. Pull the drawers out before you lift it and bring a second pair of hands.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('dresser-3drawer',this)">Make an offer</button><form class="offer" id="form-dresser-3drawer" data-title="IKEA STOREMOLLA Three-Drawer Dresser" onsubmit="return submitForm(event,'dresser-3drawer')">
+      <input type="hidden" name="action" value="offer">
+      <div class="opts"><div class="opts-h">Which would you like?</div><label class="opt"><input type="radio" name="lot" value="dresser-3drawer" checked><span><strong>STOREMOLLA chest &mdash; on its own</strong><em>asking $160</em></span></label><label class="opt"><input type="radio" name="lot" value="bedroom-set"><span><strong>STOREMOLLA chest + both TONSTAD nightstands</strong><em>asking $290</em></span></label></div>
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="160"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional, easier on pickup day)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["dresser-3drawer"] = ["/moving-sale/img/dresser-3drawer/01.jpg", "/moving-sale/img/dresser-3drawer/02.jpg", "/moving-sale/img/dresser-3drawer/03.jpg", "/moving-sale/img/dresser-3drawer/04.jpg", "/moving-sale/img/dresser-3drawer/05.jpg"];</script>
+    </article>
+    <article class="card" data-batch="furniture" data-lot="nightstand-pair">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-nightstand-pair" src="/moving-sale/img/nightstand-pair/01.jpg" loading="lazy" alt="Pair of IKEA TONSTAD Nightstands">
+        <div class="price">from $150</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/nightstand-pair/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('nightstand-pair',0,this)"><img src="/moving-sale/img/nightstand-pair/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('nightstand-pair',1,this)"><img src="/moving-sale/img/nightstand-pair/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('nightstand-pair',2,this)"></div>
+      <div class="body">
+        <h2>Pair of IKEA TONSTAD Nightstands</h2>
+        <div class="sub">IKEA TONSTAD &middot; brushed oak veneer, solid oak legs &middot; 15&frac34;&Prime; &times; 15&frac34;&Prime; &times; 23&frac14;&Prime; &middot; $150 each new</div>
+        <div class="badges"><span class="badge cond-exc">Excellent condition</span></div>
+        <p class="blurb">A matching pair of TONSTAD bedside tables in oak veneer &mdash; one drawer each with the integrated recessed handle, an open shelf underneath, on round solid-oak legs. $149.99 each at IKEA, so $300 for the pair new. Both are in really good shape: corners unchipped, tops unmarked, drawers running true. <span class="extra">Sold as a pair. Small and light &mdash; both fit in a car boot without dismantling anything.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('nightstand-pair',this)">Make an offer</button><form class="offer" id="form-nightstand-pair" data-title="Pair of IKEA TONSTAD Nightstands" onsubmit="return submitForm(event,'nightstand-pair')">
+      <input type="hidden" name="action" value="offer">
+      <div class="opts"><div class="opts-h">Which would you like?</div><label class="opt"><input type="radio" name="lot" value="nightstand-pair" checked><span><strong>Pair of TONSTAD nightstands &mdash; on their own</strong><em>asking $150</em></span></label><label class="opt"><input type="radio" name="lot" value="bedroom-set"><span><strong>STOREMOLLA chest + both TONSTAD nightstands</strong><em>asking $290</em></span></label></div>
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="150"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional, easier on pickup day)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["nightstand-pair"] = ["/moving-sale/img/nightstand-pair/01.jpg", "/moving-sale/img/nightstand-pair/02.jpg", "/moving-sale/img/nightstand-pair/03.jpg"];</script>
+    </article>
+    <article class="card" data-batch="furniture" data-lot="voxlov-chairs">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-voxlov-chairs" src="/moving-sale/img/voxlov-chairs/01.jpg" loading="lazy" alt="Pair of IKEA VOXLV Chairs">
+        <div class="price">$120</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/voxlov-chairs/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('voxlov-chairs',0,this)"><img src="/moving-sale/img/voxlov-chairs/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('voxlov-chairs',1,this)"><img src="/moving-sale/img/voxlov-chairs/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('voxlov-chairs',2,this)"><img src="/moving-sale/img/voxlov-chairs/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('voxlov-chairs',3,this)"><img src="/moving-sale/img/voxlov-chairs/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('voxlov-chairs',4,this)"></div>
+      <div class="body">
+        <h2>Pair of IKEA VOXL&Ouml;V Chairs</h2>
+        <div class="sub">IKEA VOXL&Ouml;V &middot; light bamboo frame, handwoven paper-cord seat and back &middot; 16&frac78;&Prime; W &times; 20&frac78;&Prime; D &times; 33&frac12;&Prime; H, seat 18&frac18;&Prime; &middot; $130 each new</div>
+        <div class="badges"><span class="badge cond-exc">Excellent condition</span></div>
+        <p class="blurb">Two VOXL&Ouml;V chairs &mdash; light bamboo frames with hand-woven paper-cord seats and backs, so they have a bit of give rather than being a hard board. $130 each at IKEA, so $260 for the pair new. Both are solid: no wobble, no broken or lifted cords in the weave, no splits in the bamboo. <span class="extra">Sold as a pair. Light enough that one person can carry both out to the car in one trip.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('voxlov-chairs',this)">Make an offer</button><form class="offer" id="form-voxlov-chairs" data-title="Pair of IKEA VOXL&Ouml;V Chairs" onsubmit="return submitForm(event,'voxlov-chairs')">
+      <input type="hidden" name="action" value="offer">
+      <input type="hidden" name="lot" value="voxlov-chairs">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="120"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional, easier on pickup day)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["voxlov-chairs"] = ["/moving-sale/img/voxlov-chairs/01.jpg", "/moving-sale/img/voxlov-chairs/02.jpg", "/moving-sale/img/voxlov-chairs/03.jpg", "/moving-sale/img/voxlov-chairs/04.jpg", "/moving-sale/img/voxlov-chairs/05.jpg"];</script>
+    </article>
+    <article class="card" data-batch="furniture" data-lot="accent-chair">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-accent-chair" src="/moving-sale/img/accent-chair/01.jpg" loading="lazy" alt="George Oliver Heidegard Patchwork Accent Chair">
+        <div class="price">$75</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/accent-chair/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('accent-chair',0,this)"><img src="/moving-sale/img/accent-chair/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('accent-chair',1,this)"><img src="/moving-sale/img/accent-chair/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('accent-chair',2,this)"></div>
+      <div class="body">
+        <h2>George Oliver &ldquo;Heidegard&rdquo; Patchwork Accent Chair</h2>
+        <div class="sub">George Oliver Heidegard &middot; 26&Prime; W &times; 28&frac12;&Prime; D &times; 38&Prime; H, seat 17&Prime; &middot; solid rubberwood frame &middot; $330 list</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">High-back patchwork accent chair in navy, burgundy, mustard and cream panels, with a tufted back, recessed arms and a solid rubberwood frame on natural wood legs. It&rsquo;s the chair everyone who comes over ends up sitting in. Upholstery is clean &mdash; no stains, tears, burns or pet damage &mdash; and the frame is solid, no wobble or creak. Smoke-free home. <span class="extra">Straight with you: Wayfair lists it at $329.99 but it&rsquo;s often on sale nearer $150, so I&rsquo;ve priced this well under the current new price rather than under the list. The small grey cube stool in the photos isn&rsquo;t part of this lot. Goes through a standard doorway without taking the legs off, but it&rsquo;s bulky &mdash; bring a car, not a bike.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('accent-chair',this)">Make an offer</button><form class="offer" id="form-accent-chair" data-title="George Oliver &ldquo;Heidegard&rdquo; Patchwork Accent Chair" onsubmit="return submitForm(event,'accent-chair')">
+      <input type="hidden" name="action" value="offer">
+      <input type="hidden" name="lot" value="accent-chair">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="75"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional, easier on pickup day)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["accent-chair"] = ["/moving-sale/img/accent-chair/01.jpg", "/moving-sale/img/accent-chair/02.jpg", "/moving-sale/img/accent-chair/03.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="desk-full">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-desk" src="/moving-sale/img/desk/01.jpg" loading="lazy"
+             alt="UPLIFT V2 Electric Standing Desk">
+        <div class="price">from $150</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/desk/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('desk',0,this)"><img src="/moving-sale/img/desk/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('desk',1,this)"><img src="/moving-sale/img/desk/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('desk',2,this)"><img src="/moving-sale/img/desk/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('desk',3,this)"><img src="/moving-sale/img/desk/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('desk',4,this)"></div>
+      <div class="body">
+        <h2>UPLIFT V2 Electric Standing Desk</h2>
+        <div class="sub">UPLIFT V2 · 42″ × 30″ laminate top · dual motor</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">Dual-motor sit-stand desk on a two-leg black frame, with a 42″ × 30″ whitewash oak laminate top. Smooth, quiet up-down paddle (basic paddle, no memory presets). Ran $700+ new. Honest notes: some light scratches and a couple of small chips on the top — photographed, so you can see exactly what you're getting. Frame and motors are perfect. <span class="extra">The Dell U2417H monitor and its arm can also go on their own, without the desk, for $150. Comes apart with an allen key and it's heavy — bring a friend and a vehicle.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('desk',this)">Make an offer</button><form class="offer" id="form-desk" onsubmit="return submitForm(event,'desk')">
+      <input type="hidden" name="action" value="offer">
+      <div class="opts"><div class="opts-h">Which would you like?</div><label class="opt"><input type="radio" name="lot" value="desk-full" checked><span><strong>UPLIFT V2 Desk 42x30 + Dell U2417H monitor + arm + lamp</strong><em>asking $350</em></span></label><label class="opt"><input type="radio" name="lot" value="monitor-kit"><span><strong>Dell U2417H monitor + monitor arm &mdash; without the desk</strong><em>asking $150</em></span></label><label class="opt"><input type="radio" name="lot" value="desk-only"><span><strong>UPLIFT V2 Electric Standing Desk 42x30 — desk only</strong><em>asking $225</em></span></label></div><label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="350"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["desk"] = ["/moving-sale/img/desk/01.jpg", "/moving-sale/img/desk/02.jpg", "/moving-sale/img/desk/03.jpg", "/moving-sale/img/desk/04.jpg", "/moving-sale/img/desk/05.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="cookware-set">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-cookware-set" src="/moving-sale/img/cookware-set/01.jpg" loading="lazy" alt="Stainless Steel Cookware Set + Two Nonstick Frying Pans">
+        <div class="price">from $75</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/cookware-set/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('cookware-set',0,this)"><img src="/moving-sale/img/cookware-set/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('cookware-set',1,this)"><img src="/moving-sale/img/cookware-set/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('cookware-set',2,this)"></div>
+      <div class="body">
+        <h2>Stainless Steel Cookware Set + Two Nonstick Frying Pans</h2>
+        <div class="sub">Stainless with riveted handles &middot; three covered pots, two small saucepans, two nonstick pans</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">The whole run of pots and pans out of my kitchen. Stainless steel with riveted stainless handles and fitted lids: three covered pots and saucepans in graduated sizes, plus two smaller saucepans, and two dark nonstick frying pans at roughly 10&Prime; and 12&Prime;. All of it cooks on gas, electric and in the oven, and it&rsquo;s laid out flat in the first photo so you can count what&rsquo;s there. <span class="extra">Honest notes: the nonstick surfaces are intact &mdash; no flaking, no scoring &mdash; but they have been used, so they aren&rsquo;t showroom-slick. One of the small saucepans has a dulled and scratched interior from a metal whisk; it cooks fine and it&rsquo;s photographed close up in the third picture. No warped bases, every lid matches a pan. Happy to confirm exact capacities before you come out.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('cookware-set',this)">Make an offer</button><form class="offer" id="form-cookware-set" data-title="Stainless Steel Cookware Set + Two Nonstick Frying Pans" onsubmit="return submitForm(event,'cookware-set')">
+      <input type="hidden" name="action" value="offer">
+      <div class="opts"><div class="opts-h">Which would you like?</div><label class="opt"><input type="radio" name="lot" value="cookware-set" checked><span><strong>Pots and pans &mdash; on their own</strong><em>asking $75</em></span></label><label class="opt"><input type="radio" name="lot" value="kitchen-both"><span><strong>Pots and pans + the whole Crate &amp; Barrel bakeware set</strong><em>asking $110</em></span></label></div>
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="75"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["cookware-set"] = ["/moving-sale/img/cookware-set/01.jpg", "/moving-sale/img/cookware-set/02.jpg", "/moving-sale/img/cookware-set/03.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="bakeware-set">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-bakeware-set" src="/moving-sale/img/bakeware-set/01.jpg" loading="lazy" alt="Crate  Barrel Nonstick Bakeware Set">
+        <div class="price">from $45</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/bakeware-set/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('bakeware-set',0,this)"><img src="/moving-sale/img/bakeware-set/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('bakeware-set',1,this)"><img src="/moving-sale/img/bakeware-set/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('bakeware-set',2,this)"><img src="/moving-sale/img/bakeware-set/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('bakeware-set',3,this)"><img src="/moving-sale/img/bakeware-set/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('bakeware-set',4,this)"><img src="/moving-sale/img/bakeware-set/06_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('bakeware-set',5,this)"><img src="/moving-sale/img/bakeware-set/07_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('bakeware-set',6,this)"><img src="/moving-sale/img/bakeware-set/08_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('bakeware-set',7,this)"></div>
+      <div class="body">
+        <h2>Crate &amp; Barrel Nonstick Bakeware Set</h2>
+        <div class="sub">Crate &amp; Barrel &middot; six matching pans in slate grey &middot; plus a cooling rack and a GoodCook sheet</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">A matching set of Crate &amp; Barrel nonstick bakeware in that slate-grey finish &mdash; 9&times;13 rectangular pan, square cake pan, 9&Prime; round cake pan, loaf pan and a 12-cup muffin pan, all stamped Crate&amp;Barrel on the base. A wire cooling rack comes with them, and so does a GoodCook 13&times;9 baking sheet. <span class="extra">The Crate &amp; Barrel pans are in good shape: nonstick intact, no rust, no dents, no warping. The GoodCook sheet is the exception and I&rsquo;ve photographed it honestly &mdash; it&rsquo;s the one I actually used, so it&rsquo;s stained and discoloured. It still bakes; it just looks its age. Throw it away if you&rsquo;d rather, it isn&rsquo;t what you&rsquo;re paying for.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('bakeware-set',this)">Make an offer</button><form class="offer" id="form-bakeware-set" data-title="Crate &amp; Barrel Nonstick Bakeware Set" onsubmit="return submitForm(event,'bakeware-set')">
+      <input type="hidden" name="action" value="offer">
+      <div class="opts"><div class="opts-h">Which would you like?</div><label class="opt"><input type="radio" name="lot" value="bakeware-set" checked><span><strong>Bakeware set &mdash; on its own</strong><em>asking $45</em></span></label><label class="opt"><input type="radio" name="lot" value="kitchen-both"><span><strong>Bakeware set + all the pots and pans</strong><em>asking $110</em></span></label></div>
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="45"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["bakeware-set"] = ["/moving-sale/img/bakeware-set/01.jpg", "/moving-sale/img/bakeware-set/02.jpg", "/moving-sale/img/bakeware-set/03.jpg", "/moving-sale/img/bakeware-set/04.jpg", "/moving-sale/img/bakeware-set/05.jpg", "/moving-sale/img/bakeware-set/06.jpg", "/moving-sale/img/bakeware-set/07.jpg", "/moving-sale/img/bakeware-set/08.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="kitchenaid-artisan">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-kitchenaid-artisan" src="/moving-sale/img/kitchenaid-artisan/01.jpg" loading="lazy"
+             alt="KitchenAid Artisan Mini 3.5-Qt Stand Mixer">
+        <div class="price">$200</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/kitchenaid-artisan/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('kitchenaid-artisan',0,this)"><img src="/moving-sale/img/kitchenaid-artisan/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kitchenaid-artisan',1,this)"><img src="/moving-sale/img/kitchenaid-artisan/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kitchenaid-artisan',2,this)"><img src="/moving-sale/img/kitchenaid-artisan/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kitchenaid-artisan',3,this)"><img src="/moving-sale/img/kitchenaid-artisan/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kitchenaid-artisan',4,this)"></div>
+      <div class="body">
+        <h2>KitchenAid Artisan Mini 3.5-Qt Stand Mixer</h2>
+        <div class="sub">KitchenAid Artisan Mini · 3.5 qt tilt-head · matte black · 10 speeds</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">The Artisan <strong>Mini</strong> in matte black — the 3.5-quart tilt-head, the one that fits under a cabinet and still handles a double batch of cookies. Ten speeds, and it comes with everything it shipped with: the 3.5 qt stainless bowl, flex-edge beater, coated dough hook and 6-wire whip. The front power hub is there too, so any of the KitchenAid hub attachments will fit. Runs beautifully. It sells for around $350 new, $450 at list.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('kitchenaid-artisan',this)">Make an offer</button><form class="offer" id="form-kitchenaid-artisan" onsubmit="return submitForm(event,'kitchenaid-artisan')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="kitchenaid-artisan">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="200"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["kitchenaid-artisan"] = ["/moving-sale/img/kitchenaid-artisan/01.jpg", "/moving-sale/img/kitchenaid-artisan/02.jpg", "/moving-sale/img/kitchenaid-artisan/03.jpg", "/moving-sale/img/kitchenaid-artisan/04.jpg", "/moving-sale/img/kitchenaid-artisan/05.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="ikea-alex-pair">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-ikea-alex-pair" src="/moving-sale/img/ikea-alex-pair/01.jpg" loading="lazy"
+             alt="Pair of IKEA ALEX Drawer Units">
+        <div class="price">$110</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/ikea-alex-pair/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('ikea-alex-pair',0,this)"><img src="/moving-sale/img/ikea-alex-pair/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('ikea-alex-pair',1,this)"><img src="/moving-sale/img/ikea-alex-pair/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('ikea-alex-pair',2,this)"><img src="/moving-sale/img/ikea-alex-pair/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('ikea-alex-pair',3,this)"></div>
+      <div class="body">
+        <h2>Pair of IKEA ALEX Drawer Units</h2>
+        <div class="sub">IKEA ALEX · white oak effect · sold as a pair</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">Two ALEX drawer units in the white-stained oak effect finish, sold together. Perfect under or beside a desk, or on their own for craft and office storage. Drawers all run smoothly; a couple of small chips and scratches on the tops are photographed. <span class="extra">Currently assembled — happy to take them apart if that's easier to transport.</span></p>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('ikea-alex-pair',this)">Make an offer</button><form class="offer" id="form-ikea-alex-pair" onsubmit="return submitForm(event,'ikea-alex-pair')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="ikea-alex-pair">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="110"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["ikea-alex-pair"] = ["/moving-sale/img/ikea-alex-pair/01.jpg", "/moving-sale/img/ikea-alex-pair/02.jpg", "/moving-sale/img/ikea-alex-pair/03.jpg", "/moving-sale/img/ikea-alex-pair/04.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="modems-both">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-modems" src="/moving-sale/img/modems/01.jpg" loading="lazy"
+             alt="Cable Modems — ARRIS SB8200 &amp; Motorola MG7700">
+        <div class="price">from $40</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/modems/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('modems',0,this)"><img src="/moving-sale/img/modems/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('modems',1,this)"><img src="/moving-sale/img/modems/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('modems',2,this)"><img src="/moving-sale/img/modems/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('modems',3,this)"><img src="/moving-sale/img/modems/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('modems',4,this)"><img src="/moving-sale/img/modems/06_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('modems',5,this)"><img src="/moving-sale/img/modems/07_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('modems',6,this)"></div>
+      <div class="body">
+        <h2>Cable Modems — ARRIS SB8200 & Motorola MG7700</h2>
+        <div class="sub">Take either one, or both together</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">Two ways to stop renting a modem. The <strong>ARRIS SB8200</strong> is a DOCSIS 3.1 gigabit modem in its original box, two 1-Gig Ethernet ports — pair it with your own router. The <strong>Motorola MG7700</strong> is a DOCSIS 3.0 24×8 modem and AC1900 dual-band router in one box, four Gigabit ports, with power adapter. Both approved for Xfinity, Cox and Spectrum. <span class="extra">DC modem rental runs $15–25/month — either of these pays for itself in about three months.</span></p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('modems',this)">Make an offer</button><form class="offer" id="form-modems" onsubmit="return submitForm(event,'modems')">
+      <input type="hidden" name="action" value="offer">
+      <div class="opts"><div class="opts-h">Which would you like?</div><label class="opt"><input type="radio" name="lot" value="modems-both" checked><span><strong>Both modems — ARRIS SB8200 + Motorola MG7700</strong><em>asking $80</em></span></label><label class="opt"><input type="radio" name="lot" value="mg7700-only"><span><strong>Motorola MG7700 Modem + AC1900 WiFi Router</strong><em>asking $50</em></span></label><label class="opt"><input type="radio" name="lot" value="arris-only"><span><strong>ARRIS SURFboard SB8200 Cable Modem</strong><em>asking $40</em></span></label></div><label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="80"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["modems"] = ["/moving-sale/img/modems/01.jpg", "/moving-sale/img/modems/02.jpg", "/moving-sale/img/modems/03.jpg", "/moving-sale/img/modems/04.jpg", "/moving-sale/img/modems/05.jpg", "/moving-sale/img/modems/06.jpg", "/moving-sale/img/modems/07.jpg"];</script>
+    </article>
+    <article class="card gone" data-batch="home-office" data-lot="rayban-erika">
+      <div class="photo-wrap">
+        <div class="ribbon">SOLD</div>
+        <img class="main-photo" id="main-rayban-erika" src="/moving-sale/img/rayban-erika/01.jpg" loading="lazy"
+             alt="Ray-Ban Erika RB4171 Polarized">
+        <div class="price">$70</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/rayban-erika/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('rayban-erika',0,this)"><img src="/moving-sale/img/rayban-erika/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('rayban-erika',1,this)"><img src="/moving-sale/img/rayban-erika/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('rayban-erika',2,this)"><img src="/moving-sale/img/rayban-erika/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('rayban-erika',3,this)"><img src="/moving-sale/img/rayban-erika/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('rayban-erika',4,this)"><img src="/moving-sale/img/rayban-erika/06_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('rayban-erika',5,this)"></div>
+      <div class="body">
+        <h2>Ray-Ban Erika RB4171 Polarized</h2>
+        <div class="sub">Ray-Ban · RB4171 Erika · black acetate · polarized</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">Genuine Ray-Ban Erika, polarized, made in Italy. The RB4171 stamp inside the temple, the “Made in Italy / Polarized” print and the lens etch are all photographed so you can see they're real. Lenses are clean — no scratches you'd notice wearing them. Around $200 retail. <span class="extra">No case included.</span></p>
+        
+        <div class="live-avail" hidden><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('rayban-erika',this)">Make an offer</button><form class="offer" id="form-rayban-erika" onsubmit="return submitForm(event,'rayban-erika')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="rayban-erika">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="70"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone"><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["rayban-erika"] = ["/moving-sale/img/rayban-erika/01.jpg", "/moving-sale/img/rayban-erika/02.jpg", "/moving-sale/img/rayban-erika/03.jpg", "/moving-sale/img/rayban-erika/04.jpg", "/moving-sale/img/rayban-erika/05.jpg", "/moving-sale/img/rayban-erika/06.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="delonghi-radiator">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-delonghi-radiator" src="/moving-sale/img/delonghi-radiator/01.jpg" loading="lazy"
+             alt="De’Longhi Digital Oil-Filled Radiator">
+        <div class="price">$60</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/delonghi-radiator/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('delonghi-radiator',0,this)"><img src="/moving-sale/img/delonghi-radiator/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('delonghi-radiator',1,this)"><img src="/moving-sale/img/delonghi-radiator/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('delonghi-radiator',2,this)"></div>
+      <div class="body">
+        <h2>De’Longhi Digital Oil-Filled Radiator</h2>
+        <div class="sub">De’Longhi · digital display · ECO mode · timer</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">Oil-filled radiator with a digital thermostat, ECO mode and a timer. Rolls on casters and the cord wraps into the base. Silent — no fan — and it heats a room evenly all night. $150+ new.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('delonghi-radiator',this)">Make an offer</button><form class="offer" id="form-delonghi-radiator" onsubmit="return submitForm(event,'delonghi-radiator')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="delonghi-radiator">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="60"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["delonghi-radiator"] = ["/moving-sale/img/delonghi-radiator/01.jpg", "/moving-sale/img/delonghi-radiator/02.jpg", "/moving-sale/img/delonghi-radiator/03.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="dekala-sunrise-clock">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-dekala-sunrise-clock" src="/moving-sale/img/dekala-sunrise-clock/01.jpg" loading="lazy"
+             alt="Dekala Sunrise Alarm Clock">
+        <div class="price">$35</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/dekala-sunrise-clock/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('dekala-sunrise-clock',0,this)"><img src="/moving-sale/img/dekala-sunrise-clock/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dekala-sunrise-clock',1,this)"><img src="/moving-sale/img/dekala-sunrise-clock/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dekala-sunrise-clock',2,this)"><img src="/moving-sale/img/dekala-sunrise-clock/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dekala-sunrise-clock',3,this)"><img src="/moving-sale/img/dekala-sunrise-clock/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dekala-sunrise-clock',4,this)"><img src="/moving-sale/img/dekala-sunrise-clock/06_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dekala-sunrise-clock',5,this)"><img src="/moving-sale/img/dekala-sunrise-clock/07_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('dekala-sunrise-clock',6,this)"></div>
+      <div class="body">
+        <h2>Dekala Sunrise Alarm Clock</h2>
+        <div class="sub">Wake-up light · sleep sounds · FM radio · original box</div>
+        <div class="badges"><span class="badge cond-new">Like new · boxed</span></div>
+        <p class="blurb">Wakes you with a light that brightens gradually into a sunrise instead of a jolt of noise, then runs it backwards at bedtime as a sunset fade. Sleep companion with natural sounds, FM radio, dual alarms, and a whole range of colours and brightness levels — warm white, orange, red, pink, blue, violet, all photographed. Doubles as a bedside lamp. <span class="extra">Lovely if you're a heavy sleeper, or you hate waking up in the dark half of the year.</span></p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('dekala-sunrise-clock',this)">Make an offer</button><form class="offer" id="form-dekala-sunrise-clock" onsubmit="return submitForm(event,'dekala-sunrise-clock')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="dekala-sunrise-clock">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="35"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["dekala-sunrise-clock"] = ["/moving-sale/img/dekala-sunrise-clock/01.jpg", "/moving-sale/img/dekala-sunrise-clock/02.jpg", "/moving-sale/img/dekala-sunrise-clock/03.jpg", "/moving-sale/img/dekala-sunrise-clock/04.jpg", "/moving-sale/img/dekala-sunrise-clock/05.jpg", "/moving-sale/img/dekala-sunrise-clock/06.jpg", "/moving-sale/img/dekala-sunrise-clock/07.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="extension-cord-25ft">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-extension-cord-25ft" src="/moving-sale/img/extension-cord-25ft/01.jpg" loading="lazy"
+             alt="25 ft Extension Cord + Free Power Strip">
+        <div class="price">$20</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/extension-cord-25ft/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('extension-cord-25ft',0,this)"><img src="/moving-sale/img/extension-cord-25ft/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('extension-cord-25ft',1,this)"><img src="/moving-sale/img/extension-cord-25ft/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('extension-cord-25ft',2,this)"><img src="/moving-sale/img/extension-cord-25ft/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('extension-cord-25ft',3,this)"></div>
+      <div class="body">
+        <h2>25 ft Extension Cord + Free Power Strip</h2>
+        <div class="sub">25 ft grounded cord · 6-outlet surge strip included</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">25-foot red grounded 3-prong extension cord, indoor/outdoor rated — bright enough that nobody trips on it, and no nicks in the jacket. <strong>Comes with a free 6-outlet surge power strip</strong> (pictured). Between them you can power a whole corner of a room.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('extension-cord-25ft',this)">Make an offer</button><form class="offer" id="form-extension-cord-25ft" onsubmit="return submitForm(event,'extension-cord-25ft')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="extension-cord-25ft">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="20"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["extension-cord-25ft"] = ["/moving-sale/img/extension-cord-25ft/01.jpg", "/moving-sale/img/extension-cord-25ft/02.jpg", "/moving-sale/img/extension-cord-25ft/03.jpg", "/moving-sale/img/extension-cord-25ft/04.jpg"];</script>
+    </article>
+    <article class="card" data-batch="home-office" data-lot="givebest-heater">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-givebest-heater" src="/moving-sale/img/givebest-heater/01.jpg" loading="lazy"
+             alt="Portable Ceramic Space Heater">
+        <div class="price">$15</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/givebest-heater/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('givebest-heater',0,this)"><img src="/moving-sale/img/givebest-heater/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('givebest-heater',1,this)"><img src="/moving-sale/img/givebest-heater/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('givebest-heater',2,this)"></div>
+      <div class="body">
+        <h2>Portable Ceramic Space Heater</h2>
+        <div class="sub">GiveBest · 1500 W · thermostat + tip-over cutoff</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">Compact 1500 W ceramic heater with an adjustable thermostat, high/low/fan settings, and both tip-over and overheat protection. Carry handle on top — easy to move between rooms or tuck under a desk.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('givebest-heater',this)">Make an offer</button><form class="offer" id="form-givebest-heater" onsubmit="return submitForm(event,'givebest-heater')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="givebest-heater">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="15"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["givebest-heater"] = ["/moving-sale/img/givebest-heater/01.jpg", "/moving-sale/img/givebest-heater/02.jpg", "/moving-sale/img/givebest-heater/03.jpg"];</script>
+    </article>
+    <article class="card gone" data-batch="camping" data-lot="kelty-bundle">
+      <div class="photo-wrap">
+        <div class="ribbon">SOLD</div>
+        <img class="main-photo" id="main-kelty-bundle" src="/moving-sale/img/kelty-bundle/01.jpg" loading="lazy"
+             alt="Kelty Discovery Camp Bundle">
+        <div class="price">$200</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/kelty-bundle/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('kelty-bundle',0,this)"><img src="/moving-sale/img/kelty-bundle/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kelty-bundle',1,this)"><img src="/moving-sale/img/kelty-bundle/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kelty-bundle',2,this)"><img src="/moving-sale/img/kelty-bundle/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('kelty-bundle',3,this)"></div>
+      <div class="body">
+        <h2>Kelty Discovery Camp Bundle</h2>
+        <div class="sub">Kelty Discovery · 4-person set · one carry duffel</div>
+        <div class="badges"><span class="badge cond-exc">Excellent · used once</span></div>
+        <p class="blurb">A complete car-camping kit in one carry duffel: a 4-person tent, two sleeping bags rated to 35°F, and two self-inflating sleeping mats. Used only once. Everything a group needs for a weekend out — the full set retails around $250+ new.</p>
+        
+        <div class="live-avail" hidden><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('kelty-bundle',this)">Make an offer</button><form class="offer" id="form-kelty-bundle" onsubmit="return submitForm(event,'kelty-bundle')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="kelty-bundle">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="200"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone"><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["kelty-bundle"] = ["/moving-sale/img/kelty-bundle/01.jpg", "/moving-sale/img/kelty-bundle/02.jpg", "/moving-sale/img/kelty-bundle/03.jpg", "/moving-sale/img/kelty-bundle/04.jpg"];</script>
+    </article>
+    <article class="card gone" data-batch="camping" data-lot="stanley-cook-set">
+      <div class="photo-wrap">
+        <div class="ribbon">SOLD</div>
+        <img class="main-photo" id="main-stanley-cook-set" src="/moving-sale/img/stanley-cook-set/01.jpg" loading="lazy"
+             alt="Stanley Cook Set + Boil Pot &amp; Cups">
+        <div class="price">$60</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/stanley-cook-set/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('stanley-cook-set',0,this)"><img src="/moving-sale/img/stanley-cook-set/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('stanley-cook-set',1,this)"><img src="/moving-sale/img/stanley-cook-set/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('stanley-cook-set',2,this)"><img src="/moving-sale/img/stanley-cook-set/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('stanley-cook-set',3,this)"><img src="/moving-sale/img/stanley-cook-set/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('stanley-cook-set',4,this)"><img src="/moving-sale/img/stanley-cook-set/06_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('stanley-cook-set',5,this)"></div>
+      <div class="body">
+        <h2>Stanley Cook Set + Boil Pot & Cups</h2>
+        <div class="sub">Stanley · full cook & boil set · never used</div>
+        <div class="badges"><span class="badge cond-new">Never used</span></div>
+        <p class="blurb">Two Stanley sets sold together, both never used: the nesting stainless cook set (pots with folding handles, plus plates, bowls and sporks) and the boil pot with its nesting cups and a stainless mug. Everything packs down into itself.</p>
+        
+        <div class="live-avail" hidden><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('stanley-cook-set',this)">Make an offer</button><form class="offer" id="form-stanley-cook-set" onsubmit="return submitForm(event,'stanley-cook-set')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="stanley-cook-set">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="60"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone"><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["stanley-cook-set"] = ["/moving-sale/img/stanley-cook-set/01.jpg", "/moving-sale/img/stanley-cook-set/02.jpg", "/moving-sale/img/stanley-cook-set/03.jpg", "/moving-sale/img/stanley-cook-set/04.jpg", "/moving-sale/img/stanley-cook-set/05.jpg", "/moving-sale/img/stanley-cook-set/06.jpg"];</script>
+    </article>
+    <article class="card" data-batch="camping" data-lot="forclaz-backpack">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-forclaz-backpack" src="/moving-sale/img/forclaz-backpack/01.jpg" loading="lazy"
+             alt="Forclaz 50L Trekking Backpack">
+        <div class="price">$40</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/forclaz-backpack/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('forclaz-backpack',0,this)"><img src="/moving-sale/img/forclaz-backpack/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('forclaz-backpack',1,this)"><img src="/moving-sale/img/forclaz-backpack/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('forclaz-backpack',2,this)"><img src="/moving-sale/img/forclaz-backpack/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('forclaz-backpack',3,this)"></div>
+      <div class="body">
+        <h2>Forclaz 50L Trekking Backpack</h2>
+        <div class="sub">Forclaz / Quechua (Decathlon) · ~50 L</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">Roomy 50-litre trekking and travel pack with a padded hip belt and multiple compartments. Comfortable for multi-day trips, and it works just as well as a travel bag.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('forclaz-backpack',this)">Make an offer</button><form class="offer" id="form-forclaz-backpack" onsubmit="return submitForm(event,'forclaz-backpack')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="forclaz-backpack">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="40"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["forclaz-backpack"] = ["/moving-sale/img/forclaz-backpack/01.jpg", "/moving-sale/img/forclaz-backpack/02.jpg", "/moving-sale/img/forclaz-backpack/03.jpg", "/moving-sale/img/forclaz-backpack/04.jpg"];</script>
+    </article>
+    <article class="card" data-batch="camping" data-lot="led-lantern">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-led-lantern" src="/moving-sale/img/led-lantern/01.jpg" loading="lazy"
+             alt="LED Camping Lantern + Power Bank">
+        <div class="price">$15</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/led-lantern/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('led-lantern',0,this)"><img src="/moving-sale/img/led-lantern/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('led-lantern',1,this)"><img src="/moving-sale/img/led-lantern/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('led-lantern',2,this)"><img src="/moving-sale/img/led-lantern/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('led-lantern',3,this)"></div>
+      <div class="body">
+        <h2>LED Camping Lantern + Power Bank</h2>
+        <div class="sub">Rechargeable · collapsible · magnetic base</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">Collapsible rechargeable LED lantern that doubles as a USB power bank. Magnetic base and a hook for hanging, charges by USB, and collapses down small for packing.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('led-lantern',this)">Make an offer</button><form class="offer" id="form-led-lantern" onsubmit="return submitForm(event,'led-lantern')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="led-lantern">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="15"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["led-lantern"] = ["/moving-sale/img/led-lantern/01.jpg", "/moving-sale/img/led-lantern/02.jpg", "/moving-sale/img/led-lantern/03.jpg", "/moving-sale/img/led-lantern/04.jpg"];</script>
+    </article>
+    <article class="card" data-batch="camping" data-lot="usb-car-charger">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-usb-car-charger" src="/moving-sale/img/usb-car-charger/01.jpg" loading="lazy"
+             alt="USB Car Charger">
+        <div class="price">$5</div>
+      </div>
+      
+      <div class="body">
+        <h2>USB Car Charger</h2>
+        <div class="sub">12V USB car adapter</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">12V USB car charger adapter — keeps your devices topped up on road trips.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('usb-car-charger',this)">Make an offer</button><form class="offer" id="form-usb-car-charger" onsubmit="return submitForm(event,'usb-car-charger')">
+      <input type="hidden" name="action" value="offer"><input type="hidden" name="lot" value="usb-car-charger">
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="5"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Offers are private &mdash; nobody sees anyone else&rsquo;s. Submitting opens a pre-filled email to move@meltemodabas.net; it counts once you hit send.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["usb-car-charger"] = ["/moving-sale/img/usb-car-charger/01.jpg"];</script>
+    </article>
+    <article class="card" data-batch="camping" data-lot="camping-extras">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-camping-extras" src="/moving-sale/img/camping-extras/01.jpg" loading="lazy"
+             alt="Camping Extras">
+        <div class="price">Free</div>
+      </div>
+      
+      <div class="body">
+        <h2>Camping Extras</h2>
+        <div class="sub">Dish wipes & natural fire starters</div>
+        <div class="badges"><span class="badge cond-good">Good condition</span></div>
+        <p class="blurb">Camp dish wipes and natural fire starters to round out a kit — free with anything else you take, just ask.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <button class="btn ghost" data-open="Ask for these" data-close="Never mind" onclick="toggleForm('camping-extras',this)">Ask for these</button><form class="offer" id="form-camping-extras" onsubmit="return submitForm(event,'camping-extras')">
+      <input type="hidden" name="action" value="claim"><input type="hidden" name="lot" value="camping-extras">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Which pickup slot suits you?</span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Send request</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form>
+      </div>
+      <script>window.G["camping-extras"] = ["/moving-sale/img/camping-extras/01.jpg"];</script>
+    </article>
+    <article class="card" data-batch="plants" data-lot="plant-pilea">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-plant-pilea" src="/moving-sale/img/plant-pilea/01.jpg" loading="lazy"
+             alt="Chinese Money Plant">
+        <div class="price">$10</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/plant-pilea/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('plant-pilea',0,this)"><img src="/moving-sale/img/plant-pilea/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('plant-pilea',1,this)"><img src="/moving-sale/img/plant-pilea/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('plant-pilea',2,this)"></div>
+      <div class="body">
+        <h2>Chinese Money Plant</h2>
+        <div class="sub">Plant · $10 each, any three for $25</div>
+        <div class="badges"><span class="badge cond-good">Healthy &amp; established</span></div>
+        <p class="blurb">The little one with round, coin-shaped leaves on slender stems — also called the pancake or UFO plant. Cheerful, compact, and famous for sprouting baby plants you can pot up and pass on.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail">
+          <button class="btn plant-btn" data-lot="plant-pilea"
+            data-title="Chinese Money Plant" onclick="togglePlant(this)">Add — $10</button></div>
+        <div class="live-gone" hidden>
+          <p class="taken-note">Someone&rsquo;s claimed this one. Plans change, though &mdash; leave your name
+            and I&rsquo;ll come back to you if it frees up.</p>
+          <button class="btn ghost" data-open="Join the waitlist" data-close="Never mind"
+            onclick="toggleForm('wl-plant-pilea',this)">Join the waitlist</button>
+          <form class="offer" id="form-wl-plant-pilea" onsubmit="return submitForm(event,'wl-plant-pilea')">
+      <input type="hidden" name="action" value="waitlist"><input type="hidden" name="lot" value="plant-pilea">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="1"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Join the waitlist</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div>
+      </div>
+      <script>window.G["plant-pilea"] = ["/moving-sale/img/plant-pilea/01.jpg", "/moving-sale/img/plant-pilea/02.jpg", "/moving-sale/img/plant-pilea/03.jpg"];</script>
+    </article>
+    <article class="card" data-batch="plants" data-lot="plant-spider">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-plant-spider" src="/moving-sale/img/plant-spider/01.jpg" loading="lazy"
+             alt="Spider Plants (two)">
+        <div class="price">$10</div>
+      </div>
+      
+      <div class="body">
+        <h2>Spider Plants (two)</h2>
+        <div class="sub">Plant · $10 each, any three for $25</div>
+        <div class="badges"><span class="badge cond-good">Healthy &amp; established</span></div>
+        <p class="blurb">A generous pot with two arching, grassy spider plants. About as forgiving as houseplants get, and they send out little plantlets on runners that root easily.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail">
+          <button class="btn plant-btn" data-lot="plant-spider"
+            data-title="Spider Plants (two)" onclick="togglePlant(this)">Add — $10</button></div>
+        <div class="live-gone" hidden>
+          <p class="taken-note">Someone&rsquo;s claimed this one. Plans change, though &mdash; leave your name
+            and I&rsquo;ll come back to you if it frees up.</p>
+          <button class="btn ghost" data-open="Join the waitlist" data-close="Never mind"
+            onclick="toggleForm('wl-plant-spider',this)">Join the waitlist</button>
+          <form class="offer" id="form-wl-plant-spider" onsubmit="return submitForm(event,'wl-plant-spider')">
+      <input type="hidden" name="action" value="waitlist"><input type="hidden" name="lot" value="plant-spider">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="1"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Join the waitlist</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div>
+      </div>
+      <script>window.G["plant-spider"] = ["/moving-sale/img/plant-spider/01.jpg"];</script>
+    </article>
+    <article class="card" data-batch="plants" data-lot="plant-zz">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-plant-zz" src="/moving-sale/img/plant-zz/01.jpg" loading="lazy"
+             alt="ZZ Plant">
+        <div class="price">$10</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/plant-zz/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('plant-zz',0,this)"><img src="/moving-sale/img/plant-zz/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('plant-zz',1,this)"></div>
+      <div class="body">
+        <h2>ZZ Plant</h2>
+        <div class="sub">Plant · $10 each, any three for $25</div>
+        <div class="badges"><span class="badge cond-good">Healthy &amp; established</span></div>
+        <p class="blurb">Glossy, upright, almost indestructible. The ZZ shrugs off low light and forgotten waterings, so it&#x27;s a great pick for a first-time plant parent or a dim corner.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail">
+          <button class="btn plant-btn" data-lot="plant-zz"
+            data-title="ZZ Plant" onclick="togglePlant(this)">Add — $10</button></div>
+        <div class="live-gone" hidden>
+          <p class="taken-note">Someone&rsquo;s claimed this one. Plans change, though &mdash; leave your name
+            and I&rsquo;ll come back to you if it frees up.</p>
+          <button class="btn ghost" data-open="Join the waitlist" data-close="Never mind"
+            onclick="toggleForm('wl-plant-zz',this)">Join the waitlist</button>
+          <form class="offer" id="form-wl-plant-zz" onsubmit="return submitForm(event,'wl-plant-zz')">
+      <input type="hidden" name="action" value="waitlist"><input type="hidden" name="lot" value="plant-zz">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="1"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Join the waitlist</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div>
+      </div>
+      <script>window.G["plant-zz"] = ["/moving-sale/img/plant-zz/01.jpg", "/moving-sale/img/plant-zz/02.jpg"];</script>
+    </article>
+    <article class="card" data-batch="plants" data-lot="plant-pothos">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-plant-pothos" src="/moving-sale/img/plant-pothos/01.jpg" loading="lazy"
+             alt="Pothos">
+        <div class="price">$10</div>
+      </div>
+      
+      <div class="body">
+        <h2>Pothos</h2>
+        <div class="sub">Plant · $10 each, any three for $25</div>
+        <div class="badges"><span class="badge cond-good">Healthy &amp; established</span></div>
+        <p class="blurb">A lush trailing vine of heart-shaped leaves, happy cascading off a shelf. Quick-growing, forgiving, and one of the easiest plants to root from cuttings.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail">
+          <button class="btn plant-btn" data-lot="plant-pothos"
+            data-title="Pothos" onclick="togglePlant(this)">Add — $10</button></div>
+        <div class="live-gone" hidden>
+          <p class="taken-note">Someone&rsquo;s claimed this one. Plans change, though &mdash; leave your name
+            and I&rsquo;ll come back to you if it frees up.</p>
+          <button class="btn ghost" data-open="Join the waitlist" data-close="Never mind"
+            onclick="toggleForm('wl-plant-pothos',this)">Join the waitlist</button>
+          <form class="offer" id="form-wl-plant-pothos" onsubmit="return submitForm(event,'wl-plant-pothos')">
+      <input type="hidden" name="action" value="waitlist"><input type="hidden" name="lot" value="plant-pothos">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="1"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Join the waitlist</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div>
+      </div>
+      <script>window.G["plant-pothos"] = ["/moving-sale/img/plant-pothos/01.jpg"];</script>
+    </article>
+    <article class="card" data-batch="plants" data-lot="plant-monstera-young">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-plant-monstera-young" src="/moving-sale/img/plant-monstera-young/01.jpg" loading="lazy"
+             alt="Monstera — young">
+        <div class="price">$10</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/plant-monstera-young/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('plant-monstera-young',0,this)"><img src="/moving-sale/img/plant-monstera-young/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('plant-monstera-young',1,this)"><img src="/moving-sale/img/plant-monstera-young/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('plant-monstera-young',2,this)"></div>
+      <div class="body">
+        <h2>Monstera — young</h2>
+        <div class="sub">Plant · $10 each, any three for $25</div>
+        <div class="badges"><span class="badge cond-good">Healthy &amp; established</span></div>
+        <p class="blurb">A smaller, up-and-coming Swiss cheese plant. Its leaves are still mostly solid and heart-shaped now — the signature holes and splits appear as it matures.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail">
+          <button class="btn plant-btn" data-lot="plant-monstera-young"
+            data-title="Monstera — young" onclick="togglePlant(this)">Add — $10</button></div>
+        <div class="live-gone" hidden>
+          <p class="taken-note">Someone&rsquo;s claimed this one. Plans change, though &mdash; leave your name
+            and I&rsquo;ll come back to you if it frees up.</p>
+          <button class="btn ghost" data-open="Join the waitlist" data-close="Never mind"
+            onclick="toggleForm('wl-plant-monstera-young',this)">Join the waitlist</button>
+          <form class="offer" id="form-wl-plant-monstera-young" onsubmit="return submitForm(event,'wl-plant-monstera-young')">
+      <input type="hidden" name="action" value="waitlist"><input type="hidden" name="lot" value="plant-monstera-young">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="1"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Join the waitlist</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div>
+      </div>
+      <script>window.G["plant-monstera-young"] = ["/moving-sale/img/plant-monstera-young/01.jpg", "/moving-sale/img/plant-monstera-young/02.jpg", "/moving-sale/img/plant-monstera-young/03.jpg"];</script>
+    </article>
+    <article class="card" data-batch="plants" data-lot="plant-tradescantia">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-plant-tradescantia" src="/moving-sale/img/plant-tradescantia/01.jpg" loading="lazy"
+             alt="Tradescantia zebrina (Inch Plant)">
+        <div class="price">$10</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/plant-tradescantia/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('plant-tradescantia',0,this)"><img src="/moving-sale/img/plant-tradescantia/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('plant-tradescantia',1,this)"></div>
+      <div class="body">
+        <h2>Tradescantia zebrina (Inch Plant)</h2>
+        <div class="sub">Plant · $10 each, any three for $25</div>
+        <div class="badges"><span class="badge cond-good">Healthy &amp; established</span></div>
+        <p class="blurb">A fast, trailing beauty with silver-striped leaves and rich purple undersides. Comes with a rooted cutting in water too, so there&#x27;s effectively a spare to grow on or share.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail">
+          <button class="btn plant-btn" data-lot="plant-tradescantia"
+            data-title="Tradescantia zebrina (Inch Plant)" onclick="togglePlant(this)">Add — $10</button></div>
+        <div class="live-gone" hidden>
+          <p class="taken-note">Someone&rsquo;s claimed this one. Plans change, though &mdash; leave your name
+            and I&rsquo;ll come back to you if it frees up.</p>
+          <button class="btn ghost" data-open="Join the waitlist" data-close="Never mind"
+            onclick="toggleForm('wl-plant-tradescantia',this)">Join the waitlist</button>
+          <form class="offer" id="form-wl-plant-tradescantia" onsubmit="return submitForm(event,'wl-plant-tradescantia')">
+      <input type="hidden" name="action" value="waitlist"><input type="hidden" name="lot" value="plant-tradescantia">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="1"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Join the waitlist</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div>
+      </div>
+      <script>window.G["plant-tradescantia"] = ["/moving-sale/img/plant-tradescantia/01.jpg", "/moving-sale/img/plant-tradescantia/02.jpg"];</script>
+    </article>
+    <article class="card" data-batch="plants" data-lot="plant-prayer-1">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-plant-prayer-1" src="/moving-sale/img/plant-prayer-1/01.jpg" loading="lazy"
+             alt="Prayer Plant">
+        <div class="price">$10</div>
+      </div>
+      
+      <div class="body">
+        <h2>Prayer Plant</h2>
+        <div class="sub">Plant · $10 each, any three for $25</div>
+        <div class="badges"><span class="badge cond-good">Healthy &amp; established</span></div>
+        <p class="blurb">Velvety leaves with red herringbone veins that fold up like praying hands at night and open again by morning. A little attention-loving, but deeply rewarding. (I have two of these — same kind, two separate plants — so this is one of a pair.)</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail">
+          <button class="btn plant-btn" data-lot="plant-prayer-1"
+            data-title="Prayer Plant" onclick="togglePlant(this)">Add — $10</button></div>
+        <div class="live-gone" hidden>
+          <p class="taken-note">Someone&rsquo;s claimed this one. Plans change, though &mdash; leave your name
+            and I&rsquo;ll come back to you if it frees up.</p>
+          <button class="btn ghost" data-open="Join the waitlist" data-close="Never mind"
+            onclick="toggleForm('wl-plant-prayer-1',this)">Join the waitlist</button>
+          <form class="offer" id="form-wl-plant-prayer-1" onsubmit="return submitForm(event,'wl-plant-prayer-1')">
+      <input type="hidden" name="action" value="waitlist"><input type="hidden" name="lot" value="plant-prayer-1">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="1"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Join the waitlist</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div>
+      </div>
+      <script>window.G["plant-prayer-1"] = ["/moving-sale/img/plant-prayer-1/01.jpg"];</script>
+    </article>
+    <article class="card" data-batch="plants" data-lot="plant-prayer-2">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-plant-prayer-2" src="/moving-sale/img/plant-prayer-2/01.jpg" loading="lazy"
+             alt="Prayer Plant">
+        <div class="price">$10</div>
+      </div>
+      
+      <div class="body">
+        <h2>Prayer Plant</h2>
+        <div class="sub">Plant · $10 each, any three for $25</div>
+        <div class="badges"><span class="badge cond-good">Healthy &amp; established</span></div>
+        <p class="blurb">The second of my two prayer plants — same kind, its own separate plant. Same soft, patterned leaves that fold up at night and reopen by day. Can be taken together with the other one or on its own.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail">
+          <button class="btn plant-btn" data-lot="plant-prayer-2"
+            data-title="Prayer Plant" onclick="togglePlant(this)">Add — $10</button></div>
+        <div class="live-gone" hidden>
+          <p class="taken-note">Someone&rsquo;s claimed this one. Plans change, though &mdash; leave your name
+            and I&rsquo;ll come back to you if it frees up.</p>
+          <button class="btn ghost" data-open="Join the waitlist" data-close="Never mind"
+            onclick="toggleForm('wl-plant-prayer-2',this)">Join the waitlist</button>
+          <form class="offer" id="form-wl-plant-prayer-2" onsubmit="return submitForm(event,'wl-plant-prayer-2')">
+      <input type="hidden" name="action" value="waitlist"><input type="hidden" name="lot" value="plant-prayer-2">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="1"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Join the waitlist</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div>
+      </div>
+      <script>window.G["plant-prayer-2"] = ["/moving-sale/img/plant-prayer-2/01.jpg"];</script>
+    </article>
+    <article class="card" data-batch="plants" data-lot="plant-rattlesnake">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-plant-rattlesnake" src="/moving-sale/img/plant-rattlesnake/01.jpg" loading="lazy"
+             alt="Rattlesnake Plant">
+        <div class="price">$10</div>
+      </div>
+      
+      <div class="body">
+        <h2>Rattlesnake Plant</h2>
+        <div class="sub">Plant · $10 each, any three for $25</div>
+        <div class="badges"><span class="badge cond-good">Healthy &amp; established</span></div>
+        <p class="blurb">Dramatic, wavy lance-shaped leaves patterned with dark blotches on top and deep maroon undersides. The diva of the group — the most demanding, but a stunner for someone who enjoys a bit of fuss.</p>
+        
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail">
+          <button class="btn plant-btn" data-lot="plant-rattlesnake"
+            data-title="Rattlesnake Plant" onclick="togglePlant(this)">Add — $10</button></div>
+        <div class="live-gone" hidden>
+          <p class="taken-note">Someone&rsquo;s claimed this one. Plans change, though &mdash; leave your name
+            and I&rsquo;ll come back to you if it frees up.</p>
+          <button class="btn ghost" data-open="Join the waitlist" data-close="Never mind"
+            onclick="toggleForm('wl-plant-rattlesnake',this)">Join the waitlist</button>
+          <form class="offer" id="form-wl-plant-rattlesnake" onsubmit="return submitForm(event,'wl-plant-rattlesnake')">
+      <input type="hidden" name="action" value="waitlist"><input type="hidden" name="lot" value="plant-rattlesnake">
+      
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Anything I should know? <i>(optional)</i></span>
+        <textarea name="note" rows="1"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Join the waitlist</button></div>
+      
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div>
+      </div>
+      <script>window.G["plant-rattlesnake"] = ["/moving-sale/img/plant-rattlesnake/01.jpg"];</script>
+    </article>
+    <article class="card wide" data-batch="books" data-lot="books-pick">
+      <div class="photo-wrap">
+        <img class="main-photo" id="main-books" src="/moving-sale/img/books/01.jpg" loading="lazy" alt="The book collection">
+        <div class="price">$300 for all</div>
+      </div>
+      <div class="thumbs"><img src="/moving-sale/img/books/01_t.jpg" loading="lazy" alt="" class="thumb sel" onclick="swap('books',0,this)"><img src="/moving-sale/img/books/02_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',1,this)"><img src="/moving-sale/img/books/03_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',2,this)"><img src="/moving-sale/img/books/04_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',3,this)"><img src="/moving-sale/img/books/05_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',4,this)"><img src="/moving-sale/img/books/06_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',5,this)"><img src="/moving-sale/img/books/07_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',6,this)"><img src="/moving-sale/img/books/08_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',7,this)"><img src="/moving-sale/img/books/09_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',8,this)"><img src="/moving-sale/img/books/10_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',9,this)"><img src="/moving-sale/img/books/11_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',10,this)"><img src="/moving-sale/img/books/12_t.jpg" loading="lazy" alt="" class="thumb" onclick="swap('books',11,this)"></div>
+      <div class="body">
+        <h2>The Books</h2>
+        <div class="sub">Around 131 titles &middot; English and Turkish &middot; take the lot, or just the ones you want</div>
+        <div class="badges"><span class="badge cond-good">Good to excellent</span><span class="badge cond-new">Tick what you&rsquo;d like</span></div>
+        <p class="blurb">Ten years of reading, all of it going. Literary fiction in English and Turkish, a serious graphic-novel shelf, Turkish politics and sociology, social-science methods, a full economics-degree run of textbooks, and a stack on Istanbul and cities. Everything is readable &mdash; no water damage, no mould, no missing pages. Some paperbacks have creased spines, a few of the textbooks have highlighting and pencil notes, and one or two have a name written inside the cover. Nothing is ex-library.
+        <span class="extra">Open the list, tick whatever you&rsquo;d like and tell me what it&rsquo;s worth to you &mdash; you don&rsquo;t have to take the whole thing. As a rough steer: paperbacks are usually $3&ndash;5, hardbacks and the graphic novels $8&ndash;12, textbooks whatever they&rsquo;re worth to you. $300 takes all 131 and I&rsquo;ll help you carry them. If you&rsquo;re a bookshop, a little free library, a reading room or a teacher, say so in your note &mdash; that counts for more with me than the number.</span></p>
+        <details class="booklist"><summary>The full list &mdash; tick what you want (131 books)</summary><h4>Literary fiction &amp; memoir &mdash; English</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Patti Smith — M Train" onchange="updateBooks()"><span>Patti Smith &mdash; <i>M Train</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Patti Smith — Just Kids" onchange="updateBooks()"><span>Patti Smith &mdash; <i>Just Kids</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Max Porter — Grief Is the Thing with Feathers" onchange="updateBooks()"><span>Max Porter &mdash; <i>Grief Is the Thing with Feathers</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Kazuo Ishiguro — The Buried Giant" onchange="updateBooks()"><span>Kazuo Ishiguro &mdash; <i>The Buried Giant</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Kazuo Ishiguro — The Summer We Crossed Europe in the Rain (lyrics for Stacey Kent)" onchange="updateBooks()"><span>Kazuo Ishiguro &mdash; <i>The Summer We Crossed Europe in the Rain</i> (lyrics for Stacey Kent)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Kaveh Akbar — Martyr!" onchange="updateBooks()"><span>Kaveh Akbar &mdash; <i>Martyr!</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Dolly Alderton — Good Material" onchange="updateBooks()"><span>Dolly Alderton &mdash; <i>Good Material</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="R. F. Kuang — Yellowface" onchange="updateBooks()"><span>R. F. Kuang &mdash; <i>Yellowface</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Elif Batuman — The Idiot" onchange="updateBooks()"><span>Elif Batuman &mdash; <i>The Idiot</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Gabriel García Márquez — Love in the Time of Cholera" onchange="updateBooks()"><span>Gabriel Garc&iacute;a M&aacute;rquez &mdash; <i>Love in the Time of Cholera</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Steven Galloway — The Cellist of Sarajevo" onchange="updateBooks()"><span>Steven Galloway &mdash; <i>The Cellist of Sarajevo</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Amal El-Mohtar &amp; Max Gladstone — This Is How You Lose the Time War" onchange="updateBooks()"><span>Amal El-Mohtar &amp; Max Gladstone &mdash; <i>This Is How You Lose the Time War</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Calvin Kasulke — Several People Are Typing" onchange="updateBooks()"><span>Calvin Kasulke &mdash; <i>Several People Are Typing</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Alexander McCall Smith — The Finer Points of Sausage Dogs" onchange="updateBooks()"><span>Alexander McCall Smith &mdash; <i>The Finer Points of Sausage Dogs</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Hwang Bo-reum — Every Day I Read: 53 Ways to Get Closer to Books" onchange="updateBooks()"><span>Hwang Bo-reum &mdash; <i>Every Day I Read: 53 Ways to Get Closer to Books</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Orhan Pamuk — Istanbul: Memories and the City" onchange="updateBooks()"><span>Orhan Pamuk &mdash; <i>Istanbul: Memories and the City</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Orhan Pamuk — Memories of Distant Mountains" onchange="updateBooks()"><span>Orhan Pamuk &mdash; <i>Memories of Distant Mountains</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Rachel Dunsky (ed.) — Stories from Palestine" onchange="updateBooks()"><span>Rachel Dunsky (ed.) &mdash; <i>Stories from Palestine</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Celeste Ng &amp; Nicole A. Lamy (eds.) — The Best American Short Stories 2025" onchange="updateBooks()"><span>Celeste Ng &amp; Nicole A. Lamy (eds.) &mdash; <i>The Best American Short Stories 2025</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Mark Kramer &amp; Wendy Call (eds.) — Telling True Stories (Nieman Foundation)" onchange="updateBooks()"><span>Mark Kramer &amp; Wendy Call (eds.) &mdash; <i>Telling True Stories</i> (Nieman Foundation)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Juan Felipe Herrera — The Roots of a Thousand Embraces" onchange="updateBooks()"><span>Juan Felipe Herrera &mdash; <i>The Roots of a Thousand Embraces</i></span></label></li></ul><h4>Fiction &amp; poetry &mdash; Turkish editions</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="José Saramago — Körlük (Blindness)" onchange="updateBooks()"><span>Jos&eacute; Saramago &mdash; <i>K&ouml;rl&uuml;k</i> (Blindness)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="José Saramago — Ölüm Bir Varmış Bir Yokmuş" onchange="updateBooks()"><span>Jos&eacute; Saramago &mdash; <i>&Ouml;l&uuml;m Bir Varm&#305;&#351; Bir Yokmu&#351;</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Albert Camus — Yabancı (The Stranger)" onchange="updateBooks()"><span>Albert Camus &mdash; <i>Yabanc&#305;</i> (The Stranger)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Haruki Murakami — İmkânsızın Şarkısı (Norwegian Wood)" onchange="updateBooks()"><span>Haruki Murakami &mdash; <i>&#304;mk&acirc;ns&#305;z&#305;n &#350;ark&#305;s&#305;</i> (Norwegian Wood)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Milan Kundera — Yavaşlık (Slowness)" onchange="updateBooks()"><span>Milan Kundera &mdash; <i>Yava&#351;l&#305;k</i> (Slowness)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Oscar Wilde — Dorian Gray’in Portresi" onchange="updateBooks()"><span>Oscar Wilde &mdash; <i>Dorian Gray&#8217;in Portresi</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="George Orwell — Signet Classics edition" onchange="updateBooks()"><span>George Orwell &mdash; Signet Classics edition</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Orhan Pamuk — Kafamda Bir Tuhaflık" onchange="updateBooks()"><span>Orhan Pamuk &mdash; <i>Kafamda Bir Tuhafl&#305;k</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Orhan Pamuk — Kırmızı Saçlı Kadın" onchange="updateBooks()"><span>Orhan Pamuk &mdash; <i>K&#305;rm&#305;z&#305; Sa&ccedil;l&#305; Kad&#305;n</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="İskender Pala — Babil’de Ölüm İstanbul’da Aşk" onchange="updateBooks()"><span>&#304;skender Pala &mdash; <i>Babil&#8217;de &Ouml;l&uuml;m &#304;stanbul&#8217;da A&#351;k</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Zülfü Livaneli — Mutluluk" onchange="updateBooks()"><span>Z&uuml;lf&uuml; Livaneli &mdash; <i>Mutluluk</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Pablo Neruda — Yirmi Aşk Şiiri ve Bir Umutsuz Şarkı" onchange="updateBooks()"><span>Pablo Neruda &mdash; <i>Yirmi A&#351;k &#350;iiri ve Bir Umutsuz &#350;ark&#305;</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Spinoza — Etika" onchange="updateBooks()"><span>Spinoza &mdash; <i>Etika</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Italo Calvino — Görünmez Kentler (Invisible Cities)" onchange="updateBooks()"><span>Italo Calvino &mdash; <i>G&ouml;r&uuml;nmez Kentler</i> (Invisible Cities)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Douglas Adams — Otostopçunun Galaksi Rehberi" onchange="updateBooks()"><span>Douglas Adams &mdash; <i>Otostop&ccedil;unun Galaksi Rehberi</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Paulo Coelho — Hippi" onchange="updateBooks()"><span>Paulo Coelho &mdash; <i>Hippi</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Kurt Vonnegut — Galápagos" onchange="updateBooks()"><span>Kurt Vonnegut &mdash; <i>Gal&aacute;pagos</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Amin Maalouf — Labirent" onchange="updateBooks()"><span>Amin Maalouf &mdash; <i>Labirent</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="İsmail Kadare — Bez Bebek" onchange="updateBooks()"><span>&#304;smail Kadare &mdash; <i>Bez Bebek</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Afşin Kum — Sıcak Kafa" onchange="updateBooks()"><span>Af&#351;in Kum &mdash; <i>S&#305;cak Kafa</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Duygu Terim — Aslında Her Şey Yolunda" onchange="updateBooks()"><span>Duygu Terim &mdash; <i>Asl&#305;nda Her &#350;ey Yolunda</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="İlhami Candaş — Bereketli Olsun" onchange="updateBooks()"><span>&#304;lhami Canda&#351; &mdash; <i>Bereketli Olsun</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Lisa Owens — Turkish edition" onchange="updateBooks()"><span>Lisa Owens &mdash; Turkish edition</span></label></li></ul><h4>Graphic novels &amp; comics</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Art Spiegelman — The Complete Maus" onchange="updateBooks()"><span>Art Spiegelman &mdash; <i>The Complete Maus</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Marjane Satrapi — Woman Life Freedom" onchange="updateBooks()"><span>Marjane Satrapi &mdash; <i>Woman Life Freedom</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Alison Bechdel — The Essential Dykes to Watch Out For" onchange="updateBooks()"><span>Alison Bechdel &mdash; <i>The Essential Dykes to Watch Out For</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Scott McCloud — Understanding Comics" onchange="updateBooks()"><span>Scott McCloud &mdash; <i>Understanding Comics</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Brooke Gladstone &amp; Josh Neufeld — The Influencing Machine" onchange="updateBooks()"><span>Brooke Gladstone &amp; Josh Neufeld &mdash; <i>The Influencing Machine</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Elisa Macellari — Kusama: The Graphic Novel" onchange="updateBooks()"><span>Elisa Macellari &mdash; <i>Kusama: The Graphic Novel</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Julia Wertz — Impossible People" onchange="updateBooks()"><span>Julia Wertz &mdash; <i>Impossible People</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Özge Samancı — Dare to Disappoint: Growing Up in Turkey" onchange="updateBooks()"><span>&Ouml;zge Samanc&#305; &mdash; <i>Dare to Disappoint: Growing Up in Turkey</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Avatar: The Last Airbender — The Search, The Promise, The Rift (Dark Horse)" onchange="updateBooks()"><span><i>Avatar: The Last Airbender</i> &mdash; The Search, The Promise, The Rift (Dark Horse)</span></label></li></ul><h4>Turkish politics, sociology &amp; history</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Tüba Çandar — Hrant" onchange="updateBooks()"><span>T&uuml;ba &Ccedil;andar &mdash; <i>Hrant</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Erik Jan Zürcher — Modernleşen Türkiye’nin Tarihi" onchange="updateBooks()"><span>Erik Jan Z&uuml;rcher &mdash; <i>Modernle&#351;en T&uuml;rkiye&#8217;nin Tarihi</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Deniz Kandiyoti — Cariyeler, Bacılar, Yurttaşlar" onchange="updateBooks()"><span>Deniz Kandiyoti &mdash; <i>Cariyeler, Bac&#305;lar, Yurtta&#351;lar</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Nazan Maksudyan — Türklüğü Ölçmek" onchange="updateBooks()"><span>Nazan Maksudyan &mdash; <i>T&uuml;rkl&uuml;&#287;&uuml; &Ouml;l&ccedil;mek</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Tanıl Bora — İnşaat Ya Resulullah" onchange="updateBooks()"><span>Tan&#305;l Bora &mdash; <i>&#304;n&#351;aat Ya Resulullah</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Judith Butler — Cinsiyet Belası (Gender Trouble)" onchange="updateBooks()"><span>Judith Butler &mdash; <i>Cinsiyet Belas&#305;</i> (Gender Trouble)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Alev Özkazanç — Feminizm ve Queer Kuram" onchange="updateBooks()"><span>Alev &Ouml;zkazan&ccedil; &mdash; <i>Feminizm ve Queer Kuram</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Taylan Acar &amp; Şemsa Özar (eds.) — Emek, Beden, Aile" onchange="updateBooks()"><span>Taylan Acar &amp; &#350;emsa &Ouml;zar (eds.) &mdash; <i>Emek, Beden, Aile</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Kentleri Savunmak: Mekan, Toplum ve Siyaset Üzerine" onchange="updateBooks()"><span><i>Kentleri Savunmak: Mekan, Toplum ve Siyaset &Uuml;zerine</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="“Biz Her Şeyiz”" onchange="updateBooks()"><span><i>&#8220;Biz Her &#350;eyiz&#8221;</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Sosyal Bilimler “Ne İşe Yarar”? — Boğaziçi Üniversitesi söyleşileri" onchange="updateBooks()"><span><i>Sosyal Bilimler &#8220;Ne &#304;&#351;e Yarar&#8221;?</i> &mdash; Bo&#287;azi&ccedil;i &Uuml;niversitesi s&ouml;yle&#351;ileri</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Gezi-era magazines: Birikim (#gezidirenişi) and Bir+Bir" onchange="updateBooks()"><span>Gezi-era magazines: <i>Birikim</i> (#gezidireni&#351;i) and <i>Bir+Bir</i></span></label></li></ul><h4>Sociology, methods &amp; data</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Pierre Bourdieu — Distinction (Harvard)" onchange="updateBooks()"><span>Pierre Bourdieu &mdash; <i>Distinction</i> (Harvard)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Pierre Bourdieu — The Social Structures of the Economy" onchange="updateBooks()"><span>Pierre Bourdieu &mdash; <i>The Social Structures of the Economy</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Manuel Castells — The Rise of the Network Society" onchange="updateBooks()"><span>Manuel Castells &mdash; <i>The Rise of the Network Society</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Mohr, Bail, Frye, Lena, Lizardo, McDonnell, Mische, Tavory &amp; Wherry — Measuring Culture" onchange="updateBooks()"><span>Mohr, Bail, Frye, Lena, Lizardo, McDonnell, Mische, Tavory &amp; Wherry &mdash; <i>Measuring Culture</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Jan Fuhse — Social Networks of Meaning and Communication (Oxford)" onchange="updateBooks()"><span>Jan Fuhse &mdash; <i>Social Networks of Meaning and Communication</i> (Oxford)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Bidart, Degenne &amp; Grossetti — Living in Networks (Cambridge)" onchange="updateBooks()"><span>Bidart, Degenne &amp; Grossetti &mdash; <i>Living in Networks</i> (Cambridge)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Snow &amp; Soule — A Primer on Social Movements" onchange="updateBooks()"><span>Snow &amp; Soule &mdash; <i>A Primer on Social Movements</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Perecman &amp; Curran — A Handbook for Social Science Field Research" onchange="updateBooks()"><span>Perecman &amp; Curran &mdash; <i>A Handbook for Social Science Field Research</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Boreús &amp; Bergström — Analyzing Text and Discourse" onchange="updateBooks()"><span>Bore&uacute;s &amp; Bergstr&ouml;m &mdash; <i>Analyzing Text and Discourse</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Deborah Lupton — Digital Sociology" onchange="updateBooks()"><span>Deborah Lupton &mdash; <i>Digital Sociology</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Joel Grus — Data Science from Scratch (O’Reilly)" onchange="updateBooks()"><span>Joel Grus &mdash; <i>Data Science from Scratch</i> (O&#8217;Reilly)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Creswell &amp; Creswell — Research Design, 5th ed." onchange="updateBooks()"><span>Creswell &amp; Creswell &mdash; <i>Research Design</i>, 5th ed.</span></label></li></ul><h4>Economics</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Mas-Colell, Whinston &amp; Green — Microeconomic Theory" onchange="updateBooks()"><span>Mas-Colell, Whinston &amp; Green &mdash; <i>Microeconomic Theory</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Jehle &amp; Reny — Advanced Microeconomic Theory, 3rd ed." onchange="updateBooks()"><span>Jehle &amp; Reny &mdash; <i>Advanced Microeconomic Theory</i>, 3rd ed.</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Hal Varian — Intermediate Microeconomics" onchange="updateBooks()"><span>Hal Varian &mdash; <i>Intermediate Microeconomics</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Krugman &amp; Obstfeld — International Economics: Theory &amp; Policy, 8th ed." onchange="updateBooks()"><span>Krugman &amp; Obstfeld &mdash; <i>International Economics: Theory &amp; Policy</i>, 8th ed.</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Michael Klein — Mathematical Methods for Economics" onchange="updateBooks()"><span>Michael Klein &mdash; <i>Mathematical Methods for Economics</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="David Begg — Economics, 8th ed." onchange="updateBooks()"><span>David Begg &mdash; <i>Economics</i>, 8th ed.</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Stock &amp; Watson — Introduction to Econometrics" onchange="updateBooks()"><span>Stock &amp; Watson &mdash; <i>Introduction to Econometrics</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Peet &amp; Hartwick — Theories of Development, 2nd ed." onchange="updateBooks()"><span>Peet &amp; Hartwick &mdash; <i>Theories of Development</i>, 2nd ed.</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Yanis Varoufakis — Technofeudalism" onchange="updateBooks()"><span>Yanis Varoufakis &mdash; <i>Technofeudalism</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Karl Polanyi — The Great Transformation" onchange="updateBooks()"><span>Karl Polanyi &mdash; <i>The Great Transformation</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Daron Acemoglu &amp; James A. Robinson — Why Nations Fail" onchange="updateBooks()"><span>Daron Acemoglu &amp; James A. Robinson &mdash; <i>Why Nations Fail</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Beckert &amp; Dewey — The Architecture of Illegal Markets (Oxford)" onchange="updateBooks()"><span>Beckert &amp; Dewey &mdash; <i>The Architecture of Illegal Markets</i> (Oxford)</span></label></li></ul><h4>Cities, Istanbul &amp; travel</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="John Freely — Istanbul: The Imperial City" onchange="updateBooks()"><span>John Freely &mdash; <i>Istanbul: The Imperial City</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="John Freely — The Western Shores of Turkey" onchange="updateBooks()"><span>John Freely &mdash; <i>The Western Shores of Turkey</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Hilary Sumner-Boyd &amp; John Freely — Strolling Through Istanbul" onchange="updateBooks()"><span>Hilary Sumner-Boyd &amp; John Freely &mdash; <i>Strolling Through Istanbul</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="José Saramago — Journey to Portugal" onchange="updateBooks()"><span>Jos&eacute; Saramago &mdash; <i>Journey to Portugal</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="David Harvey — Rebel Cities" onchange="updateBooks()"><span>David Harvey &mdash; <i>Rebel Cities</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Saskia Sassen — Cities in a World Economy, 4th ed." onchange="updateBooks()"><span>Saskia Sassen &mdash; <i>Cities in a World Economy</i>, 4th ed.</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Annalee Newitz — Four Lost Cities" onchange="updateBooks()"><span>Annalee Newitz &mdash; <i>Four Lost Cities</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Otero — La Calle" onchange="updateBooks()"><span>Otero &mdash; <i>La Calle</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="AIA Guide to the Architecture of Washington, DC" onchange="updateBooks()"><span><i>AIA Guide to the Architecture of Washington, DC</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Mark Kurlansky — 1968: Dünyayı Sarsan Yıl" onchange="updateBooks()"><span>Mark Kurlansky &mdash; <i>1968: D&uuml;nyay&#305; Sarsan Y&#305;l</i></span></label></li></ul><h4>Work, career &amp; the examined life</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Karen Kelsky — The Professor Is In (two copies)" onchange="updateBooks()"><span>Karen Kelsky &mdash; <i>The Professor Is In</i> (two copies)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Daniel Kahneman — Hızlı ve Yavaş Düşünme (Thinking, Fast and Slow)" onchange="updateBooks()"><span>Daniel Kahneman &mdash; <i>H&#305;zl&#305; ve Yava&#351; D&uuml;&#351;&uuml;nme</i> (Thinking, Fast and Slow)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="James Clear — Atomik Alışkanlıklar (Atomic Habits)" onchange="updateBooks()"><span>James Clear &mdash; <i>Atomik Al&#305;&#351;kanl&#305;klar</i> (Atomic Habits)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Marshall Rosenberg — Nonviolent Communication" onchange="updateBooks()"><span>Marshall Rosenberg &mdash; <i>Nonviolent Communication</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="David Brooks — How to Know a Person" onchange="updateBooks()"><span>David Brooks &mdash; <i>How to Know a Person</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Burnett &amp; Evans — Designing Your Life" onchange="updateBooks()"><span>Burnett &amp; Evans &mdash; <i>Designing Your Life</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Fred Reichheld — The Ultimate Question" onchange="updateBooks()"><span>Fred Reichheld &mdash; <i>The Ultimate Question</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Mori Taheripour — Bring Yourself" onchange="updateBooks()"><span>Mori Taheripour &mdash; <i>Bring Yourself</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Women at Work and Taking Charge of Your Career (HBR)" onchange="updateBooks()"><span><i>Women at Work</i> and <i>Taking Charge of Your Career</i> (HBR)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Diogenes — How to Say No" onchange="updateBooks()"><span>Diogenes &mdash; <i>How to Say No</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Seneca — How to Keep Your Cool" onchange="updateBooks()"><span>Seneca &mdash; <i>How to Keep Your Cool</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Aristotle — How to Tell a Story" onchange="updateBooks()"><span>Aristotle &mdash; <i>How to Tell a Story</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Rick Rubin — The Creative Act: A Way of Being" onchange="updateBooks()"><span>Rick Rubin &mdash; <i>The Creative Act: A Way of Being</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Dr. David Burns — İyi Hissetmek (Feeling Good)" onchange="updateBooks()"><span>Dr. David Burns &mdash; <i>&#304;yi Hissetmek</i> (Feeling Good)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Two Harvard Business Review issues" onchange="updateBooks()"><span>Two <i>Harvard Business Review</i> issues</span></label></li></ul><h4>Thich Nhat Hanh</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="How to Love" onchange="updateBooks()"><span><i>How to Love</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="How to Connect" onchange="updateBooks()"><span><i>How to Connect</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="How to Listen" onchange="updateBooks()"><span><i>How to Listen</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="You Are Here" onchange="updateBooks()"><span><i>You Are Here</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Your True Home: The Everyday Wisdom of Thich Nhat Hanh" onchange="updateBooks()"><span><i>Your True Home: The Everyday Wisdom of Thich Nhat Hanh</i></span></label></li></ul><h4>Relationships &amp; bodies</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Hardy &amp; Easton — The Ethical Slut" onchange="updateBooks()"><span>Hardy &amp; Easton &mdash; <i>The Ethical Slut</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Jessica Fern — Polysecure" onchange="updateBooks()"><span>Jessica Fern &mdash; <i>Polysecure</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Tammy Nelson — Open Monogamy" onchange="updateBooks()"><span>Tammy Nelson &mdash; <i>Open Monogamy</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="adrienne maree brown — Pleasure Activism" onchange="updateBooks()"><span>adrienne maree brown &mdash; <i>Pleasure Activism</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Mary Ziegler — Abortion and the Law in America (Cambridge)" onchange="updateBooks()"><span>Mary Ziegler &mdash; <i>Abortion and the Law in America</i> (Cambridge)</span></label></li></ul><h4>Art, design, making &amp; oddities</h4><ul><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Gustav Klimt (Belvedere)" onchange="updateBooks()"><span><i>Gustav Klimt</i> (Belvedere)</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="The Essential Guide — Art Institute of Chicago" onchange="updateBooks()"><span><i>The Essential Guide</i> &mdash; Art Institute of Chicago</span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Colin Chee, Joel Beath &amp; Elizabeth Price — Never Too Small" onchange="updateBooks()"><span>Colin Chee, Joel Beath &amp; Elizabeth Price &mdash; <i>Never Too Small</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Debrosse — Modern Crochet" onchange="updateBooks()"><span>Debrosse &mdash; <i>Modern Crochet</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Stella Andromeda — Sagittarius" onchange="updateBooks()"><span>Stella Andromeda &mdash; <i>Sagittarius</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Easy Field Guide to Common Desert Cactus" onchange="updateBooks()"><span><i>Easy Field Guide to Common Desert Cactus</i></span></label></li><li><label class="bk"><input type="checkbox" name="titles" form="form-books" value="Rasim Kaygusuz &amp; Selçuk Seymen — Cin Ali’nin Atı no. 1" onchange="updateBooks()"><span>Rasim Kaygusuz &amp; Sel&ccedil;uk Seymen &mdash; <i>Cin Ali&#8217;nin At&#305;</i> no.&nbsp;1</span></label></li></ul>
+          <p class="fine">Read off the spines in the photos, so a few of the Turkish editions may be slightly off &mdash; ask me about anything specific and I&rsquo;ll go and look at the cover.</p>
+        </details>
+        <div class="bk-count" id="bkCount">Nothing ticked yet</div>
+        <div class="window">Pickup: <strong>3&ndash;6 pm</strong> &mdash; Sat 12, Sat 19 or Sat 26 September, Sun 27 September, or Sat 3 October &middot; Dupont Circle NW &middot; self-pickup</div>
+        <div class="live-avail"><button class="btn" data-open="Make an offer" data-close="Close" onclick="toggleForm('books',this)">Make an offer</button><form class="offer" id="form-books" data-title="Books" onsubmit="return submitForm(event,'books')">
+      <input type="hidden" name="action" value="offer">
+      <div class="opts"><div class="opts-h">What would you like?</div><label class="opt"><input type="radio" name="lot" value="books-pick" checked><span><strong>Just the books I&rsquo;ve ticked</strong><em>you tell me what they&rsquo;re worth</em></span></label><label class="opt"><input type="radio" name="lot" value="books-all"><span><strong>The whole collection &mdash; all 131</strong><em>asking $300</em></span></label></div>
+      <label class="fld"><span>Your offer</span><div class="money"><i>$</i><input type="number" name="amount" min="1" step="1" required inputmode="numeric" placeholder="25"></div></label>
+      <label class="fld"><span>Your name</span><input type="text" name="name" required autocomplete="name"></label><label class="fld"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld"><span>Phone <i>(optional)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label class="fld"><span>When could you collect? <i>(optional)</i></span><select name="slot" required><option value="" disabled selected>Choose a slot</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <label class="fld"><span>Anything I should know? <i>(optional, but I read these)</i></span>
+        <textarea name="note" rows="2"></textarea></label>
+      <div class="frow"><button type="submit" class="btn">Submit offer</button></div>
+      <p class="fine">Whatever you&rsquo;ve ticked above comes through with the email, so I know exactly which books you mean.</p>
+      <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+    </form></div><div class="live-gone" hidden><p class="taken-note">This one&rsquo;s gone.</p></div>
+      </div>
+      <script>window.G["books"] = ["/moving-sale/img/books/01.jpg", "/moving-sale/img/books/02.jpg", "/moving-sale/img/books/03.jpg", "/moving-sale/img/books/04.jpg", "/moving-sale/img/books/05.jpg", "/moving-sale/img/books/06.jpg", "/moving-sale/img/books/07.jpg", "/moving-sale/img/books/08.jpg", "/moving-sale/img/books/09.jpg", "/moving-sale/img/books/10.jpg", "/moving-sale/img/books/11.jpg", "/moving-sale/img/books/12.jpg"];</script>
+    </article>
+</main>
+<footer>
+  <div>Questions about anything here — <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a></div>
+  <div style="margin-top:6px">Reasonable offers welcome; happy to do a deal if you take a few things.</div>
+</footer>
+
+<div id="basket" class="basket">
+  <div class="basket-in">
+    <div class="basket-txt" id="basketTxt"></div>
+    <button class="btn" onclick="openPlantForm()">Claim these plants</button>
+  </div>
+  <form id="plantForm" class="offer open" onsubmit="return submitForm(event,'plants')" style="border-top:0">
+    <input type="hidden" name="action" value="plants">
+    <input type="hidden" name="lot" id="plantLots">
+    <input type="hidden" name="amount" id="plantAmount">
+    <div class="basket-in" style="align-items:flex-start">
+      <label class="fld" style="flex:1;min-width:170px"><span>Your name</span>
+        <input type="text" name="name" required autocomplete="name"></label>
+      <label class="fld" style="flex:1;min-width:170px"><span>Email</span>
+        <input type="email" name="email" required autocomplete="email"></label>
+      <label class="fld" style="flex:1;min-width:170px"><span>Which slot? <i>(optional)</i></span>
+        <select name="slot"><option value="" selected>Whichever slot suits you</option><option>Sat 12 Sep, 3-6 pm</option><option>Sat 19 Sep, 3-6 pm</option><option>Sat 26 Sep, 3-6 pm</option><option>Sun 27 Sep, 3-6 pm</option><option>Sat 3 Oct, 3-6 pm</option><option>None of these work &mdash; let&rsquo;s talk</option></select></label>
+      <button type="submit" class="btn" style="margin-top:22px">Send</button>
+    </div>
+    <div class="sent" hidden><strong>Your email app should have opened.</strong> Give it a read and hit send &mdash; it only counts once it lands in my inbox.<details><summary>Nothing opened?</summary><p>Copy this into an email to <a href="mailto:move@meltemodabas.net">move@meltemodabas.net</a>:</p><pre class="fallback-body"></pre></details></div>
+  </form>
+</div>
+<iframe name="sink" id="sink" style="display:none" title="submit target"></iframe>
+<script>
+const ENDPOINT = "__APPS_SCRIPT_URL__";
+
+window.G = window.G || {};
+
+function swap(g,i,el){
+  document.getElementById('main-'+g).src = window.G[g][i];
+  el.parentNode.querySelectorAll('.thumb').forEach(t=>t.classList.remove('sel'));
+  el.classList.add('sel');
+}
+
+/* one toggle for every form on the page */
+function toggleForm(id, btn){
+  var f = document.getElementById('form-'+id);
+  var open = f.classList.toggle('open');
+  btn.textContent = open ? (btn.dataset.close || 'Close') : (btn.dataset.open || 'Make an offer');
+  btn.classList.toggle('open-state', open);
+  if(open) f.querySelector('input:not([type=hidden]),textarea')?.focus({preventScroll:true});
+}
+
+function updateBundle(){
+  var boxes = document.querySelectorAll('#form-bundle ~ * input[name=titles], .bundle input[name=titles]');
+  var n = 0, sum = 0;
+  document.querySelectorAll('.bundle input[name=titles]:checked').forEach(function(el){
+    n++; sum += parseInt(el.dataset.price || 0, 10);
+  });
+  var el = document.getElementById('bundleCount');
+  var tot = document.getElementById('bundleTotal');
+  var amt = document.querySelector('#form-bundle input[name=amount]');
+  var f = document.getElementById('form-bundle');
+  if(tot) tot.value = sum;
+  if(f) f.dataset.title = n ? (n + (n===1?' item':' items') + ' together') : 'Bundle';
+  if(amt) amt.placeholder = sum ? Math.round(sum*0.8) : 0;
+  if(el) el.textContent = n
+    ? (n + (n===1?' thing':' things') + ' ticked \u2014 $' + sum.toLocaleString() + ' at asking prices')
+    : 'Nothing ticked yet';
+}
+
+function updateBooks(){
+  var n = document.querySelectorAll('input[name=titles]:checked').length;
+  var el = document.getElementById('bkCount');
+  if(el) el.textContent = n ? (n + (n===1?' book':' books') + ' ticked') : 'Nothing ticked yet';
+  var pick = document.querySelector('#form-books input[value="books-pick"]');
+  if(pick && n) pick.checked = true;
+}
+
+function filterCards(b,el){
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('on'));
+  el.classList.add('on');
+  document.querySelectorAll('.card').forEach(c=>{ c.hidden = (b!=='all' && c.dataset.batch!==b); });
+}
+
+/* ---------- plants: $10 each, any 3 for $25 ---------- */
+var basket = [];
+function plantTotal(n){ return Math.floor(n/3)*25 + (n%3)*10; }
+function togglePlant(btn){
+  var id = btn.dataset.lot, i = basket.findIndex(x=>x.lot===id);
+  if(i>=0){ basket.splice(i,1); btn.textContent='Add — $10'; btn.classList.remove('on'); }
+  else { basket.push({lot:id,title:btn.dataset.title}); btn.textContent='In your box ✓'; btn.classList.add('on'); }
+  renderBasket();
+}
+function renderBasket(){
+  var bar=document.getElementById('basket'), n=basket.length;
+  if(!n){ bar.classList.remove('show'); document.getElementById('plantForm').classList.remove('open'); return; }
+  bar.classList.add('show');
+  var t=plantTotal(n), saved=n*10-t;
+  var msg='<b>'+n+' plant'+(n>1?'s':'')+'</b> — $'+t;
+  if(saved>0) msg += ' <span class="basket-save">(you save $'+saved+')</span>';
+  else if(n%3===2) msg += ' <span class="basket-save">— add one more and all three are $25</span>';
+  document.getElementById('basketTxt').innerHTML = msg;
+  document.getElementById('plantAmount').value = t;
+  document.getElementById('plantLots').value = basket.map(x=>x.lot).join(';');
+}
+function openPlantForm(){
+  var f=document.getElementById('plantForm');
+  f.classList.add('open'); f.scrollIntoView({block:'center'});
+}
+
+/* ---------- live status: which lots are already gone ---------- */
+function applyStatus(d){
+  (d && d.gone || []).forEach(function(lot){
+    var card = document.querySelector('[data-lot="'+lot+'"]');
+    if(!card) return;
+    card.classList.add('gone');
+    var w = card.querySelector('.photo-wrap');
+    if(w && !w.querySelector('.ribbon')){
+      var r=document.createElement('div'); r.className='ribbon';
+      r.textContent = card.dataset.batch==='plants' ? 'CLAIMED' : 'SOLD';
+      w.appendChild(r);
+    }
+    card.querySelectorAll('.live-avail').forEach(e=>e.hidden=true);
+    card.querySelectorAll('.live-gone').forEach(e=>e.hidden=false);
+    var pb = card.querySelector('.plant-btn');
+    if(pb && pb.classList.contains('on')) togglePlant(pb);   // drop it from the box
+  });
+}
+function loadStatus(){
+  if(!ENDPOINT || ENDPOINT.indexOf('__')===0) return;   // not wired up yet
+  var s=document.createElement('script');
+  s.src = ENDPOINT + '?action=status&callback=applyStatus&t=' + Date.now();
+  s.onerror = function(){};                             // stay usable if it fails
+  document.head.appendChild(s);
+}
+
+/* ---------- submit: opens a pre-filled email to move@meltemodabas.net ---------- */
+const SALE_EMAIL = "move@meltemodabas.net";
+
+function submitForm(ev, id){
+  ev.preventDefault();
+  var f = ev.target;
+  var d = {};
+  new FormData(f).forEach(function(v,k){ v=(''+v).trim(); if(!v) return; d[k] = d[k] ? d[k]+'; '+v : v; });
+
+  var card  = f.closest ? f.closest('.card') : null;
+  var title = f.dataset.title || (card && card.querySelector('h2') ? card.querySelector('h2').textContent.trim() : id);
+  var sel   = f.querySelector('input[name=lot]:checked');
+  if(sel){ var st = sel.parentNode.querySelector('strong'); if(st) title = st.textContent.trim(); }
+
+  var action = d.action || 'offer';
+  var kind = action === 'waitlist' ? 'Waitlist' : (action === 'plants' ? 'Plants' : (action === 'offer' ? 'Offer' : 'Claim'));
+  if(action === 'plants'){
+    title = basket.map(function(x){ return x.title; }).join(', ') || 'Plants';
+  }
+
+  var subj = kind + ': ' + title + (d.amount ? ' \u2014 $' + d.amount : '');
+  var L = [];
+  L.push(action === 'waitlist' ? 'Please add me to the waitlist for:'
+       : action === 'plants'   ? 'I would like to claim these plants:'
+       : 'I would like to make an offer on:');
+  L.push('    ' + title);
+  L.push('    (lot: ' + (d.lot || id) + ')');
+  L.push('');
+  if(d.amount) L.push((action === 'plants' ? 'Total: $' : 'My offer: $') + d.amount);
+  if(d.name)   L.push('Name:  ' + d.name);
+  if(d.email)  L.push('Email: ' + d.email);
+  if(d.phone)  L.push('Phone: ' + d.phone);
+  if(d.slot)   L.push('Pickup slot: ' + d.slot);
+  if(d.titles){
+    L.push('');
+    L.push(id === 'bundle' ? 'Everything I would like, as one lot:' : 'Books I would like:');
+    d.titles.split('; ').forEach(function(t){ L.push('    - ' + t); });
+    if(d.list_total && d.list_total !== '0'){
+      L.push('');
+      L.push('(Asking prices for those add up to $' + d.list_total + ')');
+    }
+  }
+  if(d.note){ L.push(''); L.push('Note: ' + d.note); }
+  L.push('');
+  L.push('\u2014 sent from meltemodabas.net/moving-sale/');
+  var body = L.join('\r\n');
+
+  var s = f.querySelector('.sent');
+  if(s){
+    var pre = s.querySelector('.fallback-body');
+    if(pre) pre.textContent = 'To: ' + SALE_EMAIL + '\nSubject: ' + subj + '\n\n' + body.replace(/\r/g,'');
+    s.hidden = false;
+  }
+  window.location.href = 'mailto:' + SALE_EMAIL
+    + '?subject=' + encodeURIComponent(subj)
+    + '&body='    + encodeURIComponent(body);
+  return false;
+}
+document.addEventListener('DOMContentLoaded', loadStatus);
+
+</script>
+</body>
+</html>
